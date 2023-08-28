@@ -1,2 +1,15 @@
+# Misc
+Thumbs.db
+.DS_Store
+.dist
+.tmp
+.lock
+.sass-cache
+
+# Hugo
 public
 resources
+builds
+.hugo_build.lock
+hugo_stats.json
+hugo_stats_decoded.json
