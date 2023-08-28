@@ -5,7 +5,7 @@ rssFullContent = true
 favicon = "/favicon.png"
 
 [footer]
-since = 2020
+since = 1979
 customText = ""
 
 [dateFormat]
@@ -13,8 +13,8 @@ published = "Jan 02, 2006"
 lastUpdated = "Jan 02, 2006 15:04 MST"
 
 [sidebar]
-emoji = "🍥"
-subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+emoji = ""
+subtitle = "Uncovering better ways of developing software and organizations"
 
 [sidebar.avatar]
 enabled = true
@@ -55,7 +55,7 @@ limit = 10
 type = "toc"
 
 [opengraph.twitter]
-site = ""
+site = "https://jesuswasrasta.com"
 card = "summary_large_image"
 
 [defaultImage.opengraph]
@@ -75,7 +75,7 @@ enabled = true
 
 ## Comments
 [comments]
-enabled = true
+enabled = false
 provider = "disqus"
 
 [comments.disqusjs]
