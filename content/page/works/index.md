@@ -7,7 +7,7 @@ menu:
     main:
         weight: 2
         params: 
-            icon: lamp-2
+            icon: brain
 ---
 
 Under construction.  
