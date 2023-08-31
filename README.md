@@ -72,5 +72,21 @@ stroke="currentColor"
 ...
 ```
 
+To change icons in sidebar menu, edit the related page; for example, to change `Works` icon, open `content\page\works\index.md` file and edit `icon` property:
+```markdown
+---
+title: "Works"
+date: 2022-03-06
+slug: "works"
+menu:
+    main:
+        weight: 2
+        params: 
+          **icon: brain**
+---
+
+Under construction.  
+```
+
 ### Things to learn
 How to customize content: [https://gohugo.io/categories/templates/](https://gohugo.io/templates/lists/).
