@@ -88,5 +88,9 @@ menu:
 Under construction.  
 ```
 
+### Content
+Everything you put in `content` folder will be publish.  
+I moved example posts out of `content` folder, into `example` folder.  
+
 ### Things to learn
 How to customize content: [https://gohugo.io/categories/templates/](https://gohugo.io/templates/lists/).
