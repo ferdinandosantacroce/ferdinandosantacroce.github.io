@@ -63,6 +63,14 @@ But I realized the template misses the icons; I downloaded them from the templat
 
 If you need a new icon, go to https://tablericons.com/.  
 Look for the icon desired, the copy the `*.svg` file to `assets/icons`.  
+After copying the `*.svg` content, change this properties to these values:
+```svg
+... 
+width="24" height="24" 
+stroke-width="2" 
+stroke="currentColor" 
+...
+```
 
 ### Things to learn
 How to customize content: [https://gohugo.io/categories/templates/](https://gohugo.io/templates/lists/).
