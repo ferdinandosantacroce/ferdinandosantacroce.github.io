@@ -57,7 +57,7 @@ Make sure also to specify Hugo version in the environment variable `HUGO_VERSION
 
 ## My personal notes
 I used the template: [Hugo Theme Stack Starter Template](https://github.com/CaiJimmy/hugo-theme-stack-starter).  
-It works like a charm in Container devs!  
+It works like a charm in Codespace!  
 
 But I realized the template misses the icons; I downloaded them from the template repo [hugo-theme-stack](https://github.com/CaiJimmy/hugo-theme-stack)
 
