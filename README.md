@@ -9,7 +9,7 @@ To get started:
 1. Click *Use this template*, and create your repository on GitHub.
 ![Step 1](https://user-images.githubusercontent.com/5889006/156916624-20b2a784-f3a9-4718-aa5f-ce2a436b241f.png)
 
-2. Once the repository is created, create a GitHub codespace asociated with it.
+2. Once the repository is created, create a GitHub codespace associated with it.
 ![Create codespace](https://user-images.githubusercontent.com/5889006/156916672-43b7b6e9-4ffb-4704-b4ba-d5ca40ffcae7.png)
 
 3. And voila! You're ready to go. The codespace has been configured with the latest version of Hugo extended, just run `hugo server` in the terminal and see your new site in action.
@@ -53,13 +53,19 @@ Make sure also to specify Hugo version in the environment variable `HUGO_VERSION
 ![Environment variable](https://user-images.githubusercontent.com/5889006/156917212-afb7c70d-ab85-480f-8288-b15781a462c0.png)
 </details>
 
-
+---
 
 ## My personal notes
 I used the template: [Hugo Theme Stack Starter Template](https://github.com/CaiJimmy/hugo-theme-stack-starter).  
 It works like a charm in Codespace!  
 
-But I realized the template misses the icons; I downloaded them from the template repo [hugo-theme-stack](https://github.com/CaiJimmy/hugo-theme-stack)
+I usually run it on my machine (no Docker):
+```bash
+hugo server
+```
+
+### Icons
+I realized the template misses the icons; I downloaded them from the template repo [hugo-theme-stack](https://github.com/CaiJimmy/hugo-theme-stack)
 
 If you need a new icon, go to https://tablericons.com/.  
 Look for the icon desired, the copy the `*.svg` file to `assets/icons`.  
@@ -87,6 +93,11 @@ menu:
 
 Under construction.  
 ```
+
+### Images
+Use high quality images.  
+They will be resized before publishing.  
+
 
 ### Content
 Everything you put in `content` folder will be publish.  
