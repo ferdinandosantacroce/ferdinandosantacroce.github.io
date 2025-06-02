@@ -8,7 +8,7 @@ Thumbs.db
 
 # Hugo
 public
-resources
+/resources
 builds
 .hugo_build.lock
 hugo_stats.json

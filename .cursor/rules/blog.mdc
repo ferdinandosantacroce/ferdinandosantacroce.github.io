@@ -1,0 +1,10 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+My name is Ferdinando Santacroce.
+This repo contains my blog, `https://jesuswasrasta.com`.
+I use Hugo, the Go template engine for blogs.
+The blog is written in English and Italian.
+

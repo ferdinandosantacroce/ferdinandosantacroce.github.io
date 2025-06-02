@@ -1,12 +1,36 @@
 # Change baseurl before deploy
 baseurl = "https://jesuswasrasta.com"
 languageCode = "en-us"
-paginate = 5
 title = "Ferdinando Santacroce"
+
+[pagination]
+pagerSize = 5
 
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, uk, ar
 defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+[languages]
+[languages.en]
+disabled = false
+languageCode = 'en-US'
+languageDirection = 'ltr'
+languageName = 'English'
+title = 'Ferdinando Santacroce'
+weight = 1
+[languages.en.params]
+subtitle = 'Uncovering better ways of developing software and organizations'
+
+[languages.it]
+disabled = false
+languageCode = 'it-IT'
+languageDirection = 'ltr'
+languageName = 'Italiano'
+title = 'Ferdinando Santacroce'
+weight = 2
+[languages.it.params]
+subtitle = 'Alla scoperta di modi migliori per sviluppare software e organizzazioni'
+date = 2021-11-03T12:34:56+01:00
 
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.

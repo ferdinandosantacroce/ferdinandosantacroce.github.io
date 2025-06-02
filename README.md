@@ -100,8 +100,15 @@ They will be resized before publishing.
 
 
 ### Content
-Everything you put in `content` folder will be publish.  
+Everything you put in `content` folder will be published.  
 I moved example posts out of `content` folder, into `example` folder.  
+
+### Multilingual mode
+See: [Multilingual mode](https://gohugo.io/content-management/multilingual/).    
+I use the [translate by name file](https://gohugo.io/content-management/multilingual/#translation-by-file-name) strategy.  
+If a `.md` file has no language suffix, it is considered the default language (english).  
+
+
 
 ### Things to learn
 How to customize content: [https://gohugo.io/categories/templates/](https://gohugo.io/templates/lists/).
