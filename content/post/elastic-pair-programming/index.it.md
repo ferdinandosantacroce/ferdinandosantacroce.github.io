@@ -90,7 +90,7 @@ In alcune occasioni ho lavorato in pair con un secondo computer oltre a quello p
 
 Un'altra raccomandazione è quella di non utilizzare questa tecnica senza avere esperienza di pair programming tradizionale, o fra due persone entrambe poco ferrate su tecnica e/o dominio. In questo caso si rischia facilmente di perdere la bussola e naufragare.  
 
-Come recitava un famoso spot pubblicitario di qualche anno fa, elastic pair programming è per molti, ma non per tutti 🙂  
+Come recitava un famoso spot pubblicitario di qualche anno fa, elastic pair programming è [per molti, ma non per tutti](https://www.youtube.com/watch?v=vJ1wwYCGkIg&t=1s) 🙂  
 
 Il trucco che utilizzo io per decidere se è il caso di usare questo approccio è farmi una semplice domanda: "_Sapresti risolvere da solo questo problema?_”. Se la risposta è qualcosa tipo “_Sì, ma sono curioso di sapere come lo risolverebbe -inserisci qui il nome-_", ci sono i presupposti per una buona sessione di elastic pair programming.  
 
