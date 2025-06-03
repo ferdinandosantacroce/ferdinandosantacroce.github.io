@@ -1,7 +1,7 @@
 ---
-title: "Resources"
+title: "Risorse"
 description: "Useful resources I collected during the years"
-slug: "resources"
+slug: "risorse"
 image: cover.jpg
 toc: true
 
@@ -12,4 +12,4 @@ menu:
             icon: books
 ---
 
-Under construction.  
+Under construction 👨‍💻
