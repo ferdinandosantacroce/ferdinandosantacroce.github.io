@@ -21,7 +21,7 @@ An in presence workshop on refactoring; a little challenge, a lot of fun 😄
 [![Refactoring Showdown](workshop-refactoring-showdown.png)](https://www.meetup.com/it-IT/TDD-Milano/events/284995543/)
 
  - [Miro board](https://miro.com/app/board/uXjVOJrieKg=/)  
- - [Github repo with directions](https://github.com/jesuswasrasta/refactoring-showdown)  
+ - [Github repo with directions](https://github.com/ferdinandosantacroce/refactoring-showdown)  
 
 ---
 
@@ -87,19 +87,19 @@ _Agile Venture Milano 2020 - Growing Teams - Video_
 ### :it: [Italian Agile Days Modena](https://www.agileday.it/)
 Testare l'intestabile, workshop on legacy code
 [Slides](https://www.slideshare.net/FerdinandoSantacroce/testare-lintestabile-italian-agile-days-2019-iad19)
-[Trivia Kata in Java](https://github.com/jesuswasrasta/trivia-java)
+[Trivia Kata in Java](https://github.com/ferdinandosantacroce/trivia-java)
 
 ### :it: [Agile Venture Firenze](https://www.agilemovement.it/venture/2019/firenze/)
 Testare l'intestabile, workshop on legacy code
 [Slides](https://www.slideshare.net/FerdinandoSantacroce/testare-lintestabile-workshop-agile-venture-firenze)
-[Trivia Kata in Java](https://github.com/jesuswasrasta/trivia-java)
+[Trivia Kata in Java](https://github.com/ferdinandosantacroce/trivia-java)
 [Podcast interview](https://www.spreaker.com/user/10553302/intervista-ferdinandosantacroce-avfi) by [Officina Agile](https://www.officinaagile.it/)
 
 ### :it: [eXtreme Programming User Group Bergamo](https://xpugbg.it/)
 Testare l'intestabile, workshop on legacy code
 [Recap on XPUGBG blog](https://xpugbg.it/blog/meetup-workshop-testare-l-intestabile-ferdinando-santacroce-resoconto/)
 [Slides](https://www.slideshare.net/FerdinandoSantacroce/testare-lintestabile-workshop-xpugbg)
-[Trivia Kata in Java](https://github.com/jesuswasrasta/trivia-java)
+[Trivia Kata in Java](https://github.com/ferdinandosantacroce/trivia-java)
 
 [![XPUGBG video channel](xpugbg-youtube-video-channel.png)](http://www.youtube.com/channel/UCkcDXjR2__NioW1m4voqH6w)
 _XPUGBG video channel_
@@ -152,7 +152,7 @@ _Italian Agile Days 2018 - Brescia - I'm a mediocre developer - Video_
 ### :it: [Agile Venture Prato](https://www.agileday.it/mini/2018/prato/)
 Objects Calisthenics Workshop
   * [Slides](https://www.slideshare.net/FerdinandoSantacroce/object-calisthenics-agile-venture-prato-2018)
-  * [Tennis Refactoring Kata](https://github.com/jesuswasrasta/Tennis-Refactoring-Kata)
+  * [Tennis Refactoring Kata](https://github.com/ferdinandosantacroce/Tennis-Refactoring-Kata)
 
 ![Agile Venture Prato 2018 - Objects Calisthenics Workshop](agile-venture-prato-object-calisthenics-workshop.png)
 _Agile Venture Prato 2018 - Objects Calisthenics Workshop_
@@ -164,13 +164,13 @@ _Milan Kotlin Community Conf 2018 - all the videos_
 
 ### :it: [Torino Agile Conference 2018](https://www.agileday.it/mini/2018/torino/#ferdinandosantacroce)
 * **Objcts Calisthenics Workshop**
-  * [TicTacToe kata repo](https://github.com/jesuswasrasta/TicTacToe)
+  * [TicTacToe kata repo](https://github.com/ferdinandosantacroce/TicTacToe)
 
 ### :it: [TDD Milano Meetup](https://www.meetup.com/it-IT/TDD-Milano)
 * [Git Essentials Workshop](https://www.meetup.com/it-IT/TDD-Milano/events/245383610/)
 * [Object Calisthenics Workshop](https://www.meetup.com/it-IT/TDD-Milano/events/247937838/)
   * [Slides](https://www.slideshare.net/FerdinandoSantacroce/object-calisthenics-tdd-milano)
-  * [Farkle kata repo](https://github.com/jesuswasrasta/KataFarkle)
+  * [Farkle kata repo](https://github.com/ferdinandosantacroce/KataFarkle)
 
 ## 2017
 In 2017 I focused on organizing events, rather than partecipating as a speaker :blush:
@@ -184,7 +184,7 @@ In 2017 I focused on organizing events, rather than partecipating as a speaker :
 * [TDD a piccoli passi](http://www.agileday.it/front/sessions/4888/)
   * [Feedback](https://joind.in/event/iad16---italian-agile-days-2016/tdd-a-piccoli-passi)
   * [Slides](https://www.slideshare.net/FerdinandoSantacroce/tdd-a-piccoli-passi)
-  * [GitHub repo](https://github.com/jesuswasrasta/SmallStepsTDD)
+  * [GitHub repo](https://github.com/ferdinandosantacroce/SmallStepsTDD)
 
 [![Italian Agile Days 2016 - Pavia - TDD a piccoli passi - Ferdinando Santacroce](tdd-a-piccoli-passi-video.png)](https://vimeo.com/198011164 "Italian Agile Days 2016 - Pavia - TDD a piccoli passi - Ferdinando Santacroce")
 _Italian Agile Days 2016 - Pavia - TDD a piccoli passi_
