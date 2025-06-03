@@ -1,6 +1,6 @@
 ---
 title: "Risorse"
-description: "Useful resources I collected during the years"
+description: "Risorse utili collezionate negli anni"
 slug: "risorse"
 image: cover.jpg
 toc: true

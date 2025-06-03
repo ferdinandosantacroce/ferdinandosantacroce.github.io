@@ -3,7 +3,7 @@ title: "Talks"
 date: 2022-03-06
 #layout: "archives"
 slug: "talks"
-image: cover.jpg
+image: img/cover.jpg
 menu:
     main:
         weight: 4
@@ -18,7 +18,7 @@ Here a brief list of my public appearances :blush:
 
 An in presence workshop on refactoring; a little challenge, a lot of fun 😄
 
-[![Refactoring Showdown](workshop-refactoring-showdown.png)](https://www.meetup.com/it-IT/TDD-Milano/events/284995543/)
+[![Refactoring Showdown](img/workshop-refactoring-showdown.png)](https://www.meetup.com/it-IT/TDD-Milano/events/284995543/)
 
  - [Miro board](https://miro.com/app/board/uXjVOJrieKg=/)  
  - [Github repo with directions](https://github.com/ferdinandosantacroce/refactoring-showdown)  
@@ -28,11 +28,11 @@ An in presence workshop on refactoring; a little challenge, a lot of fun 😄
 ### :it: [Agile Reloaded Meetup](https://www.meetup.com/it-IT/agile-reloaded-italia/)
 [Assessment tecnico di un team di sviluppo](https://www.meetup.com/it-IT/agile-reloaded-italia/events/284308349/)
 Smalltalk about tools and approaches to assess development teams.
-[![Miro board](talk-assessment-tecnico-di-un-team-di-sviluppo-miro-board.png)](https://miro.com/app/board/uXjVOJrieKg=/)
+[![Miro board](img/talk-assessment-tecnico-di-un-team-di-sviluppo-miro-board.png)](https://miro.com/app/board/uXjVOJrieKg=/)
 _Assessment tecnico di un team di sviluppo - Miro board_
 
 ### :it: [Agile Lean Tuscany](https://www.meetup.com/it-IT/ALT-AGILE-LEAN-TUSCANY/)
-[![Intervista con Andrea Gelli](intervista-agile-lean-tuscany.png)](https://www.linkedin.com/posts/andreagelli_agile-technical-coach-activity-6904700177127735296-ebLr "Intervista con Andrea Gelli")
+[![Intervista con Andrea Gelli](img/intervista-agile-lean-tuscany.png)](https://www.linkedin.com/posts/andreagelli_agile-technical-coach-activity-6904700177127735296-ebLr "Intervista con Andrea Gelli")
 _Intervista con Andrea Gelli - Video_
 
 
@@ -43,21 +43,21 @@ _Intervista con Andrea Gelli - Video_
 _Rendimi agile, ma non subito - Video_
 
 ### :it: [Italian Agile Days](https://www.agileday.it/)
-[![Agile Testing Matrix Miro board](agile-testing-matrix-iad21-miro-board.png)](https://miro.com/app/board/o9J_lmC9ZLE=/ "Agile Testing Matrix Miro board")
+[![Agile Testing Matrix Miro board](img/agile-testing-matrix-iad21-miro-board.png)](https://miro.com/app/board/o9J_lmC9ZLE=/ "Agile Testing Matrix Miro board")
 _Agile Testing Matrix - Miro board_
 
-[![Italian Agile Days 2021 - Agile Testing Matrix - Ferdinando Santacroce](agile-testing-matrix-video.png)](https://vimeo.com/648776317 "Italian Agile Days 2021 - Agile Testing Matrix - Ferdinando Santacroce")
+[![Italian Agile Days 2021 - Agile Testing Matrix - Ferdinando Santacroce](img/agile-testing-matrix-video.png)](https://vimeo.com/648776317 "Italian Agile Days 2021 - Agile Testing Matrix - Ferdinando Santacroce")
 _Italian Agile Days 2021 - Agile Testing Matrix - Video_
 
 ### :it: [DDDOpen](https://www.linkedin.com/company/ddd-open)
 I'm one of the co-founder of DDDOpen community :blush:
-[![DDDOpen Unconference](dddopen-unconference.png)](https://twitter.com/dddopen "DDDOpen Unconference")
+[![DDDOpen Unconference](img/dddopen-unconference.png)](https://twitter.com/dddopen "DDDOpen Unconference")
 
 ### :it: [Working Software Conf 2021 - remote edition](https://www.agilemovement.it/workingsoftware/)
-[![GatherTown space](working-software-2021-gathertown.png)](https://gather.town/app/NvjSrqLIEcqGFKCV/working-software)
+[![GatherTown space](img/working-software-2021-gathertown.png)](https://gather.town/app/NvjSrqLIEcqGFKCV/working-software)
 _Working Software Conf 2021 - GatherTown space_
 
-[![Miro board](working-software-2021-miro-board.png)](https://miro.com/app/board/o9J_lEi_PG4=/)
+[![Miro board](img/working-software-2021-miro-board.png)](https://miro.com/app/board/o9J_lEi_PG4=/)
 _Working Software Conf 2021 - Miro board_
 
 
@@ -101,31 +101,31 @@ Testare l'intestabile, workshop on legacy code
 [Slides](https://www.slideshare.net/FerdinandoSantacroce/testare-lintestabile-workshop-xpugbg)
 [Trivia Kata in Java](https://github.com/ferdinandosantacroce/trivia-java)
 
-[![XPUGBG video channel](xpugbg-youtube-video-channel.png)](http://www.youtube.com/channel/UCkcDXjR2__NioW1m4voqH6w)
+[![XPUGBG video channel](img/xpugbg-youtube-video-channel.png)](http://www.youtube.com/channel/UCkcDXjR2__NioW1m4voqH6w)
 _XPUGBG video channel_
 
 ### :it: [Working Software Conf](https://www.agilemovement.it/workingsoftware/)
 I've been the chair of this great... GREAT event! :blush:
 
-[![Working Software Conf 2019 - Intro - Ferdinando Santacroce](working-software-2019-intro-video.png)](https://vimeo.com/351825816 "Working Software Conf 2019 - Intro - Ferdinando Santacroce")
+[![Working Software Conf 2019 - Intro - Ferdinando Santacroce](img/working-software-2019-intro-video.png)](https://vimeo.com/351825816 "Working Software Conf 2019 - Intro - Ferdinando Santacroce")
 _Working Software Conf 2019 - Intro - Video_
 
-[![Working Software Conf 2019 - All the videos](working-software-2019-all-the-videos.png)](https://vimeo.com/showcase/6189515 "Working Software Conf 2019 - All the videos")
+[![Working Software Conf 2019 - All the videos](img/working-software-2019-all-the-videos.png)](https://vimeo.com/showcase/6189515 "Working Software Conf 2019 - All the videos")
 _Working Software Conf 2019 - All the videos_
 
 ### :it: [Radio24, intervista](http://www.radio24.ilsole24ore.com/programma/i-lavori-di-domani/)
-[![I lavori di domani - Agile Coach](lavori-di-domani-radio24-podcast-agile-coach.png)](http://www.radio24.ilsole24ore.com/programma/i-lavori-di-domani/agile-coach-175941-AC0jYqU)
+[![I lavori di domani - Agile Coach](img/lavori-di-domani-radio24-podcast-agile-coach.png)](http://www.radio24.ilsole24ore.com/programma/i-lavori-di-domani/agile-coach-175941-AC0jYqU)
 
 ### :it: [Meetup Agile Reloaded](https://www.meetup.com/it-IT/Agile-Reloaded-Meetup/)
 [Slides](https://www.slideshare.net/FerdinandoSantacroce/growing-teams-152158846) :uk:
-[![Meetup Agile Reloaded - Growing Teams](growing-teams-meetup-agilereloaded.png)](https://www.meetup.com/it-IT/Agile-Reloaded-Meetup/events/262065465/)
+[![Meetup Agile Reloaded - Growing Teams](img/growing-teams-meetup-agilereloaded.png)](https://www.meetup.com/it-IT/Agile-Reloaded-Meetup/events/262065465/)
 _Meetup Agile Reloaded - Growing Teams_
 
 ### :uk: [Agile Venture Bolzano](https://www.agilemovement.it/venture/2019/bolzano/)
 [I'm a mediocre developer on Sessionize](https://sessionize.com/s/ferdinando-santacroce/im_a_mediocre_developer/23243)
 [Slides](https://www.slideshare.net/FerdinandoSantacroce/im-a-mediocre-developer-167929970) :uk:
 
-![Agile Venture Bolzano 2019 - I'm a mediocre developer - Ferdinando Santacroce](agile-venture-bolzano-2019.png)
+![Agile Venture Bolzano 2019 - I'm a mediocre developer - Ferdinando Santacroce](img/agile-venture-bolzano-2019.png)
 _Agile Venture Bolzano 2019 - I'm a mediocre developer_
  
 ### :it: [Meetup XPUG Milano](https://www.meetup.com/it-IT/Milano-eXtreme-Programming-User-Group)
@@ -135,7 +135,7 @@ _Meetup XPUG Milano - Panel: qual è lo stato attuale di eXtreme Programming?_
 
 ### :it: [Meetup FEVR - Verona](http://www.fevr.it)
 [I'm a mediocre developer - FEVR event](http://www.fevr.it/eventi/2019/03/im-a-mediocre-developer/)
-[![Meetup FEVR - Verona - Sono uno sviluppatore mediocre - Ferdinando Santacroce](sono-uno-sviluppatore-mediocre-fevr-video.png)](https://www.facebook.com/marco.albarelli1/videos/10216948832264643/ "Meetup FEVR - Verona - Sono uno sviluppatore mediocre - Ferdinando Santacroce")
+[![Meetup FEVR - Verona - Sono uno sviluppatore mediocre - Ferdinando Santacroce](img/sono-uno-sviluppatore-mediocre-fevr-video.png)](https://www.facebook.com/marco.albarelli1/videos/10216948832264643/ "Meetup FEVR - Verona - Sono uno sviluppatore mediocre - Ferdinando Santacroce")
 _Meetup FEVR - Verona - Sono uno sviluppatore mediocre - Video_
 
 
@@ -146,7 +146,7 @@ _Meetup FEVR - Verona - Sono uno sviluppatore mediocre - Video_
   * [Slides](https://www.slideshare.net/FerdinandoSantacroce/im-a-mediocre-developer) :it:
   * [Sono uno sviluppatore mediocre](http://www.mokabyte.it/2018/11/sviluppatoremediocre/) :it:
 
-[![Italian Agile Days 2018 - Brescia - I'm a mediocre developer - Ferdinando Santacroce](im-a-mediocre-developer-video.png)](https://vimeo.com/306402799 "Italian Agile Days 2018 - Brescia - I'm a mediocre developer - Ferdinando Santacroce")
+[![Italian Agile Days 2018 - Brescia - I'm a mediocre developer - Ferdinando Santacroce](img/im-a-mediocre-developer-video.png)](https://vimeo.com/306402799 "Italian Agile Days 2018 - Brescia - I'm a mediocre developer - Ferdinando Santacroce")
 _Italian Agile Days 2018 - Brescia - I'm a mediocre developer - Video_
 
 ### :it: [Agile Venture Prato](https://www.agileday.it/mini/2018/prato/)
@@ -154,12 +154,12 @@ Objects Calisthenics Workshop
   * [Slides](https://www.slideshare.net/FerdinandoSantacroce/object-calisthenics-agile-venture-prato-2018)
   * [Tennis Refactoring Kata](https://github.com/ferdinandosantacroce/Tennis-Refactoring-Kata)
 
-![Agile Venture Prato 2018 - Objects Calisthenics Workshop](agile-venture-prato-object-calisthenics-workshop.png)
+![Agile Venture Prato 2018 - Objects Calisthenics Workshop](img/agile-venture-prato-object-calisthenics-workshop.png)
 _Agile Venture Prato 2018 - Objects Calisthenics Workshop_
 
 ### :it: :uk: [Milan Kotlin Community Conf 2018](https://milan.kotlincommunityconf.com)
 * I've been thee chair of the 1st one-day conference about Kotlin here in Italy :smiley:
-[![Milan Kotlin Community Conf 2018 - all the videos](milan-kotlin-community-conf-2018-videos.png)](https://vimeo.com/showcase/5286228 "Milan Kotlin Community Conf 2018 - all the videos")
+[![Milan Kotlin Community Conf 2018 - all the videos](img/milan-kotlin-community-conf-2018-videos.png)](https://vimeo.com/showcase/5286228 "Milan Kotlin Community Conf 2018 - all the videos")
 _Milan Kotlin Community Conf 2018 - all the videos_
 
 ### :it: [Torino Agile Conference 2018](https://www.agileday.it/mini/2018/torino/#ferdinandosantacroce)
@@ -186,9 +186,9 @@ In 2017 I focused on organizing events, rather than partecipating as a speaker :
   * [Slides](https://www.slideshare.net/FerdinandoSantacroce/tdd-a-piccoli-passi)
   * [GitHub repo](https://github.com/ferdinandosantacroce/SmallStepsTDD)
 
-[![Italian Agile Days 2016 - Pavia - TDD a piccoli passi - Ferdinando Santacroce](tdd-a-piccoli-passi-video.png)](https://vimeo.com/198011164 "Italian Agile Days 2016 - Pavia - TDD a piccoli passi - Ferdinando Santacroce")
+[![Italian Agile Days 2016 - Pavia - TDD a piccoli passi - Ferdinando Santacroce](img/tdd-a-piccoli-passi-video.png)](https://vimeo.com/198011164 "Italian Agile Days 2016 - Pavia - TDD a piccoli passi - Ferdinando Santacroce")
 _Italian Agile Days 2016 - Pavia - TDD a piccoli passi_
 
 ### :it: [Mini Italian Agile Day, Savona, 2016](http://www.agileday.it/mini/2016/savona/)
-[![Agile versioning with Git - Savona - 2016](agile-versioning-with-git-slides.png)](https://www.slideshare.net/FerdinandoSantacroce/agile-versioning-with-git-60998779)
+[![Agile versioning with Git - Savona - 2016](img/agile-versioning-with-git-slides.png)](https://www.slideshare.net/FerdinandoSantacroce/agile-versioning-with-git-60998779)
 _Agile versioning with Git - Savona - 2016_
