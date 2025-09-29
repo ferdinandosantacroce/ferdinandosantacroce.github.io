@@ -13,5 +13,5 @@ Talking about user stories, technical debt, domain driven design, models and rea
 [![Navigando nel mondo del software, tra modelli e realtà.](/images/talks/Modelli-Realta-IAD-2023.png)](https://vimeo.com/manage/videos/907009037)
 
 **Event**: [Italian Agile Days](https://www.agileday.it/)  
-**Location**: 🇮🇹 Italy  
+**Location**:  Italy  
 **Topic**: Software models and reality  

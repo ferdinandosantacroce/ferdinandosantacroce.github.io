@@ -11,7 +11,7 @@ Milan Kotlin Community Conf 2018
 [![Milan Kotlin Community Conf 2018 - tutti i video](/images/talks/milan-kotlin-community-conf-2018-videos.png)](https://vimeo.com/showcase/5286228 "Milan Kotlin Community Conf 2018 - tutti i video")
 
 **Evento**: [Milan Kotlin Community Conf 2018](https://www.agilemovement.it/kotlincommunityconf/milan/)  
-**Luogo**: 🇮🇹 🇬🇧 Milano, Italia  
+**Luogo**:  🇬🇧 Milano, Italia  
 **Argomento**: Linguaggio di programmazione Kotlin  
 **Ruolo**: Sono stato il chair della prima conferenza di un giorno su Kotlin qui in Italia 😄
 **Risorse**:

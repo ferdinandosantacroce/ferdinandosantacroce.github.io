@@ -11,7 +11,7 @@ Sono uno sviluppatore mediocre
 ![Agile Venture Bolzano 2019 - I'm a mediocre developer - Ferdinando Santacroce](/images/talks/agile-venture-bolzano-2019.png)
 
 **Evento**: [Agile Venture Bolzano](https://www.agilemovement.it/venture/2019/bolzano/)  
-**Luogo**: 🇬🇧 🇮🇹 Bolzano, Italia  
+**Luogo**: 🇬🇧  Bolzano, Italia  
 **Argomento**: Crescita personale e mindset di sviluppo  
 **Risorse**:
 - [Sessione su Sessionize](https://sessionize.com/s/ferdinando-santacroce/im_a_mediocre_developer/23243)

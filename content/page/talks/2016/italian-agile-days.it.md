@@ -11,7 +11,7 @@ image: /images/talks/tdd-a-piccoli-passi-video.png
 [![Italian Agile Days 2016 - Pavia - TDD a piccoli passi - Ferdinando Santacroce](/images/talks/tdd-a-piccoli-passi-video.png)](https://vimeo.com/198011164 "Italian Agile Days 2016 - Pavia - TDD a piccoli passi - Ferdinando Santacroce")
 
 **Evento**: [Italian Agile Days 2016 - Pavia](http://www.agileday.it/2016/)  
-**Luogo**: 🇮🇹 Pavia, Italia  
+**Luogo**:  Pavia, Italia  
 **Argomento**: Test-Driven Development  
 **Risorse**:
 - [Feedback](https://joind.in/event/iad16---italian-agile-days-2016/tdd-a-piccoli-passi)

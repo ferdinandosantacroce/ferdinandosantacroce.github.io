@@ -13,6 +13,6 @@ Sono stato l'organizzatore dell'edizione remota della Working Software Conferenc
 [![Miro board](/images/talks/working-software-2021-miro-board.png)](https://miro.com/app/board/o9J_lEi_PG4=/)
 
 **Evento**: [Working Software Conf 2021 - edizione remota](https://www.agilemovement.it/workingsoftware/)  
-**Luogo**: 🇮🇹 Italia (Online)  
+**Luogo**:  Italia (Online)  
 **Ruolo**: Organizzatore conferenza
 **Formato**: Conferenza remota

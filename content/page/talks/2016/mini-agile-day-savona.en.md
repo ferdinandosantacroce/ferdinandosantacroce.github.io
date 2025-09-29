@@ -11,6 +11,6 @@ Agile versioning with Git
 [![Agile versioning with Git - Savona - 2016](/images/talks/agile-versioning-with-git-slides.png)](https://www.slideshare.net/FerdinandoSantacroce/agile-versioning-with-git-60998779)
 
 **Event**: [Mini Italian Agile Day, Savona, 2016](http://www.agileday.it/mini/2016/savona/)  
-**Location**: 🇮🇹 Savona, Italy  
+**Location**:  Savona, Italy  
 **Topic**: Git versioning in agile environments  
 **Resources**: [Slides](https://www.slideshare.net/FerdinandoSantacroce/agile-versioning-with-git-60998779)

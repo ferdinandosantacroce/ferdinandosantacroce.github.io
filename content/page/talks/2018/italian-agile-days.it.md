@@ -11,7 +11,7 @@ Sono uno sviluppatore mediocre
 [![Italian Agile Days 2018 - Brescia - I'm a mediocre developer - Ferdinando Santacroce](/images/talks/im-a-mediocre-developer-video.png)](https://vimeo.com/306402799 "Italian Agile Days 2018 - Brescia - I'm a mediocre developer - Ferdinando Santacroce")
 
 **Evento**: [Italian Agile Days 2018 - Brescia](https://www.agileday.it)  
-**Luogo**: 🇮🇹 Brescia, Italia  
+**Luogo**:  Brescia, Italia  
 **Argomento**: Crescita personale e mindset di sviluppo  
 **Risorse**:
 - [Sessione](https://www.agileday.it/front/sessions/im-a-mediocre-developer/)

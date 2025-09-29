@@ -11,5 +11,5 @@ Una bella storia sui minatori di carbone e lo sviluppo software 😏
 [![Dal carbone al software: i sistemi socio-tecnici](/images/talks/Dal-carbone-al-software-i-sistemi socio-tecnici-IAD22.png)](https://vimeo.com/manage/videos/768881541)
 
 **Evento**: [Italian Agile Days](https://www.agileday.it/)  
-**Luogo**: 🇮🇹 Italia  
+**Luogo**:  Italia  
 **Argomento**: Sistemi socio-tecnici  

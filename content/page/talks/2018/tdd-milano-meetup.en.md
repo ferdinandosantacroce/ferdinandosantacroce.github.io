@@ -9,7 +9,7 @@ image: /images/talks/cover.jpg
 TDD Milano Meetup Workshops
 
 **Event**: [TDD Milano Meetup](https://www.meetup.com/it-IT/TDD-Milano)  
-**Location**: 🇮🇹 Milan, Italy  
+**Location**:  Milan, Italy  
 **Topic**: Git essentials and Object-oriented programming best practices  
 
 **Workshops**:

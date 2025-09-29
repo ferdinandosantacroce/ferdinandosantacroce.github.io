@@ -11,5 +11,5 @@ In questo episodio, racconto qualcosa sulla storia degli story point, il loro us
 [![Agile Reloaded Podcast](/images/talks/agile-reloaded-podcast.jpg)](https://open.spotify.com/episode/3DkwNAHunXIPxAUxy0BNSA?si=d3a0cff101b6452b&nd=1)  
 
 **Piattaforma**: [Reloaded Podcast](https://open.spotify.com/show/0wryeBJ9AzUBPDX6mJN2yC?si=2e0f142286284226)  
-**Lingua**: 🇮🇹 Italiano  
+**Lingua**:  Italiano  
 **Argomento**: Story point e il loro uso/abuso    

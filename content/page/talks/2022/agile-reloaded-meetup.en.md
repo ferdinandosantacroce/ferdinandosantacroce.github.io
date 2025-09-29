@@ -11,5 +11,5 @@ image: /images/talks/talk-assessment-tecnico-di-un-team-di-sviluppo-miro-board.p
 [![Miro board](/images/talks/talk-assessment-tecnico-di-un-team-di-sviluppo-miro-board.png)](https://miro.com/app/board/uXjVOJrieKg=/)  
 
 **Event**: [Agile Reloaded Meetup](https://www.meetup.com/it-IT/agile-reloaded-italia/)    
-**Location**: 🇮🇹 Italy (Online)    
+**Location**:  Italy (Online)    
 **Topic**: Technical team assessment    

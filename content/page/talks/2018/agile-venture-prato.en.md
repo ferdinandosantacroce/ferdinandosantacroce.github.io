@@ -11,7 +11,7 @@ Object Calisthenics Workshop
 ![Agile Venture Prato 2018 - Object Calisthenics Workshop](/images/talks/agile-venture-prato-object-calisthenics-workshop.png)
 
 **Event**: [Agile Venture Prato](https://www.agileday.it/mini/2018/prato/)  
-**Location**: 🇮🇹 Prato, Italy  
+**Location**:  Prato, Italy  
 **Topic**: Object-oriented programming best practices  
 **Resources**:
 - [Slides](https://www.slideshare.net/FerdinandoSantacroce/object-calisthenics-agile-venture-prato-2018)

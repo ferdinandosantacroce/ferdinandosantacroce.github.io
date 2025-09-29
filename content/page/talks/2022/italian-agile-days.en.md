@@ -11,5 +11,5 @@ A nice story about coal miners and software development 😏
 [![Dal carbone al software: i sistemi socio-tecnici](/images/talks/Dal-carbone-al-software-i-sistemi socio-tecnici-IAD22.png)](https://vimeo.com/manage/videos/768881541)
 
 **Event**: [Italian Agile Days](https://www.agileday.it/)  
-**Location**: 🇮🇹 Italy  
+**Location**:  Italy  
 **Topic**: Socio-technical systems  

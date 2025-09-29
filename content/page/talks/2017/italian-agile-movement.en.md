@@ -9,7 +9,7 @@ image: /images/talks/cover.jpg
 Italian Agile Movement
 
 **Event**: [Italian Agile Movement](http://www.agilemovement.it/)  
-**Location**: 🇮🇹 Italy  
+**Location**:  Italy  
 **Topic**: Event organization and community building  
 **Role**: I've been elected as advisor. I help organizing [Italian Agile Days](http://www.agileday.it/) and many other conferences all around Italy.
 

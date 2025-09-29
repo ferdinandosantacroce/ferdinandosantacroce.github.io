@@ -9,7 +9,7 @@ image: /images/talks/cover.jpg
 Workshop Object Calisthenics
 
 **Evento**: [Torino Agile Conference 2018](https://www.agileday.it/mini/2018/torino/#ferdinandosantacroce)  
-**Luogo**: 🇮🇹 Torino, Italia  
+**Luogo**:  Torino, Italia  
 **Argomento**: Buone pratiche di programmazione orientata agli oggetti  
 **Risorse**:
 - [Repo kata TicTacToe](https://github.com/jesuswasrasta/TicTacToe)

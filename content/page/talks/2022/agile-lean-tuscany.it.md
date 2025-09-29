@@ -9,5 +9,5 @@ image: /images/talks/intervista-agile-lean-tuscany.png
 [![Intervista con Andrea Gelli](/images/talks/intervista-agile-lean-tuscany.png)](https://www.linkedin.com/posts/andreagelli_agile-technical-coach-activity-6904700177127735296-ebLr "Intervista con Andrea Gelli")  
 
 **Evento**: [Agile Lean Tuscany](https://www.meetup.com/it-IT/ALT-AGILE-LEAN-TUSCANY/)    
-**Luogo**: 🇮🇹 Toscana, Italia    
+**Luogo**:  Toscana, Italia    
 **Formato**: Intervista con Andrea Gelli  

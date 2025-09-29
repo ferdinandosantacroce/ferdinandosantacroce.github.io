@@ -11,7 +11,7 @@ Growing Teams
 [![Meetup Agile Reloaded - Growing Teams](/images/talks/growing-teams-meetup-agilereloaded.png)](https://www.meetup.com/it-IT/Agile-Reloaded-Meetup/events/262065465/)
 
 **Evento**: [Meetup Agile Reloaded](https://www.meetup.com/it-IT/Agile-Reloaded-Meetup/)  
-**Luogo**: 🇮🇹 Italia  
+**Luogo**:  Italia  
 **Argomento**: Crescita e sviluppo dei team  
 **Risorse**:
 - [Slides](https://www.slideshare.net/FerdinandoSantacroce/growing-teams-152158846)

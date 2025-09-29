@@ -11,6 +11,6 @@ image: /images/talks/agile-testing-matrix-iad21-miro-board.png
 [![Italian Agile Days 2021 - Agile Testing Matrix - Ferdinando Santacroce](/images/talks/agile-testing-matrix-video.png)](https://vimeo.com/648776317 "Italian Agile Days 2021 - Agile Testing Matrix - Ferdinando Santacroce")
 
 **Evento**: [Italian Agile Days](https://www.agileday.it/)  
-**Luogo**: 🇮🇹 Italia  
+**Luogo**:  Italia  
 **Argomento**: Agile Testing Matrix  
 **Formato**: Talk di conferenza

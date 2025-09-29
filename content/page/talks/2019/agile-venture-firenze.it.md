@@ -9,7 +9,7 @@ image: /images/talks/cover.jpg
 Testare l'intestabile
 
 **Evento**: [Agile Venture Firenze](https://www.agilemovement.it/venture/2019/firenze/)  
-**Luogo**: 🇮🇹 Firenze, Italia  
+**Luogo**:  Firenze, Italia  
 **Argomento**: Workshop sul testing del codice legacy  
 **Risorse**:
 - [Slides](https://www.slideshare.net/FerdinandoSantacroce/testare-lintestabile-workshop-agile-venture-firenze)

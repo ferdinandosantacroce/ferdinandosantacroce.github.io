@@ -13,7 +13,7 @@ Working Software Conf 2019
 [![Working Software Conf 2019 - Tutti i video](/images/talks/working-software-2019-all-the-videos.png)](https://vimeo.com/showcase/6189515 "Working Software Conf 2019 - Tutti i video")
 
 **Evento**: [Working Software Conf](https://www.agilemovement.it/workingsoftware/)  
-**Luogo**: 🇮🇹 Italia  
+**Luogo**:  Italia  
 **Argomento**: Conferenza sullo sviluppo software  
 **Ruolo**: Sono stato il chair di questo fantastico... FANTASTICO evento! 😊
 **Risorse**:

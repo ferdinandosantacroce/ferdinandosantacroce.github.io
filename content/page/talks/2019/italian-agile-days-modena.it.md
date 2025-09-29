@@ -9,7 +9,7 @@ image: /images/talks/cover.jpg
 Testare l'intestabile
 
 **Evento**: [Italian Agile Days Modena](https://www.agileday.it/)  
-**Luogo**: 🇮🇹 Modena, Italia  
+**Luogo**:  Modena, Italia  
 **Argomento**: Workshop sul testing del codice legacy  
 **Risorse**:
 - [Slides](https://www.slideshare.net/FerdinandoSantacroce/testare-lintestabile-italian-agile-days-2019-iad19)

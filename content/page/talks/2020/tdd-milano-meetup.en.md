@@ -11,7 +11,7 @@ Mining Code Repositories
 [![TDD Milano Meetup - Mining Code Repositories - Ferdinando Santacroce](http://img.youtube.com/vi/KdrO_SQe-ds/0.jpg)](http://www.youtube.com/watch?v=KdrO_SQe-ds "TDD Milano Meetup - Mining Code Repositories - Ferdinando Santacroce")
 
 **Event**: [TDD Milano Meetup](https://www.meetup.com/it-IT/TDD-Milano)  
-**Location**: 🇮🇹 Milan, Italy (Online)  
+**Location**:  Milan, Italy (Online)  
 **Topic**: Code repository analysis and mining techniques  
 **Resources**:
 - [Meetup event](https://www.meetup.com/it-IT/TDD-Milano/events/273031114/)

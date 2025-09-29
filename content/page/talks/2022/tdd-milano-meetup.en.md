@@ -11,7 +11,7 @@ An in presence workshop on refactoring; a little challenge, a lot of fun 😄
 [![Refactoring Showdown](/images/talks/workshop-refactoring-showdown.png)](https://www.meetup.com/it-IT/TDD-Milano/events/284995543/)
 
 **Event**: [TDD Milano Meetup](https://www.meetup.com/it-IT/TDD-Milano/events/)  
-**Location**: 🇮🇹 Milano, Italy  
+**Location**:  Milano, Italy  
 **Format**: Workshop
 
 **Resources**:

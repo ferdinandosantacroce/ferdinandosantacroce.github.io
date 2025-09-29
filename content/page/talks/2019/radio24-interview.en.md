@@ -11,7 +11,7 @@ Radio24 - I lavori di domani
 [![I lavori di domani - Agile Coach](/images/talks/lavori-di-domani-radio24-podcast-agile-coach.png)](http://www.radio24.ilsole24ore.com/programma/i-lavori-di-domani/agile-coach-175941-AC0jYqU)
 
 **Event**: [Radio24, interview](http://www.radio24.ilsole24ore.com/programma/i-lavori-di-domani/)  
-**Location**: 🇮🇹 Italy  
+**Location**:  Italy  
 **Topic**: The future of work - Agile Coach profession  
 **Resources**:
 - [Podcast episode](http://www.radio24.ilsole24ore.com/programma/i-lavori-di-domani/agile-coach-175941-AC0jYqU)

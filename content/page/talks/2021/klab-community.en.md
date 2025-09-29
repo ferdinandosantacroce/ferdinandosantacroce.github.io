@@ -11,6 +11,6 @@ image: /images/talks/cover.jpg
 [![Rendimi agile, ma non subito](http://img.youtube.com/vi/pj2eRrh1jZk/0.jpg)](https://www.youtube.com/watch?v=pj2eRrh1jZk "Rendimi agile, ma non subito")
 
 **Event**: [KLab Community](https://www.meetup.com/it-IT/KLab-Community/)  
-**Location**: 🇮🇹 Italy (Online)  
+**Location**:  Italy (Online)  
 **Topic**: Agile transformation  
 **Format**: Video presentation

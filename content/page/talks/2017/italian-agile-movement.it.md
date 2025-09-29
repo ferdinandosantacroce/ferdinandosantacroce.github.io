@@ -9,7 +9,7 @@ image: /images/talks/cover.jpg
 Italian Agile Movement
 
 **Evento**: [Italian Agile Movement](http://www.agilemovement.it/)  
-**Luogo**: 🇮🇹 Italia  
+**Luogo**:  Italia  
 **Argomento**: Organizzazione eventi e community building  
 **Ruolo**: Sono stato eletto advisor. Aiuto nell'organizzazione degli [Italian Agile Days](http://www.agileday.it/) e di molte altre conferenze in tutta Italia.
 

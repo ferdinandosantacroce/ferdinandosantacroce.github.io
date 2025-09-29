@@ -11,7 +11,7 @@ Testare l'intestabile
 [![Canale video XPUGBG](/images/talks/xpugbg-youtube-video-channel.png)](http://www.youtube.com/channel/UCkcDXjR2__NioW1m4voqH6w)
 
 **Evento**: [eXtreme Programming User Group Bergamo](https://xpugbg.it/)  
-**Luogo**: 🇮🇹 Bergamo, Italia  
+**Luogo**:  Bergamo, Italia  
 **Argomento**: Workshop sul testing del codice legacy  
 **Risorse**:
 - [Resoconto sul blog XPUGBG](https://xpugbg.it/blog/meetup-workshop-testare-l-intestabile-ferdinando-santacroce-resoconto/)
