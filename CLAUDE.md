@@ -53,10 +53,12 @@ Updates the theme to the latest version and cleans up modules.
 
 ## Deployment
 
-The site auto-deploys to GitHub Pages via GitHub Actions:
-- **Trigger**: Push to `main` branch
-- **Build**: Hugo with Go 1.17+ on Ubuntu
-- **Deploy**: To `gh-pages` branch using github-pages-deploy-action
+The site auto-deploys to GitHub Pages via GitHub Actions (`.github/workflows/deploy.yml`):
+- **Trigger**: Push to `main` branch (also runs on PRs)
+- **Build**: Hugo extended (latest) with Go 1.17+ on Ubuntu, using `hugo --minify --gc`
+- **Deploy**: To `gh-pages` branch using JamesIves/github-pages-deploy-action@v4
+- **Caching**: Hugo resources cached to speed up builds
+- **Options**: Single commit deployment with clean flag enabled
 
 ## Content Guidelines
 
@@ -65,6 +67,12 @@ The site auto-deploys to GitHub Pages via GitHub Actions:
 - Include frontmatter with title, date, cover image, and categories
 - Place post-specific images in the same directory as the post
 
+### Hierarchical Content (Talks, Resources)
+- Use `_index.en.md` and `_index.it.md` for section landing pages
+- Create year-based subdirectories for organization (e.g., `content/page/talks/2023/`)
+- Each year directory needs its own `_index.en.md` and `_index.it.md`
+- Individual talks/resources can be markdown files or subdirectories with `index.en.md` and `index.it.md`
+
 ### Icons
 - Download SVG icons from tablericons.com
 - Place in `assets/icons/` with specific attributes: `width="24" height="24" stroke-width="2" stroke="currentColor"`
@@ -72,8 +80,9 @@ The site auto-deploys to GitHub Pages via GitHub Actions:
 
 ### Images
 - Use high-quality images (they are automatically resized)
-- Cover images should be named `cover.jpg`
+- Cover images should be named `cover.jpg` or referenced via `/images/` path
 - Post-specific images go in the post directory
+- Shared images go in `assets/img/` or `static/images/`
 
 ## Development Notes
 
@@ -89,6 +98,8 @@ When creating new content, always create both language versions:
 - English: `index.en.md` (or use `.en.md` suffix)
 - Italian: `index.it.md` (or use `.it.md` suffix)
 - Files without language suffix default to English
+- Use `_index.en.md` / `_index.it.md` for section/list pages (parent directories)
+- Use `index.en.md` / `index.it.md` for individual pages within their own directory
 
 ### Frontmatter Requirements
 All content files require proper frontmatter structure. Key fields:
@@ -101,8 +112,15 @@ All content files require proper frontmatter structure. Key fields:
 
 ### Configuration Structure
 The site uses split configuration files in `config/_default/`:
-- `config.toml`: Main site settings and language configuration
+- `config.toml`: Main site settings, base URL, language configuration, pagination
 - `menu.toml`: Navigation menu structure (language-specific)
 - `params.toml`: Theme parameters and customizations
-- `module.toml`: Hugo module configuration for theme
-- Other specialized config files for markup, permalinks, etc.
+- `module.toml`: Hugo module configuration (imports hugo-theme-stack/v3)
+- `markup.toml`: Markdown rendering configuration
+- `permalinks.toml`: URL structure configuration
+- `related.toml`: Related content configuration
+- `_languages.toml`: Additional language-specific settings
+
+### Asset Configuration
+- `assets/jsconfig.json`: Configuration for asset processing and IntelliSense
+- Custom CSS loaded via `config.toml`: `params.assets.customCSS = ["css/custom.css"]`
