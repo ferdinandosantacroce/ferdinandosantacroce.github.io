@@ -1,114 +1,114 @@
-## Hugo Theme Stack Starter Template
+# Ferdinando Santacroce's Blog
 
-This is a quick start template for [Hugo theme Stack](https://github.com/CaiJimmy/hugo-theme-stack). It uses [Hugo modules](https://gohugo.io/hugo-modules/) feature to load the theme.
+Personal blog built with Hugo and the Stack theme, deployed to [ferdinandosantacroce.it](https://ferdinandosantacroce.it).
 
-It comes with a basic theme structure and configuration. GitHub action has been set up to deploy the theme to a public GitHub page automatically. Also, there's a cron job to update the theme automatically everyday.
+## Quickstart
 
-To get started:
+### Local development
 
-1. Click *Use this template*, and create your repository on GitHub.
-![Step 1](https://user-images.githubusercontent.com/5889006/156916624-20b2a784-f3a9-4718-aa5f-ce2a436b241f.png)
+```bash
+# Start dev server (includes drafts)
+hugo server -D
 
-2. Once the repository is created, create a GitHub codespace associated with it.
-![Create codespace](https://user-images.githubusercontent.com/5889006/156916672-43b7b6e9-4ffb-4704-b4ba-d5ca40ffcae7.png)
+# Production build (same as CI)
+hugo --minify --gc
+```
 
-3. And voila! You're ready to go. The codespace has been configured with the latest version of Hugo extended, just run `hugo server` in the terminal and see your new site in action.
+The site runs at `http://localhost:1313/`.
 
-4. Check `config` folder for the configuration files. You can edit them to suit your needs. Make sure to update the `baseurl` property in `config/_default/config.toml` to your site's URL.
+### Creating a new post
 
-5. Once you're done editing the site, just commit it and push it. GitHub action will deploy the site automatically to GitHub page asociated with the repository.
-![GitHub action](https://user-images.githubusercontent.com/5889006/156916881-90b8bb9b-1925-4e60-9d7a-8026cda729bf.png)
+1. Create a folder: `content/post/my-new-post/`
+2. Add both language versions:
+   - `index.en.md` (English)
+   - `index.it.md` (Italian)
+3. Add a cover image (optional): `cover.jpg`
+
+**Front matter template:**
+
+```yaml
+---
+title: "Post Title"
+date: 2024-01-15
+draft: true
+categories: [Software]
+tags: [tag1, tag2]
+image: cover.jpg
 ---
 
-In case you don't want to use GitHub codespace, you can also run this template in your local machine. **You need to install Git, Go and Hugo extended locally.**
+Your content here...
+```
 
-### Update theme manually
+4. Preview locally with `hugo server -D`
+5. Remove `draft: true` when ready to publish
+6. Commit and push; GitHub Actions deploys automatically
 
-Run:
+### Update theme
 
 ```bash
 hugo mod get -u github.com/CaiJimmy/hugo-theme-stack/v3
 hugo mod tidy
 ```
 
-> This starter template has been configured with `v3` version of theme. Due to the limitation of Go module, once the `v4` or up version of theme is released, you need to update the theme manually. (Modifying `config/module.toml` file)
+---
 
-### Deploy to another static page hostings
+## Theme info
 
-If you want to build this site using another static page hosting, you need to make sure they have Go installed in the machine. 
+This blog uses [Hugo Theme Stack v3](https://github.com/CaiJimmy/hugo-theme-stack) loaded via Hugo modules.
 
-<details>
-  <summary>Vercel</summary>
-  
-You need to overwrite build command to install manually Go:
-
-```
-amazon-linux-extras install golang1.11 && hugo --gc --minify
-```
-
-![](https://user-images.githubusercontent.com/5889006/156917172-01e4d418-3469-4ffb-97e4-a905d28b8424.png)
-
-Make sure also to specify Hugo version in the environment variable `HUGO_VERSION` (Use the latest version of Hugo extended):
-
-![Environment variable](https://user-images.githubusercontent.com/5889006/156917212-afb7c70d-ab85-480f-8288-b15781a462c0.png)
-</details>
+- **Template source:** [hugo-theme-stack-starter](https://github.com/CaiJimmy/hugo-theme-stack-starter)
+- **Configuration:** `config/_default/*.toml`
+- **Deployment:** GitHub Actions on push to `main` (daily theme updates via cron)
 
 ---
 
-## My personal notes
-I used the template: [Hugo Theme Stack Starter Template](https://github.com/CaiJimmy/hugo-theme-stack-starter).  
-It works like a charm in Codespace!  
+## My notes
 
-I usually run it on my machine (no Docker):
-```bash
-hugo server
-```
+### Content structure
+
+- Everything in `content/` folder gets published
+- Example posts moved to `examples/` folder (not published)
+- Posts: `content/post/[slug]/`
+- Pages: `content/page/[name]/`
+
+### Multilingual mode
+
+I use the [translation by file name](https://gohugo.io/content-management/multilingual/#translation-by-file-name) strategy:
+
+- `index.en.md` for English
+- `index.it.md` for Italian
+- Files without suffix default to English
 
 ### Icons
-I realized the template misses the icons; I downloaded them from the template repo [hugo-theme-stack](https://github.com/CaiJimmy/hugo-theme-stack)
 
-If you need a new icon, go to https://tablericons.com/.  
-Look for the icon desired, the copy the `*.svg` file to `assets/icons`.  
-After copying the `*.svg` content, change this properties to these values:
+Icons come from [Tabler Icons](https://tablericons.com/). To add a new icon:
+
+1. Download the SVG from tablericons.com
+2. Save to `assets/icons/`
+3. Edit the SVG attributes:
+
 ```svg
-... 
-width="24" height="24" 
-stroke-width="2" 
-stroke="currentColor" 
-...
+width="24" height="24"
+stroke-width="2"
+stroke="currentColor"
 ```
 
-To change icons in sidebar menu, edit the related page; for example, to change `Works` icon, open `content\page\works\index.md` file and edit `icon` property:
-```markdown
----
-title: "Works"
-date: 2022-03-06
-slug: "works"
+To change sidebar menu icons, edit the page's front matter:
+
+```yaml
 menu:
     main:
         weight: 2
-        params: 
-          **icon: brain**
----
-
-Under construction.  
+        params:
+            icon: brain
 ```
 
 ### Images
-Use high quality images.  
-They will be resized before publishing.  
 
+Use high quality images; Hugo resizes them automatically before publishing.
 
-### Content
-Everything you put in `content` folder will be published.  
-I moved example posts out of `content` folder, into `example` folder.  
+### Useful links
 
-### Multilingual mode
-See: [Multilingual mode](https://gohugo.io/content-management/multilingual/).    
-I use the [translate by name file](https://gohugo.io/content-management/multilingual/#translation-by-file-name) strategy.  
-If a `.md` file has no language suffix, it is considered the default language (english).  
-
-
-
-### Things to learn
-How to customize content: [https://gohugo.io/categories/templates/](https://gohugo.io/templates/lists/).
+- [Hugo templates documentation](https://gohugo.io/templates/lists/)
+- [Multilingual mode](https://gohugo.io/content-management/multilingual/)
+- [Stack theme docs](https://stack.jimmycai.com/)
