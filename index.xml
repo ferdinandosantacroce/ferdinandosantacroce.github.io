@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ferdinando Santacroce</title><link>https://ferdinandosantacroce.it/</link><description>Recent content on Ferdinando Santacroce</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Sun, 06 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ferdinandosantacroce.it/index.xml" rel="self" type="application/rss+xml"/><item><title>Archives</title><link>https://ferdinandosantacroce.it/archives/</link><pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate><guid>https://ferdinandosantacroce.it/archives/</guid><description>&lt;p>Under construction 👨‍💻&lt;/p></description></item><item><title>Talks</title><link>https://ferdinandosantacroce.it/talks/</link><pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate><guid>https://ferdinandosantacroce.it/talks/</guid><description>&lt;img src="https://ferdinandosantacroce.it/talks/img/cover.jpg" alt="Featured image of post Talks" />&lt;p>Here a brief list of my public appearances 😊&lt;/p>
+&lt;h2 id="2022">2022
+&lt;/h2>&lt;h3 id="-tdd-milano-meetuphttpswwwmeetupcomit-ittdd-milanoevents">🇮🇹 &lt;a class="link" href="https://www.meetup.com/it-IT/TDD-Milano/events/" target="_blank" rel="noopener"
+>TDD Milano Meetup&lt;/a>
+&lt;/h3>&lt;p>An in presence workshop on refactoring; a little challenge, a lot of fun 😄&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.meetup.com/it-IT/TDD-Milano/events/284995543/" target="_blank" rel="noopener"
+>&lt;img src="https://ferdinandosantacroce.it/talks/img/workshop-refactoring-showdown.png"
+width="676"
+height="380"
+srcset="https://ferdinandosantacroce.it/talks/img/workshop-refactoring-showdown_hu2381671788208331842.png 480w, https://ferdinandosantacroce.it/talks/img/workshop-refactoring-showdown_hu16430923217620108037.png 1024w"
+loading="lazy"
+alt="Refactoring Showdown"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+>&lt;/a>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://miro.com/app/board/uXjVOJrieKg=/" target="_blank" rel="noopener"
+>Miro board&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/ferdinandosantacroce/refactoring-showdown" target="_blank" rel="noopener"
+>Github repo with directions&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="-agile-reloaded-meetuphttpswwwmeetupcomit-itagile-reloaded-italia">🇮🇹 &lt;a class="link" href="https://www.meetup.com/it-IT/agile-reloaded-italia/" target="_blank" rel="noopener"
+>Agile Reloaded Meetup&lt;/a>
+&lt;/h3>&lt;p>&lt;a class="link" href="https://www.meetup.com/it-IT/agile-reloaded-italia/events/284308349/" target="_blank" rel="noopener"
+>Assessment tecnico di un team di sviluppo&lt;/a>
+Smalltalk about tools and approaches to assess development teams.
+&lt;a class="link" href="https://miro.com/app/board/uXjVOJrieKg=/" target="_blank" rel="noopener"
+>&lt;img src="https://ferdinandosantacroce.it/talks/img/talk-assessment-tecnico-di-un-team-di-sviluppo-miro-board.png"
+width="1065"
+height="721"
+srcset="https://ferdinandosantacroce.it/talks/img/talk-assessment-tecnico-di-un-team-di-sviluppo-miro-board_hu15949798727491935295.png 480w, https://ferdinandosantacroce.it/talks/img/talk-assessment-tecnico-di-un-team-di-sviluppo-miro-board_hu16413186840594732204.png 1024w"
+loading="lazy"
+alt="Miro board"
+class="gallery-image"
+data-flex-grow="147"
+data-flex-basis="354px"
+>&lt;/a>
+&lt;em>Assessment tecnico di un team di sviluppo - Miro board&lt;/em>&lt;/p>
+&lt;hr>
+&lt;h3 id="-agile-lean-tuscanyhttpswwwmeetupcomit-italt-agile-lean-tuscany">🇮🇹 &lt;a class="link" href="https://www.meetup.com/it-IT/ALT-AGILE-LEAN-TUSCANY/" target="_blank" rel="noopener"
+>Agile Lean Tuscany&lt;/a>
+&lt;/h3>&lt;p>&lt;a class="link" href="https://www.linkedin.com/posts/andreagelli_agile-technical-coach-activity-6904700177127735296-ebLr" title="Intervista con Andrea Gelli"
+target="_blank" rel="noopener"
+>&lt;img src="https://ferdinandosantacroce.it/talks/img/intervista-agile-lean-tuscany.png"
+width="809"
+height="456"
+srcset="https://ferdinandosantacroce.it/talks/img/intervista-agile-lean-tuscany_hu16959595847713335335.png 480w, https://ferdinandosantacroce.it/talks/img/intervista-agile-lean-tuscany_hu7097271468423291540.png 1024w"
+loading="lazy"
+alt="Intervista con Andrea Gelli"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="425px"
+>&lt;/a>
+&lt;em>Intervista con Andrea Gelli - Video&lt;/em>&lt;/p>
+&lt;h2 id="2021">2021
+&lt;/h2>&lt;h3 id="-klab-communityhttpswwwmeetupcomit-itklab-community">🇮🇹 &lt;a class="link" href="https://www.meetup.com/it-IT/KLab-Community/" target="_blank" rel="noopener"
+>KLab Community&lt;/a>
+&lt;/h3>&lt;p>&lt;a class="link" href="https://www.meetup.com/it-IT/KLab-Community/events/281541073/" target="_blank" rel="noopener"
+>Rendimi agile, ma non subito&lt;/a>
+&lt;a class="link" href="https://www.youtube.com/watch?v=pj2eRrh1jZk" title="Rendimi agile, ma non subito"
+target="_blank" rel="noopener"
+>&lt;img src="http://img.youtube.com/vi/pj2eRrh1jZk/0.jpg"
+loading="lazy"
+alt="Rendimi agile, ma non subito"
+>&lt;/a>
+&lt;em>Rendimi agile, ma non subito - Video&lt;/em>&lt;/p>
+&lt;hr>
+&lt;h3 id="-italian-agile-dayshttpswwwagiledayit">🇮🇹 &lt;a class="link" href="https://www.agileday.it/" target="_blank" rel="noopener"
+>Italian Agile Days&lt;/a>
+&lt;/h3>&lt;p>&lt;a class="link" href="https://miro.com/app/board/o9J_lmC9ZLE=/" title="Agile Testing Matrix Miro board"
+target="_blank" rel="noopener"
+>&lt;img src="https://ferdinandosantacroce.it/talks/img/agile-testing-matrix-iad21-miro-board.png"
+width="1700"
+height="1083"
+srcset="https://ferdinandosantacroce.it/talks/img/agile-testing-matrix-iad21-miro-board_hu7008319106383605099.png 480w, https://ferdinandosantacroce.it/talks/img/agile-testing-matrix-iad21-miro-board_hu10344037045429114167.png 1024w"
+loading="lazy"
+alt="Agile Testing Matrix Miro board"
+class="gallery-image"
+data-flex-grow="156"
+data-flex-basis="376px"
+>&lt;/a>
+&lt;em>Agile Testing Matrix - Miro board&lt;/em>&lt;/p>
+&lt;p>&lt;a class="link" href="https://vimeo.com/648776317" title="Italian Agile Days 2021 - Agile Testing Matrix - Ferdinando Santacroce"
+target="_blank" rel="noopener"
+>&lt;img src="https://ferdinandosantacroce.it/talks/img/agile-testing-matrix-video.png"
+width="2560"
+height="1440"
+srcset="https://ferdinandosantacroce.it/talks/img/agile-testing-matrix-video_hu18411386452573963258.png 480w, https://ferdinandosantacroce.it/talks/img/agile-testing-matrix-video_hu8179242495601828939.png 1024w"
+loading="lazy"
+alt="Italian Agile Days 2021 - Agile Testing Matrix - Ferdinando Santacroce"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+>&lt;/a>
+&lt;em>Italian Agile Days 2021 - Agile Testing Matrix - Video&lt;/em>&lt;/p>
+&lt;hr>
+&lt;h3 id="-dddopenhttpswwwlinkedincomcompanyddd-open">🇮🇹 &lt;a class="link" href="https://www.linkedin.com/company/ddd-open" target="_blank" rel="noopener"
+>DDDOpen&lt;/a>
+&lt;/h3>&lt;p>I&amp;rsquo;m one of the co-founder of DDDOpen community 😊
+&lt;a class="link" href="https://twitter.com/dddopen" title="DDDOpen Unconference"
+target="_blank" rel="noopener"
+>&lt;img src="https://ferdinandosantacroce.it/talks/img/dddopen-unconference.png"
+width="1080"
+height="360"
+srcset="https://ferdinandosantacroce.it/talks/img/dddopen-unconference_hu13555245128380916403.png 480w, https://ferdinandosantacroce.it/talks/img/dddopen-unconference_hu7729618828379277278.png 1024w"
+loading="lazy"
+alt="DDDOpen Unconference"
+class="gallery-image"
+data-flex-grow="300"
+data-flex-basis="720px"
+>&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h3 id="-working-software-conf-2021---remote-editionhttpswwwagilemovementitworkingsoftware">🇮🇹 &lt;a class="link" href="https://www.agilemovement.it/workingsoftware/" target="_blank" rel="noopener"
+>Working Software Conf 2021 - remote edition&lt;/a>
+&lt;/h3>&lt;p>&lt;a class="link" href="https://gather.town/app/NvjSrqLIEcqGFKCV/working-software" target="_blank" rel="noopener"
+>&lt;img src="https://ferdinandosantacroce.it/talks/img/working-software-2021-gathertown.png"
+width="900"
+height="633"
+srcset="https://ferdinandosantacroce.it/talks/img/working-software-2021-gathertown_hu17148729263893052279.png 480w, https://ferdinandosantacroce.it/talks/img/working-software-2021-gathertown_hu6753639455342842094.png 1024w"
+loading="lazy"
+alt="GatherTown space"
+class="gallery-image"
+data-flex-grow="142"
+data-flex-basis="341px"
+>&lt;/a>
+&lt;em>Working Software Conf 2021 - GatherTown space&lt;/em>&lt;/p>
+&lt;p>&lt;a class="link" href="https://miro.com/app/board/o9J_lEi_PG4=/" target="_blank" rel="noopener"
+>&lt;img src="https://ferdinandosantacroce.it/talks/img/working-software-2021-miro-board.png"
+width="900"
+height="461"
+srcset="https://ferdinandosantacroce.it/talks/img/working-software-2021-miro-board_hu11924451613050132139.png 480w, https://ferdinandosantacroce.it/talks/img/working-software-2021-miro-board_hu11094607522188765741.png 1024w"
+loading="lazy"
+alt="Miro board"
+class="gallery-image"
+data-flex-grow="195"
+data-flex-basis="468px"
+>&lt;/a>
+&lt;em>Working Software Conf 2021 - Miro board&lt;/em>&lt;/p>
+&lt;h2 id="2020">2020
+&lt;/h2>&lt;h3 id="-tomorrowdevshttpswwwyoutubecomchannelucckcys-msic4vs_nyg218hw">🇮🇹 &lt;a class="link" href="https://www.youtube.com/channel/UCckCYs-msiC4Vs_nyg218Hw" target="_blank" rel="noopener"
+>TomorrowDevs&lt;/a>
+&lt;/h3>&lt;p>Storie di developers - intervista con Simone Torrisi&lt;/p>
+&lt;p>&lt;a class="link" href="http://www.youtube.com/watch?v=iU3bGoA2QJ4" title="Storie di developers - intervista con Simone Torrisi"
+target="_blank" rel="noopener"
+>&lt;img src="http://img.youtube.com/vi/iU3bGoA2QJ4/0.jpg"
+loading="lazy"
+alt="Storie di developers - intervista con Simone Torrisi"
+>&lt;/a>
+&lt;em>Storie di developers - intervista con Simone Torrisi - Video&lt;/em>&lt;/p>
+&lt;hr>
+&lt;h3 id="-tdd-milano-meetuphttpswwwmeetupcomit-ittdd-milano">🇮🇹 &lt;a class="link" href="https://www.meetup.com/it-IT/TDD-Milano" target="_blank" rel="noopener"
+>TDD Milano Meetup&lt;/a>
+&lt;/h3>&lt;p>&lt;a class="link" href="https://www.meetup.com/it-IT/TDD-Milano/events/273031114/" target="_blank" rel="noopener"
+>Mining Code Repositories meetup event&lt;/a>
+&lt;a class="link" href="https://docs.google.com/presentation/d/1EbqhJNjNU2hNCj1GluP7OG6In3wdLf2U74T4wrkhOxo/edit?usp=sharing" target="_blank" rel="noopener"
+>Slides&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="http://www.youtube.com/watch?v=KdrO_SQe-ds" title="TDD Milano Meetup - Mining Code Repositories - Ferdinando Santacroce"
+target="_blank" rel="noopener"
+>&lt;img src="http://img.youtube.com/vi/KdrO_SQe-ds/0.jpg"
+loading="lazy"
+alt="TDD Milano Meetup - Mining Code Repositories - Ferdinando Santacroce"
+>&lt;/a>
+&lt;em>TDD Milano Meetup, 2020 - Mining Code Repositories - Video&lt;/em>&lt;/p>
+&lt;hr>
+&lt;h3 id="-agile-venture-milanohttpswwwagilemovementitventure2020milano">🇮🇹 &lt;a class="link" href="https://www.agilemovement.it/venture/2020/milano/" target="_blank" rel="noopener"
+>Agile Venture Milano&lt;/a>
+&lt;/h3>&lt;p>Growing Teams talk :movie_camera: 🇮🇹🇬🇧
+&lt;a class="link" href="https://www.slideshare.net/FerdinandoSantacroce/growing-teams-152158846" target="_blank" rel="noopener"
+>Slides&lt;/a> 🇬🇧&lt;/p>
+&lt;p>&lt;a class="link" href="https://vimeo.com/394385611" title="Agile Venture Milano 2020 - Growing Teams - Ferdinando Santacroce"
+target="_blank" rel="noopener"
+>&lt;img src="https://ferdinandosantacroce.it/growing-teams-video.png"
+loading="lazy"
+alt="Agile Venture Milano 2020 - Growing Teams - Ferdinando Santacroce"
+>&lt;/a>
+&lt;em>Agile Venture Milano 2020 - Growing Teams - Video&lt;/em>&lt;/p>
+&lt;h2 id="2019">2019
+&lt;/h2>&lt;h3 id="-italian-agile-days-modenahttpswwwagiledayit">🇮🇹 &lt;a class="link" href="https://www.agileday.it/" target="_blank" rel="noopener"
+>Italian Agile Days Modena&lt;/a>
+&lt;/h3>&lt;p>Testare l&amp;rsquo;intestabile, workshop on legacy code
+&lt;a class="link" href="https://www.slideshare.net/FerdinandoSantacroce/testare-lintestabile-italian-agile-days-2019-iad19" target="_blank" rel="noopener"
+>Slides&lt;/a>
+&lt;a class="link" href="https://github.com/ferdinandosantacroce/trivia-java" target="_blank" rel="noopener"
+>Trivia Kata in Java&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h3 id="-agile-venture-firenzehttpswwwagilemovementitventure2019firenze">🇮🇹 &lt;a class="link" href="https://www.agilemovement.it/venture/2019/firenze/" target="_blank" rel="noopener"
+>Agile Venture Firenze&lt;/a>
+&lt;/h3>&lt;p>Testare l&amp;rsquo;intestabile, workshop on legacy code
+&lt;a class="link" href="https://www.slideshare.net/FerdinandoSantacroce/testare-lintestabile-workshop-agile-venture-firenze" target="_blank" rel="noopener"
+>Slides&lt;/a>
+&lt;a class="link" href="https://github.com/ferdinandosantacroce/trivia-java" target="_blank" rel="noopener"
+>Trivia Kata in Java&lt;/a>
+&lt;a class="link" href="https://www.spreaker.com/user/10553302/intervista-ferdinandosantacroce-avfi" target="_blank" rel="noopener"
+>Podcast interview&lt;/a> by &lt;a class="link" href="https://www.officinaagile.it/" target="_blank" rel="noopener"
+>Officina Agile&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h3 id="-extreme-programming-user-group-bergamohttpsxpugbgit">🇮🇹 &lt;a class="link" href="https://xpugbg.it/" target="_blank" rel="noopener"
+>eXtreme Programming User Group Bergamo&lt;/a>
+&lt;/h3>&lt;p>Testare l&amp;rsquo;intestabile, workshop on legacy code
+&lt;a class="link" href="https://xpugbg.it/blog/meetup-workshop-testare-l-intestabile-ferdinando-santacroce-resoconto/" target="_blank" rel="noopener"
+>Recap on XPUGBG blog&lt;/a>
+&lt;a class="link" href="https://www.slideshare.net/FerdinandoSantacroce/testare-lintestabile-workshop-xpugbg" target="_blank" rel="noopener"
+>Slides&lt;/a>
+&lt;a class="link" href="https://github.com/ferdinandosantacroce/trivia-java" target="_blank" rel="noopener"
+>Trivia Kata in Java&lt;/a>&lt;/p>
+&lt;p>&lt;a class="link" href="http://www.youtube.com/channel/UCkcDXjR2__NioW1m4voqH6w" target="_blank" rel="noopener"
+>&lt;img src="https://ferdinandosantacroce.it/talks/img/xpugbg-youtube-video-channel.png"
+width="1504"
+height="720"
+srcset="https://ferdinandosantacroce.it/talks/img/xpugbg-youtube-video-channel_hu8463031640219485773.png 480w, https://ferdinandosantacroce.it/talks/img/xpugbg-youtube-video-channel_hu18153299808303095120.png 1024w"
+loading="lazy"
+alt="XPUGBG video channel"
+class="gallery-image"
+data-flex-grow="208"
+data-flex-basis="501px"
+>&lt;/a>
+&lt;em>XPUGBG video channel&lt;/em>&lt;/p>
+&lt;hr>
+&lt;h3 id="-working-software-confhttpswwwagilemovementitworkingsoftware">🇮🇹 &lt;a class="link" href="https://www.agilemovement.it/workingsoftware/" target="_blank" rel="noopener"
+>Working Software Conf&lt;/a>
+&lt;/h3>&lt;p>I&amp;rsquo;ve been the chair of this great&amp;hellip; GREAT event! 😊&lt;/p>
+&lt;p>&lt;a class="link" href="https://vimeo.com/351825816" title="Working Software Conf 2019 - Intro - Ferdinando Santacroce"
+target="_blank" rel="noopener"
+>&lt;img src="https://ferdinandosantacroce.it/talks/img/working-software-2019-intro-video.png"
+width="959"
+height="540"
+srcset="https://ferdinandosantacroce.it/talks/img/working-software-2019-intro-video_hu11617204368507502380.png 480w, https://ferdinandosantacroce.it/talks/img/working-software-2019-intro-video_hu4528571321823279024.png 1024w"
+loading="lazy"
+alt="Working Software Conf 2019 - Intro - Ferdinando Santacroce"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+>&lt;/a>
+&lt;em>Working Software Conf 2019 - Intro - Video&lt;/em>&lt;/p>
+&lt;p>&lt;a class="link" href="https://vimeo.com/showcase/6189515" title="Working Software Conf 2019 - All the videos"
+target="_blank" rel="noopener"
+>&lt;img src="https://ferdinandosantacroce.it/talks/img/working-software-2019-all-the-videos.png"
+width="962"
+height="540"
+srcset="https://ferdinandosantacroce.it/talks/img/working-software-2019-all-the-videos_hu15413539785582161476.png 480w, https://ferdinandosantacroce.it/talks/img/working-software-2019-all-the-videos_hu8252186862621587907.png 1024w"
+loading="lazy"
+alt="Working Software Conf 2019 - All the videos"
+class="gallery-image"
+data-flex-grow="178"
+data-flex-basis="427px"
+>&lt;/a>
+&lt;em>Working Software Conf 2019 - All the videos&lt;/em>&lt;/p>
+&lt;hr>
+&lt;h3 id="-radio24-intervistahttpwwwradio24ilsole24orecomprogrammai-lavori-di-domani">🇮🇹 &lt;a class="link" href="http://www.radio24.ilsole24ore.com/programma/i-lavori-di-domani/" target="_blank" rel="noopener"
+>Radio24, intervista&lt;/a>
+&lt;/h3>&lt;p>&lt;a class="link" href="http://www.radio24.ilsole24ore.com/programma/i-lavori-di-domani/agile-coach-175941-AC0jYqU" target="_blank" rel="noopener"
+>&lt;img src="https://ferdinandosantacroce.it/talks/img/lavori-di-domani-radio24-podcast-agile-coach.png"
+width="928"
+height="478"
+srcset="https://ferdinandosantacroce.it/talks/img/lavori-di-domani-radio24-podcast-agile-coach_hu4006925199751881304.png 480w, https://ferdinandosantacroce.it/talks/img/lavori-di-domani-radio24-podcast-agile-coach_hu13074238165179573430.png 1024w"
+loading="lazy"
+alt="I lavori di domani - Agile Coach"
+class="gallery-image"
+data-flex-grow="194"
+data-flex-basis="465px"
+>&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h3 id="-meetup-agile-reloadedhttpswwwmeetupcomit-itagile-reloaded-meetup">🇮🇹 &lt;a class="link" href="https://www.meetup.com/it-IT/Agile-Reloaded-Meetup/" target="_blank" rel="noopener"
+>Meetup Agile Reloaded&lt;/a>
+&lt;/h3>&lt;p>&lt;a class="link" href="https://www.slideshare.net/FerdinandoSantacroce/growing-teams-152158846" target="_blank" rel="noopener"
+>Slides&lt;/a> 🇬🇧
+&lt;a class="link" href="https://www.meetup.com/it-IT/Agile-Reloaded-Meetup/events/262065465/" target="_blank" rel="noopener"
+>&lt;img src="https://ferdinandosantacroce.it/talks/img/growing-teams-meetup-agilereloaded.png"
+width="627"
+height="353"
+srcset="https://ferdinandosantacroce.it/talks/img/growing-teams-meetup-agilereloaded_hu5797837653224109075.png 480w, https://ferdinandosantacroce.it/talks/img/growing-teams-meetup-agilereloaded_hu4641546927665218928.png 1024w"
+loading="lazy"
+alt="Meetup Agile Reloaded - Growing Teams"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+>&lt;/a>
+&lt;em>Meetup Agile Reloaded - Growing Teams&lt;/em>&lt;/p>
+&lt;hr>
+&lt;h3 id="-agile-venture-bolzanohttpswwwagilemovementitventure2019bolzano">🇬🇧 &lt;a class="link" href="https://www.agilemovement.it/venture/2019/bolzano/" target="_blank" rel="noopener"
+>Agile Venture Bolzano&lt;/a>
+&lt;/h3>&lt;p>&lt;a class="link" href="https://sessionize.com/s/ferdinando-santacroce/im_a_mediocre_developer/23243" target="_blank" rel="noopener"
+>I&amp;rsquo;m a mediocre developer on Sessionize&lt;/a>
+&lt;a class="link" href="https://www.slideshare.net/FerdinandoSantacroce/im-a-mediocre-developer-167929970" target="_blank" rel="noopener"
+>Slides&lt;/a> 🇬🇧&lt;/p>
+&lt;p>&lt;img src="https://ferdinandosantacroce.it/talks/img/agile-venture-bolzano-2019.png"
+width="1280"
+height="855"
+srcset="https://ferdinandosantacroce.it/talks/img/agile-venture-bolzano-2019_hu7140558240008157306.png 480w, https://ferdinandosantacroce.it/talks/img/agile-venture-bolzano-2019_hu15153396915210616016.png 1024w"
+loading="lazy"
+alt="Agile Venture Bolzano 2019 - Im a mediocre developer - Ferdinando Santacroce"
+class="gallery-image"
+data-flex-grow="149"
+data-flex-basis="359px"
+>
+&lt;em>Agile Venture Bolzano 2019 - I&amp;rsquo;m a mediocre developer&lt;/em>&lt;/p>
+&lt;hr>
+&lt;h3 id="-meetup-xpug-milanohttpswwwmeetupcomit-itmilano-extreme-programming-user-group">🇮🇹 &lt;a class="link" href="https://www.meetup.com/it-IT/Milano-eXtreme-Programming-User-Group" target="_blank" rel="noopener"
+>Meetup XPUG Milano&lt;/a>
+&lt;/h3>&lt;p>&lt;a class="link" href="https://www.meetup.com/it-IT/Milano-eXtreme-Programming-User-Group/events/260548356/" target="_blank" rel="noopener"
+>Panel: qual è lo stato attuale di eXtreme Programming?&lt;/a>
+&lt;a class="link" href="http://www.youtube.com/watch?v=4CBU7G7s-wE" title="Meetup XPUG Milano - Panel: qual è lo stato attuale di eXtreme Programming? - Ferdinando Santacroce"
+target="_blank" rel="noopener"
+>&lt;img src="http://img.youtube.com/vi/4CBU7G7s-wE/0.jpg"
+loading="lazy"
+alt="Meetup XPUG Milano - Panel: qual è lo stato attuale di eXtreme Programming? - Ferdinando Santacroce"
+>&lt;/a>
+&lt;em>Meetup XPUG Milano - Panel: qual è lo stato attuale di eXtreme Programming?&lt;/em>&lt;/p>
+&lt;hr>
+&lt;h3 id="-meetup-fevr---veronahttpwwwfevrit">🇮🇹 &lt;a class="link" href="http://www.fevr.it" target="_blank" rel="noopener"
+>Meetup FEVR - Verona&lt;/a>
+&lt;/h3>&lt;p>&lt;a class="link" href="http://www.fevr.it/eventi/2019/03/im-a-mediocre-developer/" target="_blank" rel="noopener"
+>I&amp;rsquo;m a mediocre developer - FEVR event&lt;/a>
+&lt;a class="link" href="https://www.facebook.com/marco.albarelli1/videos/10216948832264643/" title="Meetup FEVR - Verona - Sono uno sviluppatore mediocre - Ferdinando Santacroce"
+target="_blank" rel="noopener"
+>&lt;img src="https://ferdinandosantacroce.it/talks/img/sono-uno-sviluppatore-mediocre-fevr-video.png"
+width="1345"
+height="759"
+srcset="https://ferdinandosantacroce.it/talks/img/sono-uno-sviluppatore-mediocre-fevr-video_hu13745723291464385201.png 480w, https://ferdinandosantacroce.it/talks/img/sono-uno-sviluppatore-mediocre-fevr-video_hu9202902817519329407.png 1024w"
+loading="lazy"
+alt="Meetup FEVR - Verona - Sono uno sviluppatore mediocre - Ferdinando Santacroce"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="425px"
+>&lt;/a>
+&lt;em>Meetup FEVR - Verona - Sono uno sviluppatore mediocre - Video&lt;/em>&lt;/p>
+&lt;h2 id="2018">2018
+&lt;/h2>&lt;h3 id="-italian-agile-days-2018---bresciahttpswwwagiledayit">🇮🇹 &lt;a class="link" href="https://www.agileday.it" target="_blank" rel="noopener"
+>Italian Agile Days 2018 - Brescia&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.agileday.it/front/sessions/im-a-mediocre-developer/" target="_blank" rel="noopener"
+>I&amp;rsquo;m a mediocre developer&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.linkedin.com/feed/update/urn:li:activity:6479380811970801664" target="_blank" rel="noopener"
+>Feedback&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.slideshare.net/FerdinandoSantacroce/im-a-mediocre-developer" target="_blank" rel="noopener"
+>Slides&lt;/a> 🇮🇹&lt;/li>
+&lt;li>&lt;a class="link" href="http://www.mokabyte.it/2018/11/sviluppatoremediocre/" target="_blank" rel="noopener"
+>Sono uno sviluppatore mediocre&lt;/a> 🇮🇹&lt;/li>
+&lt;/ul>
+&lt;p>&lt;a class="link" href="https://vimeo.com/306402799" title="Italian Agile Days 2018 - Brescia - I&amp;#39;m a mediocre developer - Ferdinando Santacroce"
+target="_blank" rel="noopener"
+>&lt;img src="https://ferdinandosantacroce.it/talks/img/im-a-mediocre-developer-video.png"
+width="960"
+height="540"
+srcset="https://ferdinandosantacroce.it/talks/img/im-a-mediocre-developer-video_hu15376381784964269361.png 480w, https://ferdinandosantacroce.it/talks/img/im-a-mediocre-developer-video_hu14540260866578928380.png 1024w"
+loading="lazy"
+alt="Italian Agile Days 2018 - Brescia - Im a mediocre developer - Ferdinando Santacroce"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+>&lt;/a>
+&lt;em>Italian Agile Days 2018 - Brescia - I&amp;rsquo;m a mediocre developer - Video&lt;/em>&lt;/p>
+&lt;hr>
+&lt;h3 id="-agile-venture-pratohttpswwwagiledayitmini2018prato">🇮🇹 &lt;a class="link" href="https://www.agileday.it/mini/2018/prato/" target="_blank" rel="noopener"
+>Agile Venture Prato&lt;/a>
+&lt;/h3>&lt;p>Objects Calisthenics Workshop&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.slideshare.net/FerdinandoSantacroce/object-calisthenics-agile-venture-prato-2018" target="_blank" rel="noopener"
+>Slides&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/ferdinandosantacroce/Tennis-Refactoring-Kata" target="_blank" rel="noopener"
+>Tennis Refactoring Kata&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://ferdinandosantacroce.it/talks/img/agile-venture-prato-object-calisthenics-workshop.png"
+width="1024"
+height="768"
+srcset="https://ferdinandosantacroce.it/talks/img/agile-venture-prato-object-calisthenics-workshop_hu2140542218800898013.png 480w, https://ferdinandosantacroce.it/talks/img/agile-venture-prato-object-calisthenics-workshop_hu17611981593853097282.png 1024w"
+loading="lazy"
+alt="Agile Venture Prato 2018 - Objects Calisthenics Workshop"
+class="gallery-image"
+data-flex-grow="133"
+data-flex-basis="320px"
+>
+&lt;em>Agile Venture Prato 2018 - Objects Calisthenics Workshop&lt;/em>&lt;/p>
+&lt;hr>
+&lt;h3 id="-milan-kotlin-community-conf-2018httpsmilankotlincommunityconfcom">🇮🇹🇬🇧 &lt;a class="link" href="https://milan.kotlincommunityconf.com" target="_blank" rel="noopener"
+>Milan Kotlin Community Conf 2018&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>I&amp;rsquo;ve been thee chair of the 1st one-day conference about Kotlin here in Italy :smiley:
+&lt;a class="link" href="https://vimeo.com/showcase/5286228" title="Milan Kotlin Community Conf 2018 - all the videos"
+target="_blank" rel="noopener"
+>&lt;img src="https://ferdinandosantacroce.it/talks/img/milan-kotlin-community-conf-2018-videos.png"
+width="1683"
+height="1271"
+srcset="https://ferdinandosantacroce.it/talks/img/milan-kotlin-community-conf-2018-videos_hu1559999914333738644.png 480w, https://ferdinandosantacroce.it/talks/img/milan-kotlin-community-conf-2018-videos_hu4066475304176995178.png 1024w"
+loading="lazy"
+alt="Milan Kotlin Community Conf 2018 - all the videos"
+class="gallery-image"
+data-flex-grow="132"
+data-flex-basis="317px"
+>&lt;/a>
+&lt;em>Milan Kotlin Community Conf 2018 - all the videos&lt;/em>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="-torino-agile-conference-2018httpswwwagiledayitmini2018torinoferdinandosantacroce">🇮🇹 &lt;a class="link" href="https://www.agileday.it/mini/2018/torino/#ferdinandosantacroce" target="_blank" rel="noopener"
+>Torino Agile Conference 2018&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>&lt;strong>Objcts Calisthenics Workshop&lt;/strong>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://github.com/ferdinandosantacroce/TicTacToe" target="_blank" rel="noopener"
+>TicTacToe kata repo&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3 id="-tdd-milano-meetuphttpswwwmeetupcomit-ittdd-milano-1">🇮🇹 &lt;a class="link" href="https://www.meetup.com/it-IT/TDD-Milano" target="_blank" rel="noopener"
+>TDD Milano Meetup&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.meetup.com/it-IT/TDD-Milano/events/245383610/" target="_blank" rel="noopener"
+>Git Essentials Workshop&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.meetup.com/it-IT/TDD-Milano/events/247937838/" target="_blank" rel="noopener"
+>Object Calisthenics Workshop&lt;/a>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://www.slideshare.net/FerdinandoSantacroce/object-calisthenics-tdd-milano" target="_blank" rel="noopener"
+>Slides&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/ferdinandosantacroce/KataFarkle" target="_blank" rel="noopener"
+>Farkle kata repo&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="2017">2017
+&lt;/h2>&lt;p>In 2017 I focused on organizing events, rather than partecipating as a speaker 😊&lt;/p>
+&lt;h3 id="-italian-agile-movementhttpwwwagilemovementit">🇮🇹 &lt;a class="link" href="http://www.agilemovement.it/" target="_blank" rel="noopener"
+>Italian Agile Movement&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>I&amp;rsquo;ve been elected as advisor. I help organizing &lt;a class="link" href="http://www.agileday.it/" target="_blank" rel="noopener"
+>Italian Agile Days&lt;/a> and many other conferences all around Italy.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="2016">2016
+&lt;/h2>&lt;h3 id="-italian-agile-days-2016---paviahttpwwwagiledayit2016">🇮🇹 &lt;a class="link" href="http://www.agileday.it/2016/" target="_blank" rel="noopener"
+>Italian Agile Days 2016 - Pavia&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>&lt;a class="link" href="http://www.agileday.it/front/sessions/4888/" target="_blank" rel="noopener"
+>TDD a piccoli passi&lt;/a>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://joind.in/event/iad16---italian-agile-days-2016/tdd-a-piccoli-passi" target="_blank" rel="noopener"
+>Feedback&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.slideshare.net/FerdinandoSantacroce/tdd-a-piccoli-passi" target="_blank" rel="noopener"
+>Slides&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://github.com/ferdinandosantacroce/SmallStepsTDD" target="_blank" rel="noopener"
+>GitHub repo&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;a class="link" href="https://vimeo.com/198011164" title="Italian Agile Days 2016 - Pavia - TDD a piccoli passi - Ferdinando Santacroce"
+target="_blank" rel="noopener"
+>&lt;img src="https://ferdinandosantacroce.it/talks/img/tdd-a-piccoli-passi-video.png"
+width="960"
+height="540"
+srcset="https://ferdinandosantacroce.it/talks/img/tdd-a-piccoli-passi-video_hu8622126134495119371.png 480w, https://ferdinandosantacroce.it/talks/img/tdd-a-piccoli-passi-video_hu7081118731738820702.png 1024w"
+loading="lazy"
+alt="Italian Agile Days 2016 - Pavia - TDD a piccoli passi - Ferdinando Santacroce"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+>&lt;/a>
+&lt;em>Italian Agile Days 2016 - Pavia - TDD a piccoli passi&lt;/em>&lt;/p>
+&lt;hr>
+&lt;h3 id="-mini-italian-agile-day-savona-2016httpwwwagiledayitmini2016savona">🇮🇹 &lt;a class="link" href="http://www.agileday.it/mini/2016/savona/" target="_blank" rel="noopener"
+>Mini Italian Agile Day, Savona, 2016&lt;/a>
+&lt;/h3>&lt;p>&lt;a class="link" href="https://www.slideshare.net/FerdinandoSantacroce/agile-versioning-with-git-60998779" target="_blank" rel="noopener"
+>&lt;img src="https://ferdinandosantacroce.it/talks/img/agile-versioning-with-git-slides.png"
+width="642"
+height="670"
+srcset="https://ferdinandosantacroce.it/talks/img/agile-versioning-with-git-slides_hu3967507338074411925.png 480w, https://ferdinandosantacroce.it/talks/img/agile-versioning-with-git-slides_hu10302681907506438004.png 1024w"
+loading="lazy"
+alt="Agile versioning with Git - Savona - 2016"
+class="gallery-image"
+data-flex-grow="95"
+data-flex-basis="229px"
+>&lt;/a>
+&lt;em>Agile versioning with Git - Savona - 2016&lt;/em>&lt;/p></description></item><item><title>Works</title><link>https://ferdinandosantacroce.it/works/</link><pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate><guid>https://ferdinandosantacroce.it/works/</guid><description>&lt;p>Under construction 👨‍💻&lt;/p></description></item><item><title>Elastic Pair Programming</title><link>https://ferdinandosantacroce.it/p/elastic-pair-programming/</link><pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate><guid>https://ferdinandosantacroce.it/p/elastic-pair-programming/</guid><description>&lt;img src="https://ferdinandosantacroce.it/p/elastic-pair-programming/cover.jpg" alt="Featured image of post Elastic Pair Programming" />&lt;p>Some time ago I spent &lt;a class="link" href="https://blog.adrianbolboaca.ro/2018/03/remotepairprogramming-ep-009-adi-ferdinando-elastic-pair-programming/" target="_blank" rel="noopener"
+>a wonderful evening&lt;/a> with &lt;a class="link" href="https://blog.adrianbolboaca.ro/" target="_blank" rel="noopener"
+>Adrian Bolboacă&lt;/a>, trying for the first time in public a pair programming technique I had observed and experimented in companies where I worked.&lt;/p>
+&lt;p>In this post, I&amp;rsquo;ll tell you about the characteristics of this approach.&lt;/p>
+&lt;h2 id="traditional-pair-programming">Traditional pair programming
+&lt;/h2>&lt;p>&lt;a class="link" href="https://en.wikipedia.org/wiki/Pair_programming" target="_blank" rel="noopener"
+>Pair programming&lt;/a> is a cornerstone practice of &lt;a class="link" href="https://en.wikipedia.org/wiki/Extreme_programming" target="_blank" rel="noopener"
+>eXtreme Programming&lt;/a> (XP), and I won&amp;rsquo;t go into detail explaining it. You can find a comprehensive description on the &lt;a class="link" href="https://wiki.c2.com/?PairProgramming" target="_blank" rel="noopener"
+>good old C2 Wiki&lt;/a>.&lt;/p>
+&lt;p>There are various ways to do pair programming; in his latest book, &amp;ldquo;&lt;a class="link" href="https://www.packtpub.com/product/practical-remote-pair-programming/9781800561366" target="_blank" rel="noopener"
+>Practical Remote Pair Programming&lt;/a>,&amp;rdquo; Adrian illustrates very well some of the most commonly used approaches.&lt;/p>
+&lt;p>Normally, pair programming practice is quite disciplined; roles are well-defined, and there are rules and timings to respect.&lt;/p>
+&lt;p>&lt;strong>Discipline is one of the strengths&lt;/strong> of the technique, especially at the beginning of the journey toward XP.&lt;/p>
+&lt;p>Through this practice, continuous collaboration with colleagues is triggered, strengthening the individual&amp;rsquo;s ability to understand and elaborate domain concepts.&lt;/p>
+&lt;p>After years of practice, a stable team reaches a high mastery of their application domain, technologies, and techniques adopted by the team.&lt;/p>
+&lt;p>At that point, &lt;strong>&amp;ldquo;classic&amp;rdquo; pair programming often ends up feeling restrictive&lt;/strong>, and it&amp;rsquo;s in these occasions that it&amp;rsquo;s possible to loosen the rules a bit and move to a more elastic working mode.&lt;/p>
+&lt;h2 id="elastic-pair-programming">Elastic pair programming
+&lt;/h2>&lt;p>The name &amp;ldquo;&lt;em>elastic pair programming&lt;/em>&amp;rdquo; came as a bit of a surprise; before discussing with Adi, I had never thought of this approach as something defined, to which I could give a name.&lt;/p>
+&lt;p>Despite this, I&amp;rsquo;d say the definition well represents the main characteristic of the approach, namely the elasticity of rules and roles.&lt;/p>
+&lt;p>To tell the truth, there&amp;rsquo;s only one rule: &lt;strong>ideas (and keyboard) are exchanged continuously&lt;/strong>.&lt;/p>
+&lt;p>I found this way of working very effective in different situations.&lt;/p>
+&lt;p>The most classic is when there are two people at the keyboard who have known each other for a long time, both experienced professionals.&lt;/p>
+&lt;p>They don&amp;rsquo;t necessarily have to be experts in the same domain or the same techniques; in fact, I&amp;rsquo;ve often found it interesting to encourage confrontation between different points of view.&lt;/p>
+&lt;p>The idea is that, faced with a thorny or peculiar problem, an expert developer calls upon a peer to &lt;strong>share and possibly refute the solution hypothesis&lt;/strong>, and perhaps arrive at a better or unexpected solution for both.&lt;/p>
+&lt;p>I&amp;rsquo;ve often used this technique in &amp;ldquo;on-demand&amp;rdquo; mode, involving colleagues who don&amp;rsquo;t normally pair program with me or in teams where the practice wasn&amp;rsquo;t customary.&lt;/p>
+&lt;p>&lt;strong>The practice is also interesting for &amp;ldquo;unblocking&amp;rdquo; colleagues who are skeptical&lt;/strong> about pair programming.&lt;/p>
+&lt;p>It happened to me to be welcomed into a team of only seniors, all very skilled in the application domain, where everyone developed quite independently from others.&lt;/p>
+&lt;p>I needed to learn quickly, so I tried to introduce pair programming practice in the team to encourage sharing opportunities; although colleagues were available, their impatience with the rules imposed by the practice was quite evident to me.&lt;/p>
+&lt;p>At that point, when I understood that the pair programming experiment would inevitably fail, I looked for approaches and solutions to not lose the opportunities for confrontation, so useful for me (but ultimately for the entire team).&lt;/p>
+&lt;p>In this situation, we therefore relaxed the rules, allowing ourselves to take the keyboard at any moment to intervene.&lt;/p>
+&lt;p>Tests, implementations, and solutions then began to emerge more easily, and so did discussions about language details, patterns, or different approaches that each of us, through experience, had accumulated over the years.&lt;/p>
+&lt;p>In this situation, I still managed to obtain the benefits of knowledge sharing, very important for me, giving up the &amp;ldquo;side-effect&amp;rdquo; (which I still appreciate) of discipline and cadence that traditional pair programming provides.&lt;/p>
+&lt;p>Another situation I remember well was what happened &lt;a class="link" href="https://www.intre.it/camp-2/" target="_blank" rel="noopener"
+>when I worked with my colleagues&lt;/a> in guilds.&lt;/p>
+&lt;p>&lt;a class="link" href="https://www.intre.it/gilde/" target="_blank" rel="noopener"
+>Guilds&lt;/a> are a very powerful tool that the company made available to us for learning, growing, and improving our capabilities.&lt;/p>
+&lt;p>In guilds, ad-hoc teams work on a project proposed and chosen by them, with the aim of exploring new technologies or approaches.&lt;/p>
+&lt;p>In situations like these, very relaxed and open to confrontation, we found benefit in working using this elastic style of pair programming, and it was then quite natural for us to evolve to what is now commonly referred to as &lt;a class="link" href="https://en.wikipedia.org/wiki/Mob_programming" target="_blank" rel="noopener"
+>ensemble (Mob) programming&lt;/a>.&lt;/p>
+&lt;h2 id="pitfalls">Pitfalls
+&lt;/h2>&lt;p>This technique has only one rule, but you need to be careful: &lt;strong>it&amp;rsquo;s precisely when there are few rules that it&amp;rsquo;s easier to make mistakes&lt;/strong>.&lt;/p>
+&lt;p>This approach can easily become a system for not doing pair programming; having no &amp;ldquo;obligations,&amp;rdquo; it&amp;rsquo;s easy to fall into the anti-pattern where the driver writes code and works alone, while the navigator thinks about something else&amp;hellip;&lt;/p>
+&lt;p>&lt;img src="https://ferdinandosantacroce.it/p/elastic-pair-programming/dilbert-extreme-programming.png"
+width="900"
+height="283"
+srcset="https://ferdinandosantacroce.it/p/elastic-pair-programming/dilbert-extreme-programming_hu14500715051314738844.png 480w, https://ferdinandosantacroce.it/p/elastic-pair-programming/dilbert-extreme-programming_hu5082216468499959672.png 1024w"
+loading="lazy"
+alt="Extreme Programming according to Dilbert"
+class="gallery-image"
+data-flex-grow="318"
+data-flex-basis="763px"
+>&lt;/p>
+&lt;p>In this situation, it&amp;rsquo;s better to go back to working individually and perhaps reflect at the team level on what prevents this kind of collaboration and what alternatives we have to continue maintaining a high flow of information between people.&lt;/p>
+&lt;p>&lt;strong>Even in elastic pair programming mode, working agreements are established&lt;/strong>, including for example keeping smartphones and distractions away.&lt;/p>
+&lt;p>On some occasions, I&amp;rsquo;ve worked in pairs with a second computer in addition to the main one, a bit like what&amp;rsquo;s also allowed in ensemble programming. The secondary computer is for support: the navigator can use it, for example, to search for something online while the driver remains focused on the code, certainly not to mind their own business. The goal always remains to write code and solve problems together.&lt;/p>
+&lt;p>Another recommendation is not to use this technique without experience in traditional pair programming, or between two people who are both not well-versed in technique and/or domain. In this case, you easily risk losing your bearings and foundering.&lt;/p>
+&lt;p>As a famous Italian commercial said a few years ago, elastic pair programming is &lt;a class="link" href="https://www.youtube.com/watch?v=vJ1wwYCGkIg&amp;amp;t=1s" target="_blank" rel="noopener"
+>for many, but not for everyone&lt;/a> 🙂&lt;/p>
+&lt;p>The trick I use to decide whether it&amp;rsquo;s appropriate to use this approach is to ask myself a simple question: &amp;ldquo;&lt;em>Could you solve this problem alone?&lt;/em>&amp;rdquo; If the answer is something like &amp;ldquo;&lt;em>Yes, but I&amp;rsquo;m curious to know how -insert name here- would solve it&lt;/em>&amp;rdquo;, there are the premises for a good elastic pair programming session.&lt;/p>
+&lt;h2 id="remote-elastic-pair-programming">Remote elastic pair programming
+&lt;/h2>&lt;p>The experience with Adi made me understand that this style can also work remotely.&lt;/p>
+&lt;p>In fact, &lt;strong>the continuous search for consensus and role exchange keeps people&amp;rsquo;s attention high&lt;/strong>, preventing physical distance from lowering confrontation and exchange of ideas.&lt;/p>
+&lt;p>For a few years now, I&amp;rsquo;ve stopped being a full-time programmer, although I often do my work as a coach and trainer in software development teams.&lt;/p>
+&lt;p>In the experiences I&amp;rsquo;ve gained in the last year and a half of forced remote work, I&amp;rsquo;ve been able to observe the effectiveness of this style, even though people were often unaware of doing this kind of pair programming 🙂&lt;/p>
+&lt;h2 id="conclusions">Conclusions
+&lt;/h2>&lt;p>I don&amp;rsquo;t think I invented anything new with this technique, perhaps just gave a name to a practice that many programmers already adopt.&lt;/p>
+&lt;p>I hope this awareness adds one more option to your toolbox 😉&lt;/p></description></item><item><title>About</title><link>https://ferdinandosantacroce.it/about/</link><pubDate>Sun, 29 Apr 2018 23:12:35 -0400</pubDate><guid>https://ferdinandosantacroce.it/about/</guid><description>&lt;img src="https://ferdinandosantacroce.it/about/cover.jpg" alt="Featured image of post About" />&lt;p>When I started teaching Information Technology right after my diploma in 1998, I never imagined I&amp;rsquo;d spend the next 27 years falling deeper in love with software and the people who create it. What began as building simple school websites evolved into a passion for helping teams write software that genuinely makes users happy and companies thrive.&lt;/p>
+&lt;p>I&amp;rsquo;m someone who believes that great software comes from great teams, and great teams need the right environment to flourish. My journey from developer to coach has taught me that technology is just the tool - it&amp;rsquo;s the human connections, clear communication, and shared purpose that create extraordinary results. As a developer, the thing I love the most is testing and modernizing legacy code, not just because it improves systems, but because it empowers teams to take ownership of their work and innovate without fear.&lt;/p>
+&lt;p>I&amp;rsquo;ve always been drawn to the &amp;ldquo;why&amp;rdquo; behind things. Whether I&amp;rsquo;m reading essays on psychology and sociology, entertaining myself with philosophy, or diving into communication techniques, I&amp;rsquo;m constantly exploring what makes teams tick. This curiosity has shaped my coaching approach - I don&amp;rsquo;t just facilitate events, I help teams understand themselves and each other (&lt;a class="link" href="https://wiki.c2.com/?TheCoach" target="_blank" rel="noopener"
+>watching everything, sending obscure signals&amp;hellip;&lt;/a>).&lt;/p>
+&lt;p>What my colleagues often notice is that I bring technical credibility with genuine empathy. Having written code for many different industries, I understand the daily frustrations developers face. But my studies in active listening and transactional analysis help me create the psychological safety where those frustrations can be addressed constructively.&lt;/p>
+&lt;p>I&amp;rsquo;m the type of person who co-founds conferences not for recognition, but because I genuinely believe in building community. I organize events, write articles, and speak at meetups because sharing knowledge feels natural to me. My colleagues in Italy know me as someone who shows up - not just professionally, but as a whole person invested in our collective growth.&lt;/p>
+&lt;p>I&amp;rsquo;ve worked with 80+ teams across banks, startups, and enterprises, and what excites me isn&amp;rsquo;t checking boxes on agile events - it&amp;rsquo;s those moments when a team suddenly clicks. When developers start collaborating instead of competing. When stakeholders begin trusting the process. When everyone realizes they&amp;rsquo;re building something meaningful together.&lt;/p></description></item><item><title>Resources</title><link>https://ferdinandosantacroce.it/resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ferdinandosantacroce.it/resources/</guid><description>&lt;img src="https://ferdinandosantacroce.it/resources/cover.jpg" alt="Featured image of post Resources" />&lt;p>Under construction 👨‍💻&lt;/p></description></item><item><title>Search</title><link>https://ferdinandosantacroce.it/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ferdinandosantacroce.it/search/</guid><description/></item></channel></rss>
