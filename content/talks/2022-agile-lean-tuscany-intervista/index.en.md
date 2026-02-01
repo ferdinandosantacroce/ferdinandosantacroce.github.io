@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Intervista con Andrea Gelli - Agile Lean Tuscany"
 date: 2022-02-15
 image: intervista-agile-lean-tuscany.png

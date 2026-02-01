@@ -1,0 +1,7 @@
+.git
+public/
+resources/
+node_modules/
+.DS_Store
+.gemini/
+specs/

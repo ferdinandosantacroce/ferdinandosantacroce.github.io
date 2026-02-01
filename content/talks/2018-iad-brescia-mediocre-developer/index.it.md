@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Sono uno sviluppatore mediocre - Italian Agile Days 2018 Brescia"
 date: 2018-11-10
 image: im-a-mediocre-developer-video.png

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Refactoring Showdown - TDD Milano Meetup"
 date: 2022-03-06
 image: workshop-refactoring-showdown.png

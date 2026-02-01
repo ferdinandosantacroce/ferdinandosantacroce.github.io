@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Assessment tecnico di un team di sviluppo - Agile Reloaded Meetup"
 date: 2022-03-05
 image: talk-assessment-tecnico-di-un-team-di-sviluppo-miro-board.png

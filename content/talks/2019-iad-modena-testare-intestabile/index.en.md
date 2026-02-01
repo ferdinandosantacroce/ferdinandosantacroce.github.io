@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Testare l'intestabile - Italian Agile Days Modena 2019"
 date: 2019-11-09
 categories:

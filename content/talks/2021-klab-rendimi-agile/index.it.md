@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Rendimi agile, ma non subito - KLab Community"
 date: 2021-11-15
 image: http://img.youtube.com/vi/pj2eRrh1jZk/0.jpg

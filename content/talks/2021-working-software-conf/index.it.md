@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Working Software Conf 2021 - remote edition"
 date: 2021-06-01
 image: working-software-2021-gathertown.png

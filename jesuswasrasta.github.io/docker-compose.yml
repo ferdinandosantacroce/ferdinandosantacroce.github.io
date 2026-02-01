@@ -1,0 +1,13 @@
+name: jesuswasrasta.com
+
+services:
+  jekyll:
+    image: jekyll/builder
+    container_name: jekyll
+    volumes:
+      - .:/srv/jekyll
+      - ./vendor/bundle/:/usr/local/bundle
+    ports:
+      - "4000:4000"
+    command: jekyll serve --force_polling --drafts
+    tty: true

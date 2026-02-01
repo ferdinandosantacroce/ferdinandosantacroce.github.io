@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Milan Kotlin Community Conf 2018 - Conference Chair"
 date: 2018-06-15
 image: milan-kotlin-community-conf-2018-videos.png

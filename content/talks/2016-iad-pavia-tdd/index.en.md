@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "TDD a piccoli passi - Italian Agile Days 2016 Pavia"
 date: 2016-11-19
 image: tdd-a-piccoli-passi-video.png

@@ -1,0 +1,35 @@
+# .travis.yml
+# This file should be at the root of your project
+#
+language: ruby
+rvm:
+ - 2.5.3
+cache:
+  bundler: true
+  # directories:
+  #   - $TRAVIS_BUILD_DIR/tmp/.htmlproofer
+before_install:
+  - gem install bundler
+gemfile: Gemfile
+script:
+  - bundle exec jekyll algolia --source docs --destination _site --config _config.yml
+branches:
+  only:
+    # Change this to gh-pages if you're deploying using the gh-pages branch
+    - master
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+
+sudo: false # route your build to the container-based infrastructure for a faster build
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep-history: false
+  local_dir: _site
+  # repo: jesuswasrasta/jesuswasrasta.com # in case I wanted to build my page in other repo
+  target-branch: gh-pages
+  on:
+    branch: master

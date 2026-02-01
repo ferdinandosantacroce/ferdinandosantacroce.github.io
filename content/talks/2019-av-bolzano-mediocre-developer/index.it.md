@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Sono uno sviluppatore mediocre - Agile Venture Bolzano 2019"
 date: 2019-03-25
 image: agile-venture-bolzano-2019.png

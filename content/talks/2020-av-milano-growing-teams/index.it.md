@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Growing Teams - Agile Venture Milano 2020"
 date: 2020-02-28
 image: growing-teams-video.png

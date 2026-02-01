@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Workshop Objects Calisthenics - Agile Venture Prato 2018"
 date: 2018-10-15
 image: agile-venture-prato-object-calisthenics-workshop.png

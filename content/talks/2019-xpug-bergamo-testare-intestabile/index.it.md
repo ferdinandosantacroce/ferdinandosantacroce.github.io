@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Testare l'intestabile - XPUG Bergamo 2019"
 date: 2019-09-01
 image: xpugbg-youtube-video-channel.png

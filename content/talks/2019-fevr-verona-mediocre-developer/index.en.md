@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "I'm a mediocre developer - Meetup FEVR Verona"
 date: 2019-03-01
 image: sono-uno-sviluppatore-mediocre-fevr-video.png

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Advisor Italian Agile Movement"
 date: 2017-01-01
 categories:

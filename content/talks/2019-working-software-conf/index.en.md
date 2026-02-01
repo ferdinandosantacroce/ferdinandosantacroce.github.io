@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Working Software Conf 2019 - Conference Chair"
 date: 2019-06-15
 image: working-software-2019-intro-video.png

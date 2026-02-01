@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Panel: qual è lo stato attuale di eXtreme Programming? - XPUG Milano"
 date: 2019-03-15
 image: http://img.youtube.com/vi/4CBU7G7s-wE/0.jpg

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Mining Code Repositories - TDD Milano Meetup"
 date: 2020-09-15
 image: http://img.youtube.com/vi/KdrO_SQe-ds/0.jpg

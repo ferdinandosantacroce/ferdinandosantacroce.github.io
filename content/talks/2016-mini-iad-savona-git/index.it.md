@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Versioning agile con Git - Mini Italian Agile Day Savona 2016"
 date: 2016-04-15
 image: agile-versioning-with-git-slides.png
