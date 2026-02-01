@@ -7,9 +7,9 @@ categories:
 ---
 Workshop Objects Calisthenics
 
-* [Slides](https://www.slideshare.net/FerdinandoSantacroce/object-calisthenics-agile-venture-prato-2018)
+* [Slide](https://www.slideshare.net/FerdinandoSantacroce/object-calisthenics-agile-venture-prato-2018)
 * [Tennis Refactoring Kata](https://github.com/ferdinandosantacroce/Tennis-Refactoring-Kata)
 
-![Agile Venture Prato 2018 - Objects Calisthenics Workshop](agile-venture-prato-object-calisthenics-workshop.png)
+<img src="agile-venture-prato-object-calisthenics-workshop.png" width="300" alt="Agile Venture Prato 2018 - Workshop Objects Calisthenics">
 
 _Agile Venture Prato 2018 - Workshop Objects Calisthenics_

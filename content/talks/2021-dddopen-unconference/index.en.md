@@ -7,4 +7,6 @@ categories:
 ---
 I'm one of the co-founder of DDDOpen community 😊
 
-[![DDDOpen Unconference](dddopen-unconference.png)](https://twitter.com/dddopen "DDDOpen Unconference")
+<a href="https://twitter.com/dddopen">
+    <img src="dddopen-unconference.png" width="300" alt="DDDOpen Unconference">
+</a>

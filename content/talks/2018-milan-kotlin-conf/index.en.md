@@ -7,6 +7,8 @@ categories:
 ---
 * I've been thee chair of the 1st one-day conference about Kotlin here in Italy :smiley:
 
-[![Milan Kotlin Community Conf 2018 - all the videos](milan-kotlin-community-conf-2018-videos.png)](https://vimeo.com/showcase/5286228 "Milan Kotlin Community Conf 2018 - all the videos")
+<a href="https://vimeo.com/showcase/5286228">
+    <img src="milan-kotlin-community-conf-2018-videos.png" width="300" alt="Milan Kotlin Community Conf 2018 - all the videos">
+</a>
 
 _Milan Kotlin Community Conf 2018 - all the videos_

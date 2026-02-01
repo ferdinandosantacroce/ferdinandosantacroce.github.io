@@ -9,6 +9,6 @@ categories:
 
 [Slides](https://www.slideshare.net/FerdinandoSantacroce/im-a-mediocre-developer-167929970) 🇬🇧
 
-![Agile Venture Bolzano 2019 - Sono uno sviluppatore mediocre - Ferdinando Santacroce](agile-venture-bolzano-2019.png)
+<img src="agile-venture-bolzano-2019.png" width="300" alt="Agile Venture Bolzano 2019 - Sono uno sviluppatore mediocre">
 
 _Agile Venture Bolzano 2019 - Sono uno sviluppatore mediocre_

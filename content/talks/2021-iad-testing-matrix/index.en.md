@@ -5,10 +5,14 @@ image: agile-testing-matrix-video.png
 categories:
     - talks
 ---
-[![Agile Testing Matrix Miro board](agile-testing-matrix-iad21-miro-board.png)](https://miro.com/app/board/o9J_lmC9ZLE=/ "Agile Testing Matrix Miro board")
+<a href="https://miro.com/app/board/o9J_lmC9ZLE=/">
+    <img src="agile-testing-matrix-iad21-miro-board.png" width="300" alt="Agile Testing Matrix Miro board">
+</a>
 
 _Agile Testing Matrix - Miro board_
 
-[![Italian Agile Days 2021 - Agile Testing Matrix - Ferdinando Santacroce](agile-testing-matrix-video.png)](https://vimeo.com/648776317 "Italian Agile Days 2021 - Agile Testing Matrix - Ferdinando Santacroce")
+<a href="https://vimeo.com/648776317">
+    <img src="agile-testing-matrix-video.png" width="300" alt="Italian Agile Days 2021 - Agile Testing Matrix">
+</a>
 
 _Italian Agile Days 2021 - Agile Testing Matrix - Video_

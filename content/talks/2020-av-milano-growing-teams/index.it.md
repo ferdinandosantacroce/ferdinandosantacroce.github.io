@@ -9,6 +9,8 @@ Growing Teams talk :movie_camera: 🇮🇹🇬🇧
 
 [Slides](https://www.slideshare.net/FerdinandoSantacroce/growing-teams-152158846) 🇬🇧
 
-[![Agile Venture Milano 2020 - Growing Teams - Ferdinando Santacroce](growing-teams-video.png)](https://vimeo.com/394385611 "Agile Venture Milano 2020 - Growing Teams - Ferdinando Santacroce")
+<a href="https://vimeo.com/394385611">
+    <img src="growing-teams-video.png" width="300" alt="Agile Venture Milano 2020 - Growing Teams">
+</a>
 
 _Agile Venture Milano 2020 - Growing Teams - Video_

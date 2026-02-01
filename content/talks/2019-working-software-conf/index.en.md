@@ -7,10 +7,14 @@ categories:
 ---
 I've been the chair of this great... GREAT event! 😊
 
-[![Working Software Conf 2019 - Intro - Ferdinando Santacroce](working-software-2019-intro-video.png)](https://vimeo.com/351825816 "Working Software Conf 2019 - Intro - Ferdinando Santacroce")
+<a href="https://vimeo.com/351825816">
+    <img src="working-software-2019-intro-video.png" width="300" alt="Working Software Conf 2019 - Intro">
+</a>
 
 _Working Software Conf 2019 - Intro - Video_
 
-[![Working Software Conf 2019 - All the videos](working-software-2019-all-the-videos.png)](https://vimeo.com/showcase/6189515 "Working Software Conf 2019 - All the videos")
+<a href="https://vimeo.com/showcase/6189515">
+    <img src="working-software-2019-all-the-videos.png" width="300" alt="Working Software Conf 2019 - All the videos">
+</a>
 
 _Working Software Conf 2019 - All the videos_

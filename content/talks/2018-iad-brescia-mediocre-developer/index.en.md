@@ -10,6 +10,8 @@ categories:
 * [Slides](https://www.slideshare.net/FerdinandoSantacroce/im-a-mediocre-developer) 🇮🇹
 * [Sono uno sviluppatore mediocre](http://www.mokabyte.it/2018/11/sviluppatoremediocre/) 🇮🇹
 
-[![Italian Agile Days 2018 - Brescia - I'm a mediocre developer - Ferdinando Santacroce](im-a-mediocre-developer-video.png)](https://vimeo.com/306402799 "Italian Agile Days 2018 - Brescia - I'm a mediocre developer - Ferdinando Santacroce")
+<a href="https://vimeo.com/306402799">
+    <img src="im-a-mediocre-developer-video.png" width="300" alt="Italian Agile Days 2018 - Brescia - I'm a mediocre developer">
+</a>
 
 _Italian Agile Days 2018 - Brescia - I'm a mediocre developer - Video_

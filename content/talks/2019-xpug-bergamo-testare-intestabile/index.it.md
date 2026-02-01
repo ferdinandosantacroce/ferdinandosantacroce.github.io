@@ -5,14 +5,16 @@ image: xpugbg-youtube-video-channel.png
 categories:
     - talks
 ---
-Testare l'intestabile, workshop sul legacy code
+Testare l'intestabile, workshop on legacy code
 
-[Recap sul blog di XPUGBG](https://xpugbg.it/blog/meetup-workshop-testare-l-intestabile-ferdinando-santacroce-resoconto/)
+[Recap on XPUGBG blog](https://xpugbg.it/blog/meetup-workshop-testare-l-intestabile-ferdinando-santacroce-resoconto/)
 
 [Slides](https://www.slideshare.net/FerdinandoSantacroce/testare-lintestabile-workshop-xpugbg)
 
 [Trivia Kata in Java](https://github.com/ferdinandosantacroce/trivia-java)
 
-[![XPUGBG video channel](xpugbg-youtube-video-channel.png)](http://www.youtube.com/channel/UCkcDXjR2__NioW1m4voqH6w)
+<a href="http://www.youtube.com/channel/UCkcDXjR2__NioW1m4voqH6w">
+    <img src="xpugbg-youtube-video-channel.png" width="300" alt="XPUGBG video channel">
+</a>
 
 _XPUGBG video channel_

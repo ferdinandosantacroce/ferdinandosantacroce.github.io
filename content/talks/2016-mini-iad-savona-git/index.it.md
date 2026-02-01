@@ -5,6 +5,8 @@ image: agile-versioning-with-git-slides.png
 categories:
     - talks
 ---
-[![Versioning agile con Git - Savona - 2016](agile-versioning-with-git-slides.png)](https://www.slideshare.net/FerdinandoSantacroce/agile-versioning-with-git-60998779)
+<a href="https://www.slideshare.net/FerdinandoSantacroce/agile-versioning-with-git-60998779">
+    <img src="agile-versioning-with-git-slides.png" width="300" alt="Versioning agile con Git - Savona - 2016">
+</a>
 
 _Versioning agile con Git - Savona - 2016_

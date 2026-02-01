@@ -7,4 +7,6 @@ categories:
 ---
 Sono uno dei co-fondatori della community DDDOpen 😊
 
-[![DDDOpen Unconference](dddopen-unconference.png)](https://twitter.com/dddopen "DDDOpen Unconference")
+<a href="https://twitter.com/dddopen">
+    <img src="dddopen-unconference.png" width="300" alt="DDDOpen Unconference">
+</a>

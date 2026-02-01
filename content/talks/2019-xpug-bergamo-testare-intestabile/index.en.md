@@ -13,6 +13,8 @@ Testare l'intestabile, workshop on legacy code
 
 [Trivia Kata in Java](https://github.com/ferdinandosantacroce/trivia-java)
 
-[![XPUGBG video channel](xpugbg-youtube-video-channel.png)](http://www.youtube.com/channel/UCkcDXjR2__NioW1m4voqH6w)
+<a href="http://www.youtube.com/channel/UCkcDXjR2__NioW1m4voqH6w">
+    <img src="xpugbg-youtube-video-channel.png" width="300" alt="XPUGBG video channel">
+</a>
 
 _XPUGBG video channel_

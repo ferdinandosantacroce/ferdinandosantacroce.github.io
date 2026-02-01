@@ -5,10 +5,14 @@ image: working-software-2021-gathertown.png
 categories:
     - talks
 ---
-[![GatherTown space](working-software-2021-gathertown.png)](https://gather.town/app/NvjSrqLIEcqGFKCV/working-software)
+<a href="https://gather.town/app/NvjSrqLIEcqGFKCV/working-software">
+    <img src="working-software-2021-gathertown.png" width="300" alt="GatherTown space">
+</a>
 
 _Working Software Conf 2021 - GatherTown space_
 
-[![Miro board](working-software-2021-miro-board.png)](https://miro.com/app/board/o9J_lEi_PG4=/)
+<a href="https://miro.com/app/board/o9J_lEi_PG4=/">
+    <img src="working-software-2021-miro-board.png" width="300" alt="Miro board">
+</a>
 
 _Working Software Conf 2021 - Miro board_

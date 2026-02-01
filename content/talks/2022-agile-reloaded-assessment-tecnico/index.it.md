@@ -9,4 +9,6 @@ categories:
 
 Quattro chiacchiere su strumenti e approcci per valutare i team di sviluppo.
 
-[![Miro board](talk-assessment-tecnico-di-un-team-di-sviluppo-miro-board.png)](https://miro.com/app/board/uXjVOJrieKg=/)
+<a href="https://miro.com/app/board/uXjVOJrieKg=/">
+    <img src="talk-assessment-tecnico-di-un-team-di-sviluppo-miro-board.png" width="300" alt="Miro board">
+</a>

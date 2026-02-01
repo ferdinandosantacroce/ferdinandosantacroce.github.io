@@ -55,3 +55,11 @@ This is the personal blog of **Ferdinando Santacroce**, built with **Hugo** and 
 -   **Recent**: Updated Hugo version in GitHub Actions (001-update-hugo).
 -   **Pending**: Italian date formatting.
 -   **Pending**: Auto-linking articles across languages.
+
+## Recent Changes
+- 001-talk-page-layout: Added Hugo (managed via Go modules), CSS + Hugo Theme Stack v3
+- 001-talk-page-layout: Added [if applicable, e.g., PostgreSQL, CoreData, files or N/A]
+
+## Active Technologies
+- Hugo (managed via Go modules), CSS + Hugo Theme Stack v3 (001-talk-page-layout)
+- Markdown files, Static assets (001-talk-page-layout)

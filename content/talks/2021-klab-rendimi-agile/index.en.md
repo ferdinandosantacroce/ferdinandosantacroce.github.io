@@ -7,6 +7,8 @@ categories:
 ---
 [Rendimi agile, ma non subito](https://www.meetup.com/it-IT/KLab-Community/events/281541073/)
 
-[![Rendimi agile, ma non subito](http://img.youtube.com/vi/pj2eRrh1jZk/0.jpg)](https://www.youtube.com/watch?v=pj2eRrh1jZk "Rendimi agile, ma non subito")
+<a href="https://www.youtube.com/watch?v=pj2eRrh1jZk">
+    <img src="http://img.youtube.com/vi/pj2eRrh1jZk/0.jpg" width="300" alt="Rendimi agile, ma non subito">
+</a>
 
 _Rendimi agile, ma non subito - Video_

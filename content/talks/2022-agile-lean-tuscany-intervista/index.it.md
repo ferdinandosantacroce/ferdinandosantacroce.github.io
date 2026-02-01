@@ -5,6 +5,8 @@ image: intervista-agile-lean-tuscany.png
 categories:
     - talks
 ---
-[![Intervista con Andrea Gelli](intervista-agile-lean-tuscany.png)](https://www.linkedin.com/posts/andreagelli_agile-technical-coach-activity-6904700177127735296-ebLr "Intervista con Andrea Gelli")
+<a href="https://www.linkedin.com/posts/andreagelli_agile-technical-coach-activity-6904700177127735296-ebLr">
+    <img src="intervista-agile-lean-tuscany.png" width="300" alt="Intervista con Andrea Gelli">
+</a>
 
 _Intervista con Andrea Gelli - Video_
