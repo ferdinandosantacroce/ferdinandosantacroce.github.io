@@ -1,66 +1,68 @@
-# Implementation Plan: Fix messy talks page
+# Implementation Plan: Fix messy talks page (Revised)
 
 **Branch**: `002-fix-talks-page` | **Date**: 2026-01-31 | **Spec**: [spec.md](spec.md)
-**Input**: Feature specification from `/specs/002-fix-talks-page/spec.md`
+**Input**: Migrate single talks page to a collection of individual pages using the theme's "archive" feature.
 
 ## Summary
 
-Synchronize English and Italian talks pages and standardize the layout using a consistent Markdown pattern for all 20+ talk entries (2016-2022).
+Refactor the talks content from a single Markdown file into a dedicated collection of individual pages (Page Bundles) in a `talks` section. Use the theme's built-in `layout: archives` to organize them by year, ensuring they remain separate from the main blog posts on the homepage.
 
 ## Technical Context
 
 **Language/Version**: Hugo (Extended) ^0.140.2  
 **Theme**: hugo-theme-stack/v3  
-**Project Type**: Static Site (Hugo)  
-**Performance Goals**: CLS < 0.1, Mobile load < 2s  
-**Constraints**: Bilingual parity, strictly Markdown (no custom shortcodes)
+**Constraints**: 
+- **NO custom layouts** or theme modifications.
+- **Dedicated files**: One directory/file per talk.
+- **Homepage Separation**: Talks must not clutter the main blog feed.
+- **Bilingual Parity**: English first, then Italian translation.
 
 ## Constitution Check
 
-- [x] Bilingual parity maintained
-- [x] Content-first structure followed
+- [x] Bilingual parity maintained (to be implemented after EN)
+- [x] Content-first structure followed (moving to Page Bundles)
 - [x] No modification of vendored theme files
+- [x] **New Constraint**: No custom layouts in `layouts/`
 
 ## Project Structure
-
-### Documentation (this feature)
-
-```text
-specs/002-fix-talks-page/
-├── plan.md              # This file
-├── research.md          # Layout standardization research
-├── checklists/
-│   └── requirements.md  # Spec quality checklist
-└── tasks.md             # Implementation tasks (to be created)
-```
 
 ### Source Code
 
 ```text
+content/talks/
+├── [year]-[event]-[slug]/
+│   ├── index.en.md      # Individual talk page
+│   └── [images]         # Local talk assets
+└── ...
 content/page/talks/
-├── index.en.md          # Primary content (English)
-├── index.it.md          # Translated content (Italian)
-└── img/                 # Talk-related assets
+└── index.en.md          # The archive landing page (layout: archives)
 ```
 
-## Phase 1: Standardization & Translation
+## Phase 1: Content Extraction (English)
 
-1. **Phase 1.1: English Content Cleanup**
-   - Apply the "Talk Entry" pattern to all entries in `index.en.md`.
-   - Remove raw HTML `<a>` and `<img>` tags.
-   - Standardize link descriptions.
+1.  **Extract each Talk**:
+    - Iterate through the current `index.en.md`.
+    - Create a directory in `content/talks/` for every talk entry.
+    - Create an `index.en.md` for each, using the original talk date in the frontmatter.
+    - Move associated images from `content/page/talks/img/` to the corresponding talk directory.
+2.  **Configure the Section**:
+    - Ensure the `talks` section is correctly recognized by the theme.
 
-2. **Phase 1.2: Italian Content Implementation**
-   - Copy cleaned English content to `index.it.md`.
-   - Translate all translatable text (titles, descriptions, event names if localized).
-   - Ensure metadata (frontmatter) is correctly localized.
+## Phase 2: Archive Configuration & Separation
 
-## Phase 2: Verification
+1.  **Archive Page**:
+    - Update `content/page/talks/index.en.md` to use `layout: archives`.
+2.  **Homepage Separation**:
+    - **Investigation**: Determine how to include `talks` in the archive logic without having them appear on the homepage.
+    - **In Doubt**: If the theme's `archives` layout forces all `mainSections` to appear everywhere (Homepage + Archive), I will ask Nando for preference (e.g., mixing them or using a different grouping strategy) before proceeding with site-wide config changes.
 
-1. **Phase 2.1: Visual Audit**
-   - Run Hugo server and verify both `/en/talks/` and `/it/talks/`.
-   - Check mobile responsiveness.
+## Phase 3: Italian Translation
 
-2. **Phase 2.2: Link & Image Audit**
-   - Verify all local image paths are correct.
-   - Verify all external links work.
+1.  Once English is verified, replicate the directory structure for Italian (`index.it.md`).
+2.  Translate all titles and descriptions.
+
+## Phase 4: Verification
+
+1.  Verify individual talk pages render correctly.
+2.  Verify the `/talks/` archive groups items correctly by year.
+3.  Verify the homepage remains focused on blog posts.

@@ -1,0 +1,14 @@
+---
+title: "Growing Teams - Agile Venture Milano 2020"
+date: 2020-02-28
+image: growing-teams-video.png
+categories:
+    - talks
+---
+Growing Teams talk :movie_camera: 🇮🇹🇬🇧
+
+[Slides](https://www.slideshare.net/FerdinandoSantacroce/growing-teams-152158846) 🇬🇧
+
+[![Agile Venture Milano 2020 - Growing Teams - Ferdinando Santacroce](growing-teams-video.png)](https://vimeo.com/394385611 "Agile Venture Milano 2020 - Growing Teams - Ferdinando Santacroce")
+
+_Agile Venture Milano 2020 - Growing Teams - Video_

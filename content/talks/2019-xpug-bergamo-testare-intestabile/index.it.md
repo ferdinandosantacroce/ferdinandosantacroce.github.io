@@ -1,0 +1,18 @@
+---
+title: "Testare l'intestabile - XPUG Bergamo 2019"
+date: 2019-09-01
+image: xpugbg-youtube-video-channel.png
+categories:
+    - talks
+---
+Testare l'intestabile, workshop sul legacy code
+
+[Recap sul blog di XPUGBG](https://xpugbg.it/blog/meetup-workshop-testare-l-intestabile-ferdinando-santacroce-resoconto/)
+
+[Slides](https://www.slideshare.net/FerdinandoSantacroce/testare-lintestabile-workshop-xpugbg)
+
+[Trivia Kata in Java](https://github.com/ferdinandosantacroce/trivia-java)
+
+[![XPUGBG video channel](xpugbg-youtube-video-channel.png)](http://www.youtube.com/channel/UCkcDXjR2__NioW1m4voqH6w)
+
+_XPUGBG video channel_

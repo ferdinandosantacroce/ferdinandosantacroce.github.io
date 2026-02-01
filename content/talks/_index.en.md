@@ -1,8 +1,9 @@
 ---
 title: "Talks"
 date: 2022-03-06
-#layout: "archives"
 slug: "talks"
+sections:
+    - talks
 image: img/cover.jpg
 menu:
     main:
@@ -11,4 +12,4 @@ menu:
             icon: speakerphone
 ---
 
-Under construction 👨‍💻
+Here a brief list of my public appearances 😊
