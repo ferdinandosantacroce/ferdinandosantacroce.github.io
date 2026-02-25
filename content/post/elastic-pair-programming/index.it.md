@@ -7,7 +7,9 @@ image: cover.jpg
 categories:
     - Software
 tags:
-    - XP
+    - software development
+    - extreme programming
+    - pair programming
 weight:
 ---
 
