@@ -5,8 +5,7 @@ description: "In this episode, I share the history of story points, their usage,
 slug: 2023-reloaded-podcast-story-points
 date: 2023-06-15 09:00:00+0000
 image: agile-reloaded-podcast.jpg
-categories:
-    - Software
+categories: ["podcast", "agile"]
 tags:
     - agile
     - story points
@@ -18,3 +17,7 @@ params:
 In this episode, I tell something about the story of the story points, their use and, suddenly, their abuse... 😄
 
 [![Reloaded Podcast - The story of story points](agile-reloaded-podcast.jpg)](https://open.spotify.com/episode/3DkwNAHunXIPxAUxy0BNSA?si=d3a0cff101b6452b)
+
+**Platform**: [Reloaded Podcast](https://open.spotify.com/show/0wryeBJ9AzUBPDX6mJN2yC?si=2e0f142286284226)
+**Language**: Italian
+**Topic**: Story points and their usage/abuse

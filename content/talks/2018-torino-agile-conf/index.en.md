@@ -1,10 +1,15 @@
 ---
 draft: true
 title: "Objects Calisthenics Workshop - Torino Agile Conference 2018"
+description: "Object Calisthenics Workshop"
 date: 2018-06-01
-categories:
-    - talks
+categories: ["conference", "workshop", "object calisthenics"]
 ---
-* **Objcts Calisthenics Workshop**
 
-  * [TicTacToe kata repo](https://github.com/ferdinandosantacroce/TicTacToe)
+Object Calisthenics Workshop
+
+**Event**: [Torino Agile Conference 2018](https://www.agileday.it/mini/2018/torino/#ferdinandosantacroce)
+**Location**: Turin, Italy
+**Topic**: Object-oriented programming best practices
+**Resources**:
+- [TicTacToe kata repo](https://github.com/jesuswasrasta/TicTacToe)

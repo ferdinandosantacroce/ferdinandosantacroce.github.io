@@ -1,13 +1,17 @@
 ---
 draft: true
 title: "Agile versioning with Git - Mini Italian Agile Day Savona 2016"
+description: "Agile versioning with Git"
 date: 2016-04-15
 image: agile-versioning-with-git-slides.png
-categories:
-    - talks
+categories: ["mini conference", "git", "agile"]
 ---
-<a href="https://www.slideshare.net/FerdinandoSantacroce/agile-versioning-with-git-60998779">
-    <img src="agile-versioning-with-git-slides.png" width="300" alt="Agile versioning with Git - Savona - 2016">
-</a>
 
-_Agile versioning with Git - Savona - 2016_
+Agile versioning with Git
+
+[![Agile versioning with Git - Savona - 2016](agile-versioning-with-git-slides.png)](https://www.slideshare.net/FerdinandoSantacroce/agile-versioning-with-git-60998779)
+
+**Event**: [Mini Italian Agile Day, Savona, 2016](http://www.agileday.it/mini/2016/savona/)
+**Location**: Savona, Italy
+**Topic**: Git versioning in agile environments
+**Resources**: [Slides](https://www.slideshare.net/FerdinandoSantacroce/agile-versioning-with-git-60998779)

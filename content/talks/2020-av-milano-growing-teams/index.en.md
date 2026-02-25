@@ -1,17 +1,19 @@
 ---
 draft: true
 title: "Growing Teams - Agile Venture Milano 2020"
+description: "Growing Teams"
 date: 2020-02-28
 image: growing-teams-video.png
-categories:
-    - talks
+categories: ["mini conference", "team building", "management"]
 ---
-Growing Teams talk :movie_camera: 🇮🇹🇬🇧
 
-[Slides](https://www.slideshare.net/FerdinandoSantacroce/growing-teams-152158846) 🇬🇧
+Growing Teams
 
-<a href="https://vimeo.com/394385611">
-    <img src="growing-teams-video.png" width="300" alt="Agile Venture Milano 2020 - Growing Teams">
-</a>
+[![Agile Venture Milano 2020 - Growing Teams - Ferdinando Santacroce](growing-teams-video.png)](https://vimeo.com/394385611 "Agile Venture Milano 2020 - Growing Teams - Ferdinando Santacroce")
 
-_Agile Venture Milano 2020 - Growing Teams - Video_
+**Event**: [Agile Venture Milano](https://www.agilemovement.it/venture/2020/milano/)
+**Location**: Milan, Italy
+**Topic**: Team growth and development
+**Resources**:
+- [Slides](https://www.slideshare.net/FerdinandoSantacroce/growing-teams-152158846)
+- [Video](https://vimeo.com/394385611)

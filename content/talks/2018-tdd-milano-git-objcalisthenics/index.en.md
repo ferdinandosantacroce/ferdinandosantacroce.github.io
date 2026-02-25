@@ -1,13 +1,21 @@
 ---
 draft: true
 title: "Git Essentials & Object Calisthenics - TDD Milano Meetup"
+description: "Git Essentials and Object Calisthenics Workshops"
 date: 2018-03-15
-categories:
-    - talks
+categories: ["meetup", "workshop", "git", "object calisthenics"]
 ---
-* [Git Essentials Workshop](https://www.meetup.com/it-IT/TDD-Milano/events/245383610/)
 
-* [Object Calisthenics Workshop](https://www.meetup.com/it-IT/TDD-Milano/events/247937838/)
+TDD Milano Meetup Workshops
 
-  * [Slides](https://www.slideshare.net/FerdinandoSantacroce/object-calisthenics-tdd-milano)
-  * [Farkle kata repo](https://github.com/ferdinandosantacroce/KataFarkle)
+**Event**: [TDD Milano Meetup](https://www.meetup.com/it-IT/TDD-Milano)
+**Location**: Milan, Italy
+**Topic**: Git essentials and Object-oriented programming best practices
+
+**Workshops**:
+- [Git Essentials Workshop](https://www.meetup.com/it-IT/TDD-Milano/events/245383610/)
+- [Object Calisthenics Workshop](https://www.meetup.com/it-IT/TDD-Milano/events/247937838/)
+
+**Resources**:
+- [Object Calisthenics Slides](https://www.slideshare.net/FerdinandoSantacroce/object-calisthenics-tdd-milano)
+- [Farkle kata repo](https://github.com/jesuswasrasta/KataFarkle)

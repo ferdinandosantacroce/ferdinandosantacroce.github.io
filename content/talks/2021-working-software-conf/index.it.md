@@ -1,19 +1,19 @@
 ---
 draft: true
-title: "Working Software Conf 2021 - remote edition"
+title: "Working Software Conf 2021 - edizione remota"
+description: "Organizzatore edizione remota"
 date: 2021-06-01
 image: working-software-2021-gathertown.png
-categories:
-    - talks
+categories: ["conference", "organizzatore"]
 ---
-<a href="https://gather.town/app/NvjSrqLIEcqGFKCV/working-software">
-    <img src="working-software-2021-gathertown.png" width="300" alt="GatherTown space">
-</a>
 
-_Working Software Conf 2021 - GatherTown space_
+Sono stato l'organizzatore dell'edizione remota della Working Software Conference.
 
-<a href="https://miro.com/app/board/o9J_lEi_PG4=/">
-    <img src="working-software-2021-miro-board.png" width="300" alt="Miro board">
-</a>
+[![GatherTown space](working-software-2021-gathertown.png)](https://gather.town/app/NvjSrqLIEcqGFKCV/working-software)
 
-_Working Software Conf 2021 - Miro board_
+[![Miro board](working-software-2021-miro-board.png)](https://miro.com/app/board/o9J_lEi_PG4=/)
+
+**Evento**: [Working Software Conf 2021 - edizione remota](https://www.agilemovement.it/workingsoftware/)
+**Luogo**: Italia (Online)
+**Ruolo**: Organizzatore conferenza
+**Formato**: Conferenza remota

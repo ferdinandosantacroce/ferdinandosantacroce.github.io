@@ -1,16 +1,19 @@
 ---
 draft: true
 title: "Objects Calisthenics Workshop - Agile Venture Prato 2018"
+description: "Object Calisthenics Workshop"
 date: 2018-10-15
 image: agile-venture-prato-object-calisthenics-workshop.png
-categories:
-    - talks
+categories: ["mini conference", "workshop", "object calisthenics"]
 ---
-Objects Calisthenics Workshop
 
-* [Slides](https://www.slideshare.net/FerdinandoSantacroce/object-calisthenics-agile-venture-prato-2018)
-* [Tennis Refactoring Kata](https://github.com/ferdinandosantacroce/Tennis-Refactoring-Kata)
+Object Calisthenics Workshop
 
-<img src="agile-venture-prato-object-calisthenics-workshop.png" width="300" alt="Agile Venture Prato 2018 - Objects Calisthenics Workshop">
+![Agile Venture Prato 2018 - Object Calisthenics Workshop](agile-venture-prato-object-calisthenics-workshop.png)
 
-_Agile Venture Prato 2018 - Objects Calisthenics Workshop_
+**Event**: [Agile Venture Prato](https://www.agileday.it/mini/2018/prato/)
+**Location**: Prato, Italy
+**Topic**: Object-oriented programming best practices
+**Resources**:
+- [Slides](https://www.slideshare.net/FerdinandoSantacroce/object-calisthenics-agile-venture-prato-2018)
+- [Tennis Refactoring Kata](https://github.com/jesuswasrasta/Tennis-Refactoring-Kata)

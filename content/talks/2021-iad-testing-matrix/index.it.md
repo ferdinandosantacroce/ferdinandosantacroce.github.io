@@ -1,19 +1,17 @@
 ---
 draft: true
 title: "Agile Testing Matrix - Italian Agile Days 2021"
+description: "Agile Testing Matrix"
 date: 2021-11-06
 image: agile-testing-matrix-video.png
-categories:
-    - talks
+categories: ["conference", "testing", "agile"]
 ---
-<a href="https://miro.com/app/board/o9J_lmC9ZLE=/">
-    <img src="agile-testing-matrix-iad21-miro-board.png" width="300" alt="Agile Testing Matrix Miro board">
-</a>
 
-_Agile Testing Matrix - Miro board_
+[![Agile Testing Matrix Miro board](agile-testing-matrix-iad21-miro-board.png)](https://miro.com/app/board/o9J_lmC9ZLE=/ "Agile Testing Matrix Miro board")
 
-<a href="https://vimeo.com/648776317">
-    <img src="agile-testing-matrix-video.png" width="300" alt="Italian Agile Days 2021 - Agile Testing Matrix">
-</a>
+[![Italian Agile Days 2021 - Agile Testing Matrix - Ferdinando Santacroce](agile-testing-matrix-video.png)](https://vimeo.com/648776317 "Italian Agile Days 2021 - Agile Testing Matrix - Ferdinando Santacroce")
 
-_Italian Agile Days 2021 - Agile Testing Matrix - Video_
+**Evento**: [Italian Agile Days](https://www.agileday.it/)
+**Luogo**: Italia
+**Argomento**: Agile Testing Matrix
+**Formato**: Talk di conferenza

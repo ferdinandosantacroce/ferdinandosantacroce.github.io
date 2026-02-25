@@ -5,8 +5,7 @@ description: "Intervento agli Italian Agile Days 2023 su storie utente, debito t
 slug: 2023-iad-modelli-realta
 date: 2023-11-10 09:00:00+0000
 image: Modelli-Realta-IAD-2023.png
-categories:
-    - Software
+categories: ["conference", "modelli software"]
 tags:
     - agile
     - DDD
@@ -19,3 +18,7 @@ params:
 Parlando di storie utente, debito tecnico, domain driven design, modelli e realtà... 💭
 
 [![Navigando nel mondo del software, tra modelli e realtà.](Modelli-Realta-IAD-2023.png)](https://vimeo.com/manage/videos/907009037)
+
+**Evento**: [Italian Agile Days](https://www.agileday.it/)
+**Luogo**: Italia
+**Argomento**: Modelli software e realtà
