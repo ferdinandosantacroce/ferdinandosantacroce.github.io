@@ -79,6 +79,12 @@ image: cover.jpg
 3. Edit SVG attributes: `width="24" height="24" stroke-width="2" stroke="currentColor"`
 4. Reference in page front matter: `icon: icon-name`
 
+## Session Workflow
+
+- **Wrap-up**: project-local skill at `.claude/skills/wrap-up/SKILL.md` overrides the global one — invoke `/wrap-up` at end of session
+- **Journal**: `JOURNAL.md` at repo root tracks work history (committed with the site)
+- **Deploy**: push `origin main` to trigger GitHub Pages deploy via GitHub Actions
+
 ## Open TODOs
 
 - Italian date formatting for Italian language
