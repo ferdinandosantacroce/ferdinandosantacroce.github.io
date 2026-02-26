@@ -130,7 +130,7 @@ hugo mod init github.com/<user>/<project>
 
 **Context:** Importing a theme via Modules.
 
-**File:** `hugo.toml`
+**File:** `hugo.toml` (or `config/_default/module.toml`)
 
 ```toml
 [module]
@@ -142,6 +142,46 @@ hugo mod init github.com/<user>/<project>
     extended = true
     min = "0.154.0"
 ```
+
+---
+
+### Pattern D: Modern Asset Pipeline (Hugo Pipes)
+
+**Context:** Processing SCSS and JS with fingerprinting and SRI.
+
+**SCSS (Dart Sass):**
+```go-html-template
+{{ $scss := resources.Get "css/main.scss" }}
+{{ $css := $scss | resources.ToCSS (dict "transpiler" "dartsass") }}
+{{ if hugo.IsProduction }}
+  {{ $css = $css | resources.PostCSS | resources.Fingerprint "sha256" }}
+{{ end }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" {{ if hugo.IsProduction }}integrity="{{ $css.Data.Integrity }}"{{ end }}>
+```
+
+**JavaScript (ESBuild):**
+```go-html-template
+{{ $js := resources.Get "js/main.js" | js.Build (dict "minify" hugo.IsProduction) }}
+{{ if hugo.IsProduction }}
+  {{ $js = $js | resources.Fingerprint "sha256" }}
+{{ end }}
+<script src="{{ $js.RelPermalink }}" {{ if hugo.IsProduction }}integrity="{{ $js.Data.Integrity }}"{{ end }} defer></script>
+```
+
+---
+
+## 🔍 COMMON DIAGNOSTIC COMMANDS
+
+| Command | Purpose |
+|---|---|
+| `hugo version` | Check version and "Extended" support |
+| `hugo server --disableFastRender --ignoreCache -D` | Deep rebuild with drafts and no cache |
+| `hugo --templateMetrics` | Identify which templates render which pages |
+| `hugo --templateMetricsHints` | Template performance and optimization hints |
+| `hugo list drafts` | List all current drafts |
+| `hugo mod graph` | Show module dependency tree |
+| `hugo mod verify` | Verify module checksums |
+| `hugo mod tidy` | Cleanup unused modules |
 
 ---
 
