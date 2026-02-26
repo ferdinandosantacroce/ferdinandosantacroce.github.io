@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Software on Ferdinando Santacroce</title><link>https://ferdinandosantacroce.it/it/categories/software/</link><description>Recent content in Software on Ferdinando Santacroce</description><generator>Hugo -- gohugo.io</generator><language>it-IT</language><lastBuildDate>Mon, 12 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://ferdinandosantacroce.it/it/categories/software/index.xml" rel="self" type="application/rss+xml"/><item><title>Elastic Pair Programming</title><link>https://ferdinandosantacroce.it/it/p/elastic-pair-programming/</link><pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate><guid>https://ferdinandosantacroce.it/it/p/elastic-pair-programming/</guid><description>&lt;img src="https://ferdinandosantacroce.it/p/elastic-pair-programming/cover.jpg" alt="Featured image of post Elastic Pair Programming" />&lt;p>Qualche tempo fa ho trascorso &lt;a class="link" href="https://blog.adrianbolboaca.ro/2018/03/remotepairprogramming-ep-009-adi-ferdinando-elastic-pair-programming/" target="_blank" rel="noopener"
+>una bella serata&lt;/a> insieme ad &lt;a class="link" href="https://blog.adrianbolboaca.ro/" target="_blank" rel="noopener"
+>Adrian Bolboacă&lt;/a>, provando per la prima volta in pubblico una tecnica di &lt;em>pair programming&lt;/em> osservata e sperimentata nelle aziende in cui ho lavorato.&lt;/p>
+&lt;p>In questo post vi racconto le caratteristiche di questo approccio.&lt;/p>
+&lt;h2 id="il-pair-programming-tradizionale">Il pair programming tradizionale
+&lt;/h2>&lt;p>Il &lt;a class="link" href="https://en.wikipedia.org/wiki/Pair_programming" target="_blank" rel="noopener"
+>pair programming&lt;/a> è una pratica cardine di &lt;a class="link" href="https://en.wikipedia.org/wiki/Extreme_programming" target="_blank" rel="noopener"
+>eXtreme Programming&lt;/a> (XP), e non mi dilungherò nella sua spiegazione. Trovate una descrizione esaustiva sulla &lt;a class="link" href="https://wiki.c2.com/?PairProgramming" target="_blank" rel="noopener"
+>vecchia e cara C2 Wiki&lt;/a>.&lt;/p>
+&lt;p>Ci sono vari modi di fare pair programming; nel suo ultimo libro, &amp;ldquo;&lt;a class="link" href="https://www.packtpub.com/product/practical-remote-pair-programming/9781800561366" target="_blank" rel="noopener"
+>Practical Remote Pair Programming&lt;/a>&amp;rdquo;, Adrian illustra molto bene alcuni degli approcci più utilizzati.&lt;/p>
+&lt;p>Normalmente la pratica del pair programming è piuttosto disciplinata; i ruoli sono ben definiti, ci sono regole e tempi da rispettare.&lt;/p>
+&lt;p>&lt;strong>La disciplina è uno dei punti di forza&lt;/strong> della tecnica, soprattutto all’inizio del viaggio verso l’XP.&lt;/p>
+&lt;p>Attraverso questa pratica, si innesca una continua collaborazione con i colleghi, rinforzando la capacità del singolo di comprendere ed elaborare i concetti di dominio.&lt;/p>
+&lt;p>Dopo anni di pratica, un team stabile raggiunge una elevata padronanza del proprio dominio applicativo, delle tecnologie e delle tecniche adottate dal team.&lt;/p>
+&lt;p>A quel punto, &lt;strong>il pair programming &amp;ldquo;classico&amp;rdquo; finisce spesso per andare stretto&lt;/strong>, ed è in queste occasioni che è possibile allentare un po&amp;rsquo; le regole e passare ad una modalità di lavoro più elastica.&lt;/p>
+&lt;h2 id="elastic-pair-programming">Elastic pair programming
+&lt;/h2>&lt;p>Il nome “&lt;em>elastic pair programming&lt;/em>” è arrivato un po&amp;rsquo; a sorpresa; prima di confrontarmi con Adi non avevo mai pensato a questo approccio come a qualcosa di definito, a cui dare un nome.&lt;/p>
+&lt;p>Nonostante questo, direi che la definizione rappresenta bene la caratteristica principale dell&amp;rsquo;approccio, ovvero l&amp;rsquo;elasticità di regole e ruoli.&lt;/p>
+&lt;p>A dire il vero di regole ce n&amp;rsquo;è solo una: &lt;strong>ci si scambiano idee (e tastiera) in continuazione&lt;/strong>.&lt;/p>
+&lt;p>Ho trovato questo modo di lavorare molto utile in diverse situazioni.&lt;/p>
+&lt;p>La più classica è quella in cui alla tastiera ci sono due persone che si conoscono da tempo, entrambe professionisti con esperienza.&lt;/p>
+&lt;p>Non necessariamente si è esperti dello stesso dominio o delle stesse tecniche, anzi, spesso ho trovato interessante favorire il confronto tra punti di vista differenti.&lt;/p>
+&lt;p>L&amp;rsquo;idea è quella che, di fronte ad un problema ostico o peculiare, uno sviluppatore esperto chiami in causa un suo pari per &lt;strong>condividere ed eventualmente confutare l&amp;rsquo;ipotesi di soluzione&lt;/strong>, e giungere magari ad una soluzione migliore o inaspettata per entrambi.&lt;/p>
+&lt;p>Ho usato questa tecnica spesso in modalità &amp;ldquo;&lt;em>on-demand&lt;/em>&amp;rdquo;, chiamando in causa colleghi che normalmente non fanno pair programming con me o in team in cui la pratica non era consuetudine.&lt;/p>
+&lt;p>&lt;strong>La pratica risulta interessante anche per &amp;ldquo;sbloccare&amp;rdquo; colleghi scettici&lt;/strong> rispetto alla pratica del pair programming.&lt;/p>
+&lt;p>Mi è capitato infatti di essere accolto in un team di soli senior, tutti molto ferrati sul dominio applicativo, in cui ognuno sviluppava in maniera abbastanza indipendente dagli altri.&lt;/p>
+&lt;p>Io avevo bisogno di imparare in fretta, così ho cercato di introdurre la pratica del pair programming nel team per favorire le occasioni di condivisione; nonostante i colleghi fossero disponibili, era abbastanza evidente per me la loro insofferenza verso le regole imposte dalla pratica.&lt;/p>
+&lt;p>A quel punto, quando ho capito che l&amp;rsquo;esperimento pair programming sarebbe inesorabilmente fallito, ho cercato approcci e soluzioni per non perdere le opportunità di confronto, tanto utili per me (ma a tendere per l&amp;rsquo;intero team).&lt;/p>
+&lt;p>In questa situazione abbiamo quindi rilassato le regole, concedendoci di prendere la tastiera in qualsiasi momento per intervenire.&lt;/p>
+&lt;p>I test, le implementazioni e le soluzioni hanno iniziato quindi ad emergere con più facilità, e così le discussioni in merito ai dettagli del linguaggio, ai pattern, o ai differenti approcci che ognuno di noi, per la sua esperienza, ha accumulato durante gli anni.&lt;/p>
+&lt;p>In questa situazione sono riuscito ad ottenere comunque i benefici della condivisione di conoscenza, molto importanti per me, rinunciando al &amp;ldquo;&lt;em>side-effect&lt;/em>&amp;rdquo; (che comunque continuo ad apprezzare) della disciplina e della cadenza che da il pair programming tradizionale.&lt;/p>
+&lt;p>Un&amp;rsquo;altra situazione che ricordo bene è quella che avveniva &lt;a class="link" href="https://www.intre.it/camp-2/" target="_blank" rel="noopener"
+>quando mi confrontavo con i miei colleghi&lt;/a> nelle gilde.&lt;/p>
+&lt;p>Le &lt;a class="link" href="https://www.intre.it/gilde/" target="_blank" rel="noopener"
+>gilde&lt;/a> sono uno strumento molto potente che l&amp;rsquo;azienda ci metteva a disposizione per imparare, crescere e migliorare le nostre capacità.&lt;/p>
+&lt;p>Nelle gilde, dei &amp;ldquo;team&amp;rdquo; creati ad-hoc lavorano ad un progetto proposto e scelto da loro, con il fine di esplorare nuove tecnologie o approcci.&lt;/p>
+&lt;p>In situazioni come queste, molto rilassate ed aperte al confronto, abbiamo trovato beneficio nel lavorare in usando questo stile elastico di pair programming, ed è stato poi abbastanza naturale per noi evolvere fino a quello che oggi è normalmente indicato come &lt;a class="link" href="https://en.wikipedia.org/wiki/Mob_programming" target="_blank" rel="noopener"
+>ensemble (Mob) programming&lt;/a>.&lt;/p>
+&lt;h2 id="trappole">Trappole
+&lt;/h2>&lt;p>Questa tecnica ha una sola regola, ma bisogna fare attenzione: &lt;strong>è proprio quando ci sono poche regole che è più facile sbagliare&lt;/strong>.&lt;/p>
+&lt;p>Questo approccio può diventare facilmente un sistema proprio per non fare pair programming; non avendo “obblighi”, è facile cadere nell&amp;rsquo;anti-pattern in cui il driver scrive codice e lavora da solo, mentre il navigator pensa ad altro&amp;hellip;&lt;/p>
+&lt;p>&lt;img src="https://ferdinandosantacroce.it/p/elastic-pair-programming/dilbert-extreme-programming.png"
+width="900"
+height="283"
+srcset="https://ferdinandosantacroce.it/p/elastic-pair-programming/dilbert-extreme-programming_hu14500715051314738844.png 480w, https://ferdinandosantacroce.it/p/elastic-pair-programming/dilbert-extreme-programming_hu5082216468499959672.png 1024w"
+loading="lazy"
+alt="lExtreme Programming secondo Dilbert"
+class="gallery-image"
+data-flex-grow="318"
+data-flex-basis="763px"
+>&lt;/p>
+&lt;p>In questa situazione è meglio piuttosto tornare a lavorare ognun per sé, e riflettere magari a livello di team su cosa impedisce questo genere di collaborazione e quali alternative abbiamo per continuare a mantenere alto il flusso di informazioni tra le persone.&lt;/p>
+&lt;p>&lt;strong>Anche in assetto da elastic pair programming si stabiliscono dei working agreement&lt;/strong>, tra cui ad esempio tenere alla larga smartphone e distrazioni.&lt;/p>
+&lt;p>In alcune occasioni ho lavorato in pair con un secondo computer oltre a quello principale, un po&amp;rsquo; come viene concesso anche in ensemble programming. Il computer secondario è di supporto: il navigator lo può usare ad esempio per cercare qualcosa in rete mentre il driver rimane focalizzato sul codice, non certo per farsi gli affari suoi. Il fine rimane sempre quello di scrivere codice e risolvere problemi insieme.&lt;/p>
+&lt;p>Un&amp;rsquo;altra raccomandazione è quella di non utilizzare questa tecnica senza avere esperienza di pair programming tradizionale, o fra due persone entrambe poco ferrate su tecnica e/o dominio. In questo caso si rischia facilmente di perdere la bussola e naufragare.&lt;/p>
+&lt;p>Come recitava un famoso spot pubblicitario di qualche anno fa, elastic pair programming è &lt;a class="link" href="https://www.youtube.com/watch?v=vJ1wwYCGkIg&amp;amp;t=1s" target="_blank" rel="noopener"
+>per molti, ma non per tutti&lt;/a> 🙂&lt;/p>
+&lt;p>Il trucco che utilizzo io per decidere se è il caso di usare questo approccio è farmi una semplice domanda: &amp;ldquo;&lt;em>Sapresti risolvere da solo questo problema?&lt;/em>”. Se la risposta è qualcosa tipo “&lt;em>Sì, ma sono curioso di sapere come lo risolverebbe -inserisci qui il nome-&lt;/em>&amp;rdquo;, ci sono i presupposti per una buona sessione di elastic pair programming.&lt;/p>
+&lt;h2 id="elastic-pair-programming-da-remoto">Elastic pair programming da remoto
+&lt;/h2>&lt;p>L&amp;rsquo;esperienza con Adi mi ha fatto capire che questo stile può funzionare anche da remoto.&lt;/p>
+&lt;p>Anzi, &lt;strong>la continua ricerca di consenso e lo scambio di ruoli mantiene alta l&amp;rsquo;attenzione delle persone&lt;/strong>, impedendo che la distanza fisica abbassi il confronto e lo scambio di idee.&lt;/p>
+&lt;p>Da qualche anno ho smesso di fare il programmatore a tempo pieno, anche se non di rado svolgo il mio lavoro di coach e trainer in team di sviluppo software.&lt;/p>
+&lt;p>Nelle esperienze che ho maturato nell&amp;rsquo;ultimo anno e mezzo di lavoro remoto forzato ho potuto osservare l&amp;rsquo;efficacia di questo stile, anche se spesso le persone erano inconsapevoli di fare questo genere di pair programming 🙂&lt;/p>
+&lt;h2 id="conclusioni">Conclusioni
+&lt;/h2>&lt;p>Non credo di aver inventato nulla di nuovo con questa tecnica, forse solo di aver dato un nome ad una pratica che molti programmatori già adottano da tempo.&lt;/p>
+&lt;p>Spero che questa consapevolezza aggiunga una opzione in più nella vostra cassetta degli attrezzi 😉&lt;/p></description></item></channel></rss>
