@@ -9,8 +9,8 @@ since = 1979
 customText = ""
 
 [dateFormat]
-published = "Jan 02, 2006"
-lastUpdated = "Jan 02, 2006 15:04 MST"
+published = ":date_long"
+lastUpdated = ":date_long 15:04"
 
 [sidebar]
 emoji = ""
