@@ -48,21 +48,18 @@ Each phase requires user confirmation; present a consolidated report at the end.
 Review what was learned. Decide where each piece belongs:
 
 **Memory placement guide:**
-- **Auto memory** (`.claude/projects/.../memory/`) — Blog-specific patterns
-  Claude discovered: front matter conventions, tag taxonomy preferences,
-  bilingual workflow quirks, image handling, Hugo version gotchas
-- **CLAUDE.md** (this repo) — Permanent project rules, architecture decisions,
-  commands that should guide all future sessions
-- **`.claude/rules/`** — Topic-scoped rules (e.g. rules for `content/post/**`,
-  rules for `assets/**`)
-- **`CLAUDE.local.md`** — Personal WIP context, local draft notes, things
-  not to commit
+- **`AGENTS.md`** (repo root) — Permanent project rules, architecture decisions,
+  commands that should guide all future sessions.
+- **Project memory** — Blog-specific patterns discovered during the session
+  (front matter conventions, tag taxonomy preferences, bilingual workflow
+  quirks, image handling, Hugo version gotchas). Use Serena `write_memory` /
+  `edit_memory` for cross-session recall, or append a short note to `AGENTS.md`
+  if it belongs to permanent project rules.
 
 **Decision framework:**
-- Permanent blog convention or architecture? → `CLAUDE.md`
-- Pattern Claude discovered (tag style, image resize, bilingual naming)? → Auto memory
-- Scoped to specific content or asset files? → `.claude/rules/` with `paths:`
-- Personal / ephemeral context? → `CLAUDE.local.md`
+- Permanent blog convention or architecture? → `AGENTS.md`
+- Pattern worth recalling next session? → project memory
+- Personal / ephemeral context? → `JOURNAL.md` entry only
 
 Note anything important in the appropriate location.
 
@@ -71,30 +68,26 @@ Note anything important in the appropriate location.
 Analyze the session for self-improvement findings. If it was short or routine
 with nothing notable, say "Nothing to improve" and proceed to Phase 5.
 
-**Auto-apply all actionable findings immediately** — do not ask for approval
-on each one. Apply, then present a summary.
-
 **Finding categories:**
-- **Skill gap** — Things Claude got wrong or needed multiple attempts
+- **Skill gap** — Things that were done wrong or needed multiple attempts
 - **Friction** — Manual steps Nando had to ask for that should be automatic
-- **Knowledge** — Blog/Hugo facts Claude didn't know but should have
+- **Knowledge** — Blog/Hugo facts that should have been known
 - **Automation** — Repetitive patterns that could become a skill, hook, or script
 
 **Action types:**
-- `CLAUDE.md` — Edit the project CLAUDE.md
-- `Rules` — Create/update a `.claude/rules/` file
-- `Auto memory` — Save an insight for future sessions
-- `Skill / Hook` — Document a new skill or hook spec
+- `AGENTS.md` — Edit the project AGENTS.md
+- `Memory` — Save an insight for future sessions
+- `Skill` — Document a new skill or hook spec
 
 Present a summary after applying:
 
 ```
 Findings (applied):
 1. ✅ Knowledge: Italian posts need `translationKey` to link across languages
-   → [CLAUDE.md] Added bilingual linking note
+   → [AGENTS.md] Added bilingual linking note
 
 No action needed:
-2. Knowledge: Tag taxonomy already documented in CLAUDE.md
+2. Knowledge: Tag taxonomy already documented in AGENTS.md
 ```
 
 ## Phase 5: Publish It
