@@ -2,6 +2,7 @@
 title: "Resources"
 description: "Useful resources on Software, Agile, and Coaching collected over the years (English version)."
 slug: "resources"
+url: /resources/
 image: cover.jpg
 toc: true
 menu:
