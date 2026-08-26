@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Working Software Conf 2021 - remote edition"
 description: "Remote edition organizer"
 date: 2021-06-01

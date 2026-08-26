@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Git Essentials & Object Calisthenics - TDD Milano Meetup"
 description: "Git Essentials and Object Calisthenics Workshops"
 date: 2018-03-15

@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Testare l'intestabile - Agile Venture Firenze 2019"
 description: "Testare l'intestabile - workshop on legacy code"
 date: 2019-10-15

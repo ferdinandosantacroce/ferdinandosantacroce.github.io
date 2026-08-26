@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Milan Kotlin Community Conf 2018 - Conference Chair"
 description: "Conference Chair - Prima conferenza Kotlin in Italia"
 date: 2018-06-15

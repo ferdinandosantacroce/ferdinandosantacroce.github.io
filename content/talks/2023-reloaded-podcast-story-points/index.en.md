@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Reloaded Podcast - The story of story points"
 description: "In this episode, I share the history of story points, their usage, and their sudden abuse."
 slug: 2023-reloaded-podcast-story-points

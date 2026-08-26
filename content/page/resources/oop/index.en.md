@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "OOP (Object Oriented Programming)"
 description: "All the things I should know about object orientation."
 slug: "oop"

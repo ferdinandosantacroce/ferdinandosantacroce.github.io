@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Testare l'intestabile - Italian Agile Days Modena 2019"
 description: "Testare l'intestabile - workshop sul codice legacy"
 date: 2019-11-09

@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "OOP (Object Oriented Programming)"
 description: "Tutto quello che dovrei sapere sulla programmazione orientata agli oggetti."
 slug: "oop"

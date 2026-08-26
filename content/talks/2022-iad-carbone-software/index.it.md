@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Dal carbone al software: i sistemi socio-tecnici"
 description: "Intervento agli Italian Agile Days 2022 sui sistemi socio-tecnici."
 slug: 2022-iad-carbone-software

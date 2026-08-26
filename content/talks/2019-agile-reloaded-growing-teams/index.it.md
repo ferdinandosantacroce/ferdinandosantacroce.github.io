@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Growing Teams - Meetup Agile Reloaded 2019"
 description: "Growing Teams"
 date: 2019-05-15

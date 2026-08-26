@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "TDD (Test Driven Development)"
 description: "Tutte le cose interessanti che ho raccolto su questo argomento."
 slug: "tdd"
@@ -43,12 +42,12 @@ In ordine sparso.
 [Sandy Metz](https://sandimetz.com/)  
 [James Shore](https://www.jamesshore.com/)  
 [Martin Fowler](https://martinfowler.com/)  
-[Rebecca Wirfs-Brock](http://www.wirfs-brock.com/blog/)  
+[Rebecca Wirfs-Brock](https://www.wirfs-brock.com/blog/)  
 [Gee Paw Hill](https://www.geepawhill.org/)  
 [Robert C. Martin (Uncle Bob)](https://twitter.com/unclebobmartin)  
 [J. B. Rainsberger](https://www.jbrains.ca/)  
-[George Dinwiddie](http://blog.gdinwiddie.com/)  
-[Jay Bazuzi](http://jay.bazuzi.com/)  
+[George Dinwiddie](https://blog.gdinwiddie.com/)  
+[Jay Bazuzi](https://jay.bazuzi.com/)  
 [Matteo Vaccari](https://twitter.com/xpmatteo)  
 [Ian Cooper](https://twitter.com/ICooper)
 
@@ -77,19 +76,19 @@ Un'intervista strana, sembra quasi una deposizione... :smile:
 ---
 
 ## Link
-[Sito storico eXtreme Programming](http://www.extremeprogramming.org/)  
+[Sito storico eXtreme Programming](https://www.extremeprogramming.org/)  
 [TDD Anti-patterns](https://quii.gitbook.io/learn-go-with-tests/meta/anti-patterns)
 
 ### Outside-In, Mockist, London School
 Risorse sull'approccio *outside-in*.
 
 #### Portavoce
-[Nat Pryce](http://www.natpryce.com/bio.html)  
+[Nat Pryce](https://www.natpryce.com/bio.html)  
 [Steve Freeman](https://twitter.com/sf105)  
 [Sandro Mancuso](https://codurance.com/publications/author/sandro-mancuso/)
 
 #### Libri
-[Growing Object-Oriented Software Guided by Tests (GOOS) - Steve Freeman e Nat Pryce](http://www.growing-object-oriented-software.com/)
+[Growing Object-Oriented Software Guided by Tests (GOOS) - Steve Freeman e Nat Pryce](https://www.growing-object-oriented-software.com/)
 
 #### Video
 Stile **Sandro Mancuso**:  

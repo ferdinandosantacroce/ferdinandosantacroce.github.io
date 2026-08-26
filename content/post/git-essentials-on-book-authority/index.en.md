@@ -1,7 +1,6 @@
 ---
 title: "BookAuthority rewards my Git Essentials book"
 date: 2019-08-14
-draft: true
 categories: [Software]
 tags: [git]
 ---

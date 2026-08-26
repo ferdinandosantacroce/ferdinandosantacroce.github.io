@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Works"
 description: "Literary works and productions by Ferdinando Santacroce."
 slug: "works"
@@ -51,4 +50,4 @@ The book has been translated into Italian by Apogeo:
 Follow me on [Goodreads](https://www.goodreads.com/author/show/13649672.Ferdinando_Santacroce) to learn more about books I like and I write.
 
 ## Mokabyte
-I'm a Technical Author for [Mokabyte](http://www.mokabyte.it), a 20 years old Italian webzine. Here my series about [Git, the stupid content tracker](http://www.mokabyte.it/author/ferdinando-santacroce/).
+I'm a Technical Author for [Mokabyte](https://www.mokabyte.it), a 20 years old Italian webzine. Here my series about [Git, the stupid content tracker](https://www.mokabyte.it/author/ferdinando-santacroce/).

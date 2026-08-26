@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Testare l'intestabile - XPUG Bergamo 2019"
 description: "Testare l'intestabile - workshop sul codice legacy"
 date: 2019-09-01
@@ -9,7 +8,7 @@ categories: ["meetup", "workshop", "legacy code", "testing"]
 
 Testare l'intestabile
 
-[![Canale video XPUGBG](xpugbg-youtube-video-channel.png)](http://www.youtube.com/channel/UCkcDXjR2__NioW1m4voqH6w)
+[![Canale video XPUGBG](xpugbg-youtube-video-channel.png)](https://www.youtube.com/channel/UCkcDXjR2__NioW1m4voqH6w)
 
 **Evento**: [eXtreme Programming User Group Bergamo](https://xpugbg.it/)
 **Luogo**: Bergamo, Italia

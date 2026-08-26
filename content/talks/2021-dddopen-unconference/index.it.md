@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "DDDOpen Unconference"
 date: 2021-10-01
 image: dddopen-unconference.png

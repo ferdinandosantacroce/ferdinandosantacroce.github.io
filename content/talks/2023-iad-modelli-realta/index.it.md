@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Navigando nel mondo del software, tra modelli e realtà"
 description: "Intervento agli Italian Agile Days 2023 su storie utente, debito tecnico e DDD."
 slug: 2023-iad-modelli-realta

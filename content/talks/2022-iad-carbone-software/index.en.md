@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "From coal to software: sociotechnical systems"
 description: "Talk at Italian Agile Days 2022 about sociotechnical systems."
 slug: 2022-iad-carbone-software

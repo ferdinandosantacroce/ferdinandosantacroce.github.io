@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "I'm a mediocre developer - Italian Agile Days 2018 Brescia"
 description: "I'm a mediocre developer"
 date: 2018-11-10

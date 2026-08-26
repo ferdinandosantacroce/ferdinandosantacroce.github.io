@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Lavori"
 description: "Produzioni e opere letterarie di Ferdinando Santacroce."
 slug: "lavori"
@@ -51,4 +50,4 @@ Il libro è stato tradotto in italiano da Apogeo:
 Seguimi su [Goodreads](https://www.goodreads.com/author/show/13649672.Ferdinando_Santacroce) per saperne di più sui libri che leggo e che scrivo.
 
 ## Mokabyte
-Sono un autore tecnico per [Mokabyte](http://www.mokabyte.it), una webzine italiana con vent'anni di storia. Qui trovi la mia serie su [Git, lo stupido tracciatore di contenuti](http://www.mokabyte.it/author/ferdinando-santacroce/).
+Sono un autore tecnico per [Mokabyte](https://www.mokabyte.it), una webzine italiana con vent'anni di storia. Qui trovi la mia serie su [Git, lo stupido tracciatore di contenuti](https://www.mokabyte.it/author/ferdinando-santacroce/).

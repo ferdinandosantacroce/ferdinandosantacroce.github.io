@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "I'm a mediocre developer - Agile Venture Bolzano 2019"
 description: "I'm a mediocre developer"
 date: 2019-03-25

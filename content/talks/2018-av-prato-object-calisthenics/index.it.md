@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Workshop Objects Calisthenics - Agile Venture Prato 2018"
 description: "Workshop Object Calisthenics"
 date: 2018-10-15

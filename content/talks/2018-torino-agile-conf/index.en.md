@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Objects Calisthenics Workshop - Torino Agile Conference 2018"
 description: "Object Calisthenics Workshop"
 date: 2018-06-01

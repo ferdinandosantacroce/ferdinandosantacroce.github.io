@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Working Software Conf 2019 - Conference Chair"
 description: "Conference Chair"
 date: 2019-06-15

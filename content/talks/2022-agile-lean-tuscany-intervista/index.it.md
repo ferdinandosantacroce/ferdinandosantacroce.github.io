@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Intervista con Andrea Gelli - Agile Lean Tuscany"
 description: "Intervista con Andrea Gelli"
 date: 2022-02-15

@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Risorse"
 description: "Risorse utili su Software, Agile e Coaching collezionate negli anni."
 slug: "risorse"

@@ -1,5 +1,4 @@
 ---
-draft: true
 title: "Agile Testing Matrix - Italian Agile Days 2021"
 description: "Agile Testing Matrix"
 date: 2021-11-06
