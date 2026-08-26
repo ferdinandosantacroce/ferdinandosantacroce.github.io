@@ -17,7 +17,7 @@ viene sprecata sul tema vecchio.
 - [x] 1.5 `elastic-pair-programming` completo (cover.jpg + dilbert png + en/it).
 - [x] 1.6 30 talks verificate 1:1 col vecchio `talks.md` (0 mancanti, 0 extra).
 - [x] 1.7 list-pages Jekyll (archive/categories/tags) gestite dal tema (archives/search esistono; categories/tags generate).
-- [ ] 1.8 `_languages.toml` rimosso; **da decidere**: `origin/dev` è uno branch obsoleto pre-cleanup con `talks_archive_backup` ridondante → proporre cancellazione (serve OK Nando + push).
+- [x] 1.8 `_languages.toml` rimosso; branch `origin/dev` cancellato
 
 ## Fase 2 — Versioni e tema v4
 - [x] 2.1 Go: `go.mod` 1.17→1.27 + CI `^1.23`→`1.27.x`
@@ -35,8 +35,8 @@ viene sprecata sul tema vecchio.
 - [x] 3.2 audit parità bilingue (1 fix: tags IT refactoring showdown, c1c13d3)
 - [x] 3.3 audit link (0 interni rotti, cover.jpg morto rimosso, http→https convertiti)
 - [x] 3.4 audit immagini
-- [ ] 3.5 revisione visiva EN+IT (home, post, talks, works, resources, about, archives, search, 404)
-- [ ] 3.6 fix dalla revisione in commit piccoli
+- [x] 3.5 revisione visiva EN+IT (screenshot 14 pagine: 2 bug trovati e fixati in 52b3aae)
+- [x] 3.6 fix: tiles categorie talks (firma partial v4) + URL risorse (52b3aae)
 - [x] 3.7 legacy: date localizzate :date_long (da11e7b) + auto-link nativo v4 verificato
 - [ ] 3.8 decisione finale → rimuovere i draft approvati → push `main` → deploy
 
