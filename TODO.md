@@ -10,25 +10,25 @@ viene sprecata sul tema vecchio.
 - [x] 0.3 build di baseline `hugo --minify --gc` → OK (exit 0; warning deprecation da tema v3, risolti in Fase 2).
 
 ## Fase di migrazione (Fase 1) — verifica completezza
-- [ ] 1.1 tabella di mapping vecchio Jekyll → nuovo Hugo
-- [ ] 1.2 verificare le pagine statiche (about, archives, search, works, resources)
-- [ ] 1.3 verificare asset usati vs orfani
-- [ ] 1.4 migrare il post mancante `git-essentials-on-book-authority` (en+it)
-- [ ] 1.5 verificare che `elastic-pair-programming` sia completo
-- [ ] 1.6 verificare le 30 talks contro il vecchio `talks.md`
-- [ ] 1.7 confermare che le list-pages Jekyll siano gestite dal tema
-- [ ] 1.8 pulire `_languages.toml` morto + decidere il destino del branch `dev`
+- [x] 1.1 mapping old→new: talks 1:1 (30=30); pagine statiche presenti; asset 36/37 migrati (1 rinominato).
+- [x] 1.2 pagine statiche OK: about/archives/search/works (en+it); resources è section con oop/ + tdd/ (en+it).
+- [x] 1.3 asset: 36/37 presenti (1 rinominato); 15 orfani in `assets/img`+`static` (da pulire in Fase 3).
+- [x] 1.4 post mancante `git-essentials-on-book-authority` migrato (en+it, draft).
+- [x] 1.5 `elastic-pair-programming` completo (cover.jpg + dilbert png + en/it).
+- [x] 1.6 30 talks verificate 1:1 col vecchio `talks.md` (0 mancanti, 0 extra).
+- [x] 1.7 list-pages Jekyll (archive/categories/tags) gestite dal tema (archives/search esistono; categories/tags generate).
+- [ ] 1.8 `_languages.toml` rimosso; **da decidere**: `origin/dev` è uno branch obsoleto pre-cleanup con `talks_archive_backup` ridondante → proporre cancellazione (serve OK Nando + push).
 
 ## Fase 2 — Versioni e tema v4
-- [ ] 2.1 Go: `go.mod` 1.17→1.27 + CI `^1.23`→`1.27.x`
-- [ ] 2.2 Hugo CI 0.140.2→0.165.0 extended
-- [ ] 2.3 verifica build antes del tema
-- [ ] 2.4 `module.toml` → `/v4` + `hugo mod tidy`
-- [ ] 2.5 migrare i parametri di config v4
-- [ ] 2.6 spostare gli override di layout nei nuovi path
-- [ ] 2.7 sistemare la build
-- [ ] 2.8 `update-theme.yml` `/v3`→`/v4`
-- [ ] 2.9 aggiornare AGENTS.md + skill `hugo-expert`
+- [x] 2.1 Go: `go.mod` 1.17→1.27 + CI `^1.23`→`1.27.x`
+- [x] 2.2 Hugo CI 0.140.2→0.165.0 extended
+- [x] 2.3 verifica build antes del tema
+- [x] 2.4 `module.toml` → `/v4` + `hugo mod tidy`
+- [x] 2.5 migrare i parametri di config v4
+- [x] 2.6 spostare gli override di layout nei nuovi path
+- [x] 2.7 sistemare la build
+- [x] 2.8 `update-theme.yml` `/v3`→`/v4`
+- [x] 2.9 aggiornare AGENTS.md + skill `hugo-expert`
 
 ## Fase 3 — Pubblicazione e QA
 - [ ] 3.1 audit dei 70 file `draft: true` → decidere cosa pubblicare

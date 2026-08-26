@@ -4,15 +4,15 @@ Compact guidance for OpenCode sessions on this repo. For broader conventions see
 
 ## What this repo is
 
-Hugo static site (Stack theme v3 via Go modules), bilingual EN/IT, deployed to GitHub Pages at `ferdinandosantacroce.it`. The site is the deliverable; there is no application code to run.
+Hugo static site (Stack theme v4 via Go modules), bilingual EN/IT, deployed to GitHub Pages at `ferdinandosantacroce.it`. The site is the deliverable; there is no application code to run.
 
 ## Commands
 
 - `hugo server -D` — local dev server (serves drafts) at `http://localhost:1313/`
 - `hugo --minify --gc` — production build (same command CI runs)
-- `hugo mod get -u github.com/CaiJimmy/hugo-theme-stack/v3 && hugo mod tidy` — update theme
+- `hugo mod get -u github.com/CaiJimmy/hugo-theme-stack/v4 && hugo mod tidy` — update theme
 
-CI pins **Hugo extended `0.140.2`** and Go `^1.23.0` (`.github/workflows/*.yml`). Build issues that only appear in CI are usually a local Hugo version mismatch — use the same extended build.
+CI pins **Hugo extended `0.165.0`** and Go `1.27.x` (`.github/workflows/*.yml`). Build issues that only appear in CI are usually a local Hugo version mismatch — use the same extended build (`mise install hugo-extended@0.165.0`). Stack v4 note: layout overrides live in `layouts/_partials/` and `layouts/_internal/`, not `layouts/partials/`.
 
 ## Rules that are easy to violate
 
