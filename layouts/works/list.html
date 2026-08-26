@@ -1,0 +1,35 @@
+{{ define "body-class" }}template-archives{{ end }}
+{{ define "main" }}
+    <header>
+        <h2 class="section-title">{{ .Title }}</h2>
+        {{ with .Content }}
+        <div class="article-list">
+            {{ . }}
+        </div>
+        {{ end }}
+    </header>
+
+    {{ $lang := $.Site.Language.Lang }}
+    {{ $kindLabel := dict "book" "Books" "article" "Articles" }}
+    {{ if eq $lang "it" }}
+        {{ $kindLabel = dict "book" "Libri" "article" "Articoli" }}
+    {{ end }}
+
+    {{ range $kind := slice "book" "article" }}
+        {{ $pages := where $.Pages "Params.group" "==" $kind }}
+        {{ if $pages }}
+        <div class="archives-group" id="{{ $kind }}">
+            <h2 class="archives-date section-title">
+                <a href="{{ $.RelPermalink }}#{{ $kind }}">{{ index $kindLabel $kind }}</a>
+            </h2>
+            <div class="article-list--tile">
+                {{ range $pages }}
+                    {{ partial "article-list/tile" . }}
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+    {{ end }}
+
+    {{ partialCached "footer/footer" . }}
+{{ end }}
