@@ -31,13 +31,13 @@ viene sprecata sul tema vecchio.
 - [x] 2.9 aggiornare AGENTS.md + skill `hugo-expert`
 
 ## Fase 3 — Pubblicazione e QA
-- [ ] 3.1 audit dei 70 file `draft: true` → decidere cosa pubblicare
-- [ ] 3.2 audit parità bilingue
-- [ ] 3.3 audit link rotti
-- [ ] 3.4 audit immagini
+- [x] 3.1 audit draft → pubblicati talks/works/resources/post (72 file, commit a8b4569)
+- [x] 3.2 audit parità bilingue (1 fix: tags IT refactoring showdown, c1c13d3)
+- [x] 3.3 audit link (0 interni rotti, cover.jpg morto rimosso, http→https convertiti)
+- [x] 3.4 audit immagini
 - [ ] 3.5 revisione visiva EN+IT (home, post, talks, works, resources, about, archives, search, 404)
 - [ ] 3.6 fix dalla revisione in commit piccoli
-- [ ] 3.7 legacy: date in formato italiano + auto-link tra lingue
+- [x] 3.7 legacy: date localizzate :date_long (da11e7b) + auto-link nativo v4 verificato
 - [ ] 3.8 decisione finale → rimuovere i draft approvati → push `main` → deploy
 
 ## Fase 4 — Skills/agent
@@ -51,7 +51,3 @@ viene sprecata sul tema vecchio.
 - [ ] 5.2 inventario materiale → idee di articoli
 - [ ] 5.3 `backlog.md` con priorità
 - [ ] 5.4 research pack + outline per articolo (la prosa la scrive Nando)
-
-## Legacy (da integrare nelle fasi sopra)
-- [ ] vedere come impostare le date in formato italiano per la lingua italiana
-- [ ] impostare l'auto-link di articoli in diverse lingue
