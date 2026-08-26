@@ -1,6 +1,6 @@
 # AGENTS.md
 
-Compact guidance for OpenCode sessions on this repo. For broader conventions see `CLAUDE.md` (and `GEMINI.md`); this file holds only the non-obvious, repo-specific facts.
+Compact guidance for OpenCode sessions on this repo. This file holds only the non-obvious, repo-specific facts.
 
 ## What this repo is
 
@@ -19,6 +19,7 @@ CI pins **Hugo extended `0.165.0`** and Go `1.27.x` (`.github/workflows/*.yml`).
 - **Bilingual parity is mandatory.** Every post needs both `index.en.md` and `index.it.md` — no placeholders, no English-only posts. Files without a language suffix default to English.
 - **Never edit theme files directly.** The theme is a Go module, not vendored. All overrides go in `assets/css/custom.css`.
 - **Deploy only via GitHub Actions.** Push to `main` triggers the deploy; do not deploy manually or commit `public/`.
+- **Every commit message must include `[ci skip]`.** Nando decides when to publish: push freely, but the deploy only runs when he pushes a commit WITHOUT the marker (e.g. an empty `chore: publish` commit). The marker must be in the head (last) commit of the push to take effect.
 - **`public/` and `resources/` are gitignored build artifacts** — never commit them.
 - The `examples/` folder is intentionally NOT published (posts were moved out of `content/`); don't "fix" it by moving it back.
 - A daily cron workflow auto-updates the theme and auto-commits `CI: Update theme`. Expect unexpected `go.mod`/`go.sum` changes; don't revert them unless they break the build.
