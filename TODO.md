@@ -5,9 +5,9 @@ sicurezza: Fase 2 (tema v4) prima di Fase 3 (QA visiva), così la revisione non
 viene sprecata sul tema vecchio.
 
 ## Fase 0 — Baseline
-- [ ] 0.1 realineare `main` con `origin/main` (sono divergenti: 1 commit locale + 1 remoto)
-- [ ] 0.2 registrare le versioni attuali (Hugo, Go, Stack) in un file di riferimento
-- [ ] 0.3 build di baseline `hugo --minify --gc` e commit
+- [x] 0.1 realineare `main` con `origin/main` → merge `-s ours` (mantenuto OpenCode, annullato Crush). Push futuro sarà fast-forward.
+- [x] 0.2 versioni registrate: Hugo locale 0.162.1 / CI 0.140.2; Go locale 1.26.6 / CI ^1.23.0; Stack v3.34.2 (vedi AGENTS.md per i pin CI).
+- [x] 0.3 build di baseline `hugo --minify --gc` → OK (exit 0; warning deprecation da tema v3, risolti in Fase 2).
 
 ## Fase di migrazione (Fase 1) — verifica completezza
 - [ ] 1.1 tabella di mapping vecchio Jekyll → nuovo Hugo
