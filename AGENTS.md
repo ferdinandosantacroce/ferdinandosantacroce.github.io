@@ -43,11 +43,16 @@ CI pins **Hugo extended `0.165.0`** and Go `1.27.x` (`.github/workflows/*.yml`).
 ## Documentation
 
 - `docs/piano-evoluzione-blog.md` — medium and long term plan, numbered tasks (`F` fundamentals, `C` content, `I` information architecture, `M` content engine) with state
+- `docs/adr/` — one file per decision about how the site works: context, decision, consequences. Never rewrite an accepted ADR; supersede it
 - `docs/contenuti/front-matter.md` — front matter schema for every content type, with examples
 - `docs/contenuti/mappatura-mokabyte.md` — the 13 MokaByte articles, their slugs, images and the decisions taken
 - `docs/piano-editoriale/` — editorial plan, idea map, voice note register
 - `docs/workflow-feedback.md` — friction observed while working, candidates for skills and agents. Add a row there when a task feels repeated or error-prone
 - `specs/` — archived feature specs, kept as history, not active work
+
+## Skills
+
+Project skills live in `.opencode/skills/`: `hugo-expert`, `wrap-up`, `journal`, `adr`. The `journal` and `adr` skills define how a session is recorded and how a decision is filed.
 
 ## Linting
 

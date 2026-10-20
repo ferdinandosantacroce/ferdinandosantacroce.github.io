@@ -12,28 +12,12 @@ Each phase requires user confirmation; present a consolidated report at the end.
 
 ## Phase 1: Document It (JOURNAL.md)
 
-1. Append a new dated entry to `JOURNAL.md` at the repo root (create it if missing).
-   Entry format:
+Use the `journal` skill (`.opencode/skills/journal/SKILL.md`): it defines the entry format, which facts to gather and the rule about not duplicating the plan or the ADRs.
 
-   ```markdown
-   ## YYYY-MM-DD
-
-   ### Posts worked on
-   - `content/post/<slug>/` — title, language(s), status (draft/published/translated)
-
-   ### Hugo/theme/config changes
-   - List any template, config, asset, or theme changes
-
-   ### Content decisions
-   - Tagging choices, structure decisions, bilingual strategy notes
-
-   ### Open items for next session
-   - Unfinished work, pending translations, ideas to explore
-   ```
-
-2. Share the draft entry with Nando.
-3. Ask: "Anything I missed or want to add?"
-4. Apply Nando's additions, write the final entry to `JOURNAL.md`.
+1. Draft the entry following the skill.
+2. Share the draft with Nando and ask: "Anything I missed or want to add?"
+3. Apply the additions and write the entry at the top of `JOURNAL.md`.
+4. If the session took a decision worth keeping, check that it has an ADR (see the `adr` skill) before moving on.
 5. Proceed to Phase 2.
 
 ## Phase 2: Commit It

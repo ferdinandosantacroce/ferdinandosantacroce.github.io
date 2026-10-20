@@ -53,19 +53,19 @@ Regole che ne derivano:
 
 ---
 
-## 2. Decisioni prese con Nando
+## 2. Decisioni prese
 
-**D1, materiale da ripubblicare.** Gli articoli MokaByte sono già pubblicati sulla magazine. Sono **13 articoli in tre gruppi editoriali**: la serie "Git, the stupid content tracker" in 11 parti, "Lo sviluppatore mediocre" e "Working Software Conf 19". Vanno replicati sul blog personale per mantenerne il controllo nel caso MokaByte smettesse di pubblicarli. Non è una migrazione tecnica da Jekyll: è una ripubblicazione editoriale.
+Le decisioni sono registrate come ADR in `docs/adr/`, ognuno con contesto, decisione e conseguenze. Qui resta l'indice, così il piano si legge senza duplicare il ragionamento.
 
-**D2, lingua.** Italiano è la lingua primaria. Ogni articolo deve esistere anche in inglese, ma la traduzione può arrivare dopo. La parità resta un obiettivo stretto, non un optional.
-
-**D3, grafica.** Rimanere su Hugo e sulle buone pratiche, senza fork del tema finché non serve. Prima strada: `custom.css` e override mirati. Nessuna esigenza grafica urgente, il template è considerato sufficientemente buono.
-
-**D4, posizionamento.** Il sito è il biglietto da visita professionale: blog, curriculum narrativo, percorso, progetti e servizi come libero professionista dello sviluppo software. Non è solo un blog.
-
-**D5, pubblicazione sospesa.** Fino a quando il sito non è sistemato a dovere, non si pubblica. Ogni commit termina con `[ci skip]`, quindi nessun push va in produzione. La pubblicazione è un gesto esplicito e unico: `git commit --allow-empty -m "chore: publish"` seguito da push, senza il marcatore. Regola scritta anche in `AGENTS.md` e nella skill `wrap-up`.
-
-**D6, lingua di base del sito (2026-10-20).** L'inglese resta la lingua di default e vive alla radice, l'italiano resta sotto `/it/`. Non è una svista: è una scelta, perché il pubblico italiano che arriva sul sito legge anche l'inglese, e perché così tutti gli URL pubblicati finora continuano a funzionare. L'italiano resta la lingua in cui si scrive per primo, l'inglese la lingua in cui il sito si presenta. Non invertire questa configurazione senza una decisione esplicita.
+| ID | Decisione | ADR |
+| --- | --- | --- |
+| D1 | Ripubblicare i 13 articoli MokaByte, self-canonical, testo originale con la "Nota 2026" | [0002](adr/0002-ripubblicare-gli-articoli-mokabyte.md) |
+| D2 | Parità bilingue stretta, con debito di traduzione tracciato | [0003](adr/0003-parita-bilingue-stretta.md) |
+| D3 | Tema Stack con personalizzazione minima, fork solo se necessario | [0006](adr/0006-tema-stack-personalizzazione-minima.md) |
+| D4 | Il sito è un hub professionale, non solo un blog | [0007](adr/0007-sito-come-hub-professionale.md) |
+| D5 | Pubblicazione sospesa, rilascio esplicito e `[ci skip]` su ogni commit | [0005](adr/0005-pubblicazione-sospesa.md) |
+| D6 | Inglese alla radice, italiano sotto `/it/` | [0004](adr/0004-inglese-alla-radice.md) |
+| D7 | Tassonomia `series` per gli articoli in più parti | [0008](adr/0008-tassonomia-series.md) |
 
 ### 2.1 Cosa significa "parità stretta" (definizione operativa)
 

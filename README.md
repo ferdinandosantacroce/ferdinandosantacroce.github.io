@@ -99,6 +99,7 @@ git push
 | File | Content |
 | --- | --- |
 | [docs/piano-evoluzione-blog.md](docs/piano-evoluzione-blog.md) | medium and long term plan, with numbered tasks and state |
+| [docs/adr/](docs/adr/) | one file per decision about how the site works, with context and consequences |
 | [docs/contenuti/front-matter.md](docs/contenuti/front-matter.md) | front matter schema for every content type |
 | [docs/contenuti/mappatura-mokabyte.md](docs/contenuti/mappatura-mokabyte.md) | the 13 MokaByte articles to republish, with slugs and decisions |
 | [docs/piano-editoriale/](docs/piano-editoriale/) | editorial plan, article ideas, voice notes register |

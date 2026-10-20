@@ -16,6 +16,8 @@
 - Archivio: rimossi i placeholder "Under construction" da EN e IT.
 - `.idea/` tolto dal repo e aggiunto a `.gitignore`.
 - Documentazione: README riscritto, AGENTS.md aggiornato, TODO ridotto a indice, `specs/` marcato come archivio completato.
+- Decisioni: introdotti gli ADR in `docs/adr/`, con le sette decisioni prese finora registrate una per file. Il piano ora rimanda agli ADR invece di duplicarli.
+- Skill: create `journal` e `adr` in `.opencode/skills/`, e la skill `wrap-up` rimanda alla prima invece di avere un formato suo.
 
 ### Content decisions
 - D1: i 13 MokaByte vanno ripubblicati sul blog personale, in tre gruppi editoriali, per non dipendere più dalla magazine.

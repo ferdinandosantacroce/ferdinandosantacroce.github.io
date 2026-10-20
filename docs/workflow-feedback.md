@@ -47,6 +47,13 @@
 - `translation-review` (M2): checklist di revisione della traduzione.
 - `check-content` (C6): script, non skill.
 
+## Create
+
+- `journal` (2026-10-20): procedura del diario di sessione, con il divieto di duplicare piano e ADR.
+- `adr` (2026-10-20): come e quando scrivere un Architecture Decision Record, con ciclo di vita degli stati.
+
+Le due skill nascono da un'attrito reale osservato nella stessa sessione: le decisioni erano sparse tra piano, journal, `AGENTS.md` e conversazione, e il journal conteneva riferimenti a cartelle eliminate.
+
 ## Decisioni
 
 - Preferire poche skill stabili a molte skill fragili. Ogni skill deve avere un caso d'uso reale già accaduto almeno due volte.
