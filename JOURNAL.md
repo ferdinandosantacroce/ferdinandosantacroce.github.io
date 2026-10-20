@@ -31,6 +31,10 @@
 - D3: grafica sobria, `custom.css` e override mirati; fork del tema solo se necessario.
 - D4: il sito è il biglietto da visita professionale, non solo un blog.
 - D5: pubblicazione sospesa finché il sito non è pronto. Ogni commit porta `[ci skip]`; si pubblica solo con un commit vuoto dedicato.
+- D8 (ADR 0009): un solo blog con categorie tematiche, niente sezioni per tema. Menu a sei voci e Archivio, Risorse e Ricerca nel footer.
+- Contatti: solo mailto, niente form finché non c'è traffico.
+- Analytics: nessuno per ora, si decide al lancio.
+- Backlog editoriale: un file unico, le quattro ondate diventano priorità.
 
 ### Open items for next session
 - Orizzonte 2 chiuso (6/6). Prossimo passo: Orizzonte 3, da I1, architettura informativa e URL, dopo aver sciolto le domande aperte del piano.

@@ -66,6 +66,7 @@ Le decisioni sono registrate come ADR in `docs/adr/`, ognuno con contesto, decis
 | D5 | Pubblicazione sospesa, rilascio esplicito e `[ci skip]` su ogni commit | [0005](adr/0005-pubblicazione-sospesa.md) |
 | D6 | Inglese alla radice, italiano sotto `/it/` | [0004](adr/0004-inglese-alla-radice.md) |
 | D7 | Tassonomia `series` per gli articoli in più parti | [0008](adr/0008-tassonomia-series.md) |
+| D8 | Blog unico con categorie tematiche, menu a sei voci, secondarie nel footer | [0009](adr/0009-blog-unico-e-menu-professionale.md) |
 
 ### 2.1 Cosa significa "parità stretta" (definizione operativa)
 
@@ -215,7 +216,7 @@ Obiettivo: il sito smette di essere solo un blog e diventa biglietto da visita p
 - [ ] Riconciliare le sezioni proposte dal piano editoriale (Racconti, Software, Team, Comunità, Talk e libri, Risorse) con quelle del personal branding (Percorso, Progetti, Corsi, Workshop, Servizi): una sola architettura, non la somma delle due.
 - [ ] Definire le sezioni: Home, About, Percorso, Progetti, Corsi, Workshop, Servizi, Blog (Racconti), Talk, Works, Risorse, Contatti.
 - [ ] Mappare su Hugo: pagine singole in `content/page/`, nuove section per `projects` e `courses` se servono liste filtrabili.
-- [ ] Risolvere il problema del menu: 10-12 voci nella sidebar Stack sono troppe. Proposta: menu principale corto (Home, Blog, Percorso, Lavora con me, Contatti) e una pagina hub che raccoglie Progetti, Corsi, Workshop, Servizi.
+- [ ] Risolvere il problema del menu: deciso in ADR 0009, sei voci (Home, Percorso, Lavora con me, Talks, Works, Contatti) e Archivio, Risorse e Ricerca nel footer. I1 deve progettare la pagina hub "Lavora con me" e il footer, non rimettere in discussione il numero di voci.
 - **Done:** albero degli URL e menu approvati, scritti in `docs/architettura-informativa.md`.
 
 ### I2. Inventario della carriera
@@ -298,15 +299,15 @@ Il lavoro su questo orizzonte nasce dal feedback raccolto in `docs/workflow-feed
 | ID | Domanda | Stato o proposta |
 | --- | --- | --- |
 | Q1 | "Tre articoli" MokaByte | Risolta: 13 articoli in tre gruppi |
-| Q2 | Canonical verso Mokabyte o self-canonical? | Self-canonical con nota e link all'originale |
-| Q3 | Ripubblicare fedele o aggiornare i testi Git del 2016-2018? | Aggiornare i comandi obsoleti, nota "aggiornato al 2026" |
-| Q4 | Cadenza di pubblicazione? | 2 articoli a settimana nella fase MokaByte |
-| Q5 | Come produrre le traduzioni EN? | Prima stesura assistita, revisione umana su voce e termini, mai pubblicare senza revisione |
-| Q6 | Analytics? | Nessuna per ora, decidere dopo l'Orizzonte 3 |
-| Q7 | Form contatti o solo mailto? | Mailto adesso, form statico se arriva traffico |
-| Q8 | Gerarchia del menu? | Menu corto più pagina hub |
-| Q9 | Come si riconciliano le sezioni editoriali con quelle professionali? | Una sola architettura in I1, decisa prima di scrivere |
-| Q10 | Il backlog di M5 sostituisce le quattro ondate dell'appunti? | Le mantiene come ordine di priorità, il backlog aggiunge stato e fonte |
+| Q2 | Canonical verso Mokabyte o self-canonical? | Risolta: self-canonical con nota e link all'originale (ADR 0002) |
+| Q3 | Ripubblicare fedele o aggiornare i testi Git del 2016-2018? | Risolta: testo originale più "Nota 2026" (ADR 0002) |
+| Q4 | Cadenza di pubblicazione? | Risolta: il corpus è già importato, la cadenza riguarda solo il rilascio |
+| Q5 | Come produrre le traduzioni EN? | Risolta: prima stesura assistita, revisione umana, mai pubblicare senza revisione |
+| Q6 | Analytics? | Risolta 2026-10-20: nessuno per ora, si decide al lancio |
+| Q7 | Form contatti o solo mailto? | Risolta 2026-10-20: solo mailto, form statico solo se arriva traffico |
+| Q8 | Gerarchia del menu? | Risolta 2026-10-20: sei voci principali, Archivio, Risorse e Ricerca nel footer (ADR 0009) |
+| Q9 | Come si riconciliano le sezioni editoriali con quelle professionali? | Risolta 2026-10-20: un blog unico con categorie tematiche, sezioni professionali come pagine (ADR 0009) |
+| Q10 | Il backlog di M5 sostituisce le quattro ondate dell'appunti? | Risolta 2026-10-20: backlog unico, le ondate diventano priorità |
 
 ---
 
@@ -315,8 +316,8 @@ Il lavoro su questo orizzonte nasce dal feedback raccolto in `docs/workflow-feed
 | Orizzonte | Task totali | Completati |
 | --- | --- | --- |
 | 1, fondamenta | 10 | 10 |
-| 2, contenuti MokaByte | 6 | 4 |
+| 2, contenuti MokaByte | 6 | 6 |
 | 3, personal branding | 5 | 0 |
 | 4, motore | 8 | 0 |
 
-**Stato al 2026-10-20:** Orizzonte 1 chiuso. C1-C4 chiusi, il primo articolo è pubblicato in italiano e inglese. Prima di C5 va decisa la strategia di traduzione: il corpus è di 30.360 parole.
+**Stato al 2026-10-20:** Orizzonti 1 e 2 chiusi. Tutti e 13 gli articoli MokaByte sono in `content/`, bilingui, con la serie Git ordinata e navigabile. Il controllo contenuti gira in CI e il debito traduzioni è a zero. Prossimo passo: Orizzonte 3, da I1.

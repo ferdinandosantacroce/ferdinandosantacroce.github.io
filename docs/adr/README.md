@@ -48,3 +48,4 @@ Stati ammessi: `proposto`, `accettato`, `superato`, `rifiutato`. Un ADR accettat
 | [0006](0006-tema-stack-personalizzazione-minima.md) | Stack con personalizzazione minima | accettato |
 | [0007](0007-sito-come-hub-professionale.md) | Il sito è un hub professionale, non solo un blog | accettato |
 | [0008](0008-tassonomia-series.md) | Tassonomia `series` per gli articoli in più parti | accettato |
+| [0009](0009-blog-unico-e-menu-professionale.md) | Blog unico con categorie tematiche e menu a sei voci | accettato |
