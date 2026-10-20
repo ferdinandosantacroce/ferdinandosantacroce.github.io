@@ -35,6 +35,7 @@ CI pins **Hugo extended `0.165.0`** and Go `1.27.x` (`.github/workflows/*.yml`).
 - `content/talks/<slug>/` → one bundle per talk, served under `/talks/`
 - `content/works/<slug>/` → books and articles, grouped by `group: book|article`, served under `/works/`
 - `content/page/<name>/` → about, archives, search; `content/page/resources/` is a branch bundle with `oop/` and `tdd/`
+- One slug per bundle, identical in both languages: Hugo publishes bundle resources once, under the default language path, so different slugs cross-link the images of the two languages
 - `assets/icons/` → Tabler Icons SVGs; each must have exactly `width="24" height="24" stroke-width="2" stroke="currentColor"` or it will not render in the menu
 - Permalinks: posts at `/p/:slug/`, pages at `/:slug/` (`config/_default/permalinks.toml`)
 

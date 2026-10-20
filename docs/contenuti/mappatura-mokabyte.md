@@ -25,10 +25,12 @@ Documento di lavoro per il task C1 del piano (`docs/piano-evoluzione-blog.md`). 
 
 ### Articoli autonomi
 
-| # | File sorgente | Slug IT | Slug EN | Titolo IT | Titolo EN | Data | Immagini |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| A1 | `2018-11-17-sviluppatoremediocre.md` | `lo-sviluppatore-mediocre` | `the-mediocre-developer` | Sono uno sviluppatore mediocre | I am a mediocre developer | 2018-11-17 | 5 |
-| A2 | `2019-07-20-workingsoftwareconf19.md` | `working-software-conference-2019` | `working-software-conference-2019` | Working Software Conference 2019 | Working Software Conference 2019 | 2019-07-20 | 6 |
+| # | File sorgente | Slug IT e EN | Titolo IT | Titolo EN | Data | Immagini |
+| --- | --- | --- | --- | --- | --- | --- |
+| A1 | `2018-11-17-sviluppatoremediocre.md` | `lo-sviluppatore-mediocre` | Sono uno sviluppatore mediocre | I am a mediocre developer | 2018-11-17 | 5 |
+| A2 | `2019-07-20-workingsoftwareconf19.md` | `working-software-conference-2019` | Working Software Conference 2019 | Working Software Conference 2019 | 2019-07-20 | 6 |
+
+Nota sugli slug: uno solo per bundle, uguale nelle due lingue. Provando su A1 uno slug inglese diverso (`the-mediocre-developer`) le immagini della pagina italiana finivano sotto il percorso inglese, perché Hugo pubblica le risorse del bundle una volta sola, sotto la lingua di default. Non è accettabile: se un giorno la versione inglese sparisse, le immagini italiane si romperebbero.
 
 Totale: 13 bundle, 26 file Markdown, 32 immagini. La numerazione `G1..G11` e `A1..A2` serve solo in questo documento, per parlare degli articoli senza citare i nomi dei file.
 
@@ -102,6 +104,8 @@ Dati misurati sui tredici file, utili per decidere quanto lavoro serve prima di 
 - **Nessun collegamento interno a MokaByte da riscrivere.** Le uniche occorrenze di "mokabyte" nel corpo sono un esempio di `git hash-object` in G5; il resto sono i campi `source`. Buona notizia: non ci sono link che portano fuori.
 - **Due articoli su tredici sono senza tempo.** G1 (storia e nome di Git) e G11 (le tre aree, staging e history) invecchiano poco. A1 e A2 non parlano di comandi: sono riflessioni su carriera e comunità, e reggono bene.
 - **G4, G5, G7, G8 sono i più tecnici e i più lunghi** (332, 189, 303, 296 righe): sono anche quelli in cui un errore di aggiornamento si nota di più.
+- **Tutti e tredici i file finiscono con un artefatto di WordPress**: `MOLONGUI AUTHORSHIP PLUGIN 5.2.9` più un URL. Va rimosso.
+- **I rimandi alle note sono rotti anche sull'originale.** I marcatori `[1]`, `[3]`, `[4]` e così via non hanno una sezione di note né nel file né sulla pagina MokaByte: sono stati rimossi, e dove il rimando introduceva una risorsa utile è stato messo un link stabile.
 
 ## 5. Decisioni per C2
 
@@ -158,16 +162,17 @@ Nota tecnica sulla tassonomia: con `series = "series"` in `[taxonomies]`, Hugo g
 
 Questa sequenza è il candidato naturale per la futura skill `import-article`. Va provata su un articolo (C4) prima di diventare una skill.
 
-1. Creare `content/post/<slug>/`.
+1. Creare `content/post/<slug>/`, con lo stesso slug nelle due lingue.
 2. Copiare il Markdown italiano come `index.it.md`, sostituire il front matter con lo schema della sezione 2.
-3. Copiare le immagini nel bundle e rinominarle secondo la sezione 3.
-4. Riscrivere i riferimenti alle immagini nel Markdown.
-5. Scrivere `description`.
-6. Aggiungere la nota sulla fonte e, se serve, la "Nota 2026".
-7. Creare `index.en.md` con `draft: true` e la traduzione, oppure solo il front matter con `draft: true` se la traduzione arriva dopo.
-8. Build locale e controllo visivo di IT e EN.
-9. Verificare che le immagini si vedano e i link siano corretti.
-10. Commit con `[ci skip]`.
+3. Pulire il file: via l'artefatto `MOLONGUI AUTHORSHIP PLUGIN` in coda, via i rimandi a note che non esistono, corretti i refusi evidenti.
+4. Copiare le immagini nel bundle e rinominarle secondo la sezione 3.
+5. Riscrivere i riferimenti alle immagini nel Markdown.
+6. Scrivere `description`.
+7. Aggiungere la nota sulla fonte e, se serve, la "Nota 2026".
+8. Creare `index.en.md` con la traduzione completa; se la traduzione non è pronta, il file resta `draft: true`.
+9. Build locale e controllo visivo di IT e EN.
+10. Verificare che le immagini si vedano e i link siano corretti.
+11. Commit con `[ci skip]`.
 
 ## 8. Stato
 

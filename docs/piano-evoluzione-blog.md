@@ -179,11 +179,14 @@ File: `docs/contenuti/front-matter.md`, `README.md`, `AGENTS.md`
 - [x] README e AGENTS.md rimandano allo schema.
 - **Done:** schema scritto una volta e usato da tutti i nuovi contenuti.
 
-### C4. Pilota end-to-end
-- [ ] Scegliere un articolo campione (proposta: "Lo sviluppatore mediocre", autonomo e ancora attuale, oppure la parte 1 della serie Git).
-- [ ] Creare il bundle, spostare le immagini dentro, scrivere il front matter completo, pubblicare IT, tradurre EN, avviso di traduzione se EN non è pronta.
-- [ ] Misurare il tempo reale: stesura/adattamento IT, traduzione EN, revisione.
+### C4. Pilota end-to-end (fatto 2026-10-20)
+- [x] Articolo campione: A1, "Sono uno sviluppatore mediocre", senza tempo e senza screenshot da aggiornare.
+- [x] Bundle creato, cinque immagini spostate e rinominate, front matter completo, nota sulla fonte, refusi corretti, rimandi a note inesistenti rimossi.
+- [x] Traduzione inglese completa, pubblicata come `index.en.md`.
+- [x] Tempi misurati: 4.015 parole in italiano, 4.117 in inglese. Il corpus MokaByte completo è di 30.360 parole.
 - **Done:** articolo online in due lingue, tempi misurati, problema del flusso individuato.
+
+Il pilota ha misurato una cosa che cambia il piano: tradurre tutto il corpus significa circa 30.000 parole. A 2.000 parole a settimana sono tre-quattro mesi di lavoro solo per l'inglese. Le opzioni sono tre, da decidere prima di C5: tradurre tutto con calma e accettare il debito nel frattempo, tradurre solo gli articoli strategici con la scheda ponte in inglese, oppure ripensare la regola di parità stretta per il solo corpus storico.
 
 ### C5. Pubblicazione del corpus
 - [ ] Pubblicare i restanti 12 articoli con la cadenza concordata (proposta: 2 a settimana per la serie Git, così la serie resta leggibile e il blog prende corpo in un mese).
@@ -307,8 +310,8 @@ Il lavoro su questo orizzonte nasce dal feedback raccolto in `docs/workflow-feed
 | Orizzonte | Task totali | Completati |
 | --- | --- | --- |
 | 1, fondamenta | 10 | 10 |
-| 2, contenuti MokaByte | 6 | 3 |
+| 2, contenuti MokaByte | 6 | 4 |
 | 3, personal branding | 5 | 0 |
 | 4, motore | 8 | 0 |
 
-**Stato al 2026-10-20:** Orizzonte 1 chiuso (F1-F10). C1, C2 e C3 chiusi. Prossimo passo: C4, il pilota end-to-end sull'articolo A1.
+**Stato al 2026-10-20:** Orizzonte 1 chiuso. C1-C4 chiusi, il primo articolo è pubblicato in italiano e inglese. Prima di C5 va decisa la strategia di traduzione: il corpus è di 30.360 parole.
