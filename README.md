@@ -20,7 +20,10 @@ There is no Node build step. Styles and scripts come from the theme; the only cu
 mise install          # installs Hugo extended 0.165.0
 hugo server -D        # dev server with drafts at http://localhost:1313/
 hugo --minify --gc    # production build, the same command CI runs
+bash scripts/check-content.sh --site public   # content guardrails, after a build
 ```
+
+`scripts/check-content.sh` checks bilingual pairs, required front matter, referenced images, duplicate slugs, series continuity, broken internal links and the translation debt report. It runs in CI right after the build.
 
 ## Repository map
 

@@ -50,6 +50,11 @@ jobs:
             - name: Build
               run: hugo --minify --gc
 
+            # Runs after the build so internal links and images can be checked
+            # against what Hugo actually produced.
+            - name: Check content
+              run: bash scripts/check-content.sh --site public
+
             # Pull requests only build, they never publish. This keeps a branch
             # preview from overwriting the live site on gh-pages.
             - name: Deploy 🚀

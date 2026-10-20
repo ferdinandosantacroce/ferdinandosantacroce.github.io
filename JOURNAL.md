@@ -23,6 +23,7 @@
 - Skill: create `journal` e `adr` in `.opencode/skills/`, e la skill `wrap-up` rimanda alla prima invece di avere un formato suo.
 - Serie: `layouts/term.html` elenca le parti per `part` crescente senza paginare, e ogni articolo mostra una barra con tutte le parti per saltare da una puntata all'altra. Il paginatore del tema è disattivato per le serie.
 - CSS: `assets/css/custom.css` non veniva caricato da Stack v4, che si aspetta `assets/scss/custom.scss`. Aggiunto `layouts/_partials/head/custom.html` che compila e include il file; rimossa la regola sul font, rimasta dormiente fino a oggi. Tolto `params.assets.customCSS`, inutilizzato in v4.
+- Guardrail: `scripts/check-content.sh` verifica coppie bilingui, front matter per sezione, immagini (Markdown e HTML), slug duplicati, continuità delle serie e link interni; genera `docs/contenuti/debito-traduzioni.md`. In CI gira subito dopo il build. Prima esecuzione: una talk senza `description`, corretta.
 
 ### Content decisions
 - D1: i 13 MokaByte vanno ripubblicati sul blog personale, in tre gruppi editoriali, per non dipendere più dalla magazine.
@@ -32,7 +33,7 @@
 - D5: pubblicazione sospesa finché il sito non è pronto. Ogni commit porta `[ci skip]`; si pubblica solo con un commit vuoto dedicato.
 
 ### Open items for next session
-- C5 chiuso, Orizzonte 2 a 5/6. Prossimo passo: C6, `scripts/check-content.sh` con parità bilingui, front matter minimo, immagini esistenti, link interni rotti ed elenco delle coppie con un lato `draft`.
+- Orizzonte 2 chiuso (6/6). Prossimo passo: Orizzonte 3, da I1, architettura informativa e URL, dopo aver sciolto le domande aperte del piano.
 - C6 non iniziato: `scripts/check-content.sh` per parità bilingui, front matter, immagini e link interni.
 - Il sito online è fermo al deploy del 21 marzo 2026: quando sarà pronto serve un commit di pubblicazione.
 - Domande aperte da sciogliere prima di C4: canonical verso MokaByte o self-canonical, aggiornare o ripubblicare fedeli i testi Git del 2016-2018.

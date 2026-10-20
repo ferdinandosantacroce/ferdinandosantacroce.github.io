@@ -199,10 +199,11 @@ Il pilota ha misurato una cosa che cambia il piano: tradurre tutto il corpus sig
 
 ### C6. Guardrail di parità e qualità
 File: `scripts/check-content.sh` (o equivalente Go), `.github/workflows/deploy.yml`
-- [ ] Lo script verifica: coppia `index.it.md` e `index.en.md` presente in ogni bundle; front matter minimo; immagini referenziate esistenti; link interni rotti; elenco delle coppie con un lato in `draft`.
-- [ ] Genera `docs/contenuti/debito-traduzioni.md`.
-- [ ] Integrarlo nel workflow prima del build.
+- [x] Lo script verifica: coppia `index.it.md` e `index.en.md` presente in ogni bundle; front matter minimo; immagini referenziate esistenti; link interni rotti; elenco delle coppie con un lato in `draft`.
+- [x] Genera `docs/contenuti/debito-traduzioni.md`.
+- [x] Integrarlo nel workflow, subito dopo il build (non prima: i link interni e le immagini si verificano su `public/`).
 - **Done:** una coppia mancante fa fallire la CI, il debito è leggibile in un file.
+- **Fatto 2026-10-20:** lo script copre anche slug duplicati per lingua e continuità delle serie. Il report è rigenerato a ogni esecuzione ed è vuoto. Prima esecuzione: trovata una talk senza `description`, corretta.
 
 ---
 

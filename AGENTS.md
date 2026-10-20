@@ -13,6 +13,7 @@ Hugo static site (Stack theme v4 via Go modules), bilingual EN/IT, deployed to G
 - `mise install` — installs Hugo extended `0.165.0`
 - `hugo server -D` — dev server with drafts at `http://localhost:1313/`
 - `hugo --minify --gc` — production build, the same command CI runs
+- `bash scripts/check-content.sh --site public` — content guardrails after a build: bilingual pairs, front matter, images, slugs, series, internal links, translation debt report
 - `hugo mod get -u github.com/CaiJimmy/hugo-theme-stack/v4 && hugo mod tidy` — update the theme
 - `mise x actionlint@latest -- actionlint .github/workflows/*.yml` — validate workflows after editing them
 
