@@ -195,7 +195,7 @@ Il pilota ha misurato una cosa che cambia il piano: tradurre tutto il corpus sig
 - [ ] Verificare che la pagina di serie (`/series/<nome>/`) elenchi tutte le parti nell'ordine giusto.
 - **Done:** 13 articoli online, 26 file, parità completa o debito dichiarato.
 
-**Avanzamento 2026-10-20:** pubblicati A1, G1, G2, G3, G4, G5 e A2, tutti con traduzione inglese completa. La pagina `/series/git-the-stupid-content-tracker/` elenca le parti da 1 a 5, in italiano e in inglese. Restano 6 articoli (parti 6-11), circa 13.000 parole da importare e altrettante da tradurre.
+**Avanzamento 2026-10-20:** pubblicati A1, G1, G2, G3, G4, G5, G6, G7 e A2, tutti con traduzione inglese completa. La pagina `/series/git-the-stupid-content-tracker/` elenca le parti da 1 a 7, ma paginate cinque per volta e dalla più recente: il rilievo è passato a I3. Restano 4 articoli (parti 8-11), circa 8.500 parole da importare e altrettante da tradurre.
 
 ### C6. Guardrail di parità e qualità
 File: `scripts/check-content.sh` (o equivalente Go), `.github/workflows/deploy.yml`
@@ -227,6 +227,7 @@ Obiettivo: il sito smette di essere solo un blog e diventa biglietto da visita p
 ### I3. Template delle sezioni professionali
 - [ ] `layouts/projects/list.html` con griglia di schede, e single con i campi: periodo, settore, ruolo, problema, contributo, risultato, apprendimento, visibilità.
 - [ ] `layouts/courses/list.html` con catalogo: titolo, destinatari, durata, formato, prerequisiti, obiettivi, programma.
+- [ ] Pagina di serie: oggi il template di tassonomia pagina 5 articoli per volta e ordina dal più recente. Serve un override che ordini per `part` crescente e mostri tutte le parti insieme.
 - **Done:** un progetto e un corso pubblicati come esempio funzionante.
 
 ### I4. Pagine pilota
