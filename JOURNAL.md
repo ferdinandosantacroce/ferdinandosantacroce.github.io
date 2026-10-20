@@ -2,6 +2,35 @@
 
 ---
 
+## 2026-10-20
+
+### Posts worked on
+- Nessun post pubblicato: sessione di audit e fondamenta.
+- Materiale in attesa: 13 articoli MokaByte in `raw/mokabyte/`, cioè la serie Git in 11 parti, "Lo sviluppatore mediocre" e "Working Software Conf 19".
+
+### Hugo/theme/config changes
+- Deploy: le pull request costruiscono e non pubblicano più; action aggiornate alle major correnti; gruppo di `concurrency`; cache delle risorse con chiave per run.
+- Tema: aggiornamento settimanale, build come cancello prima del commit, commit automatico con `[ci skip]`.
+- Config: rimosso `disqusShortname`; `go.mod` e `go.sum` ripuliti dai residui v3; favicon unico in `assets/img`, eliminato il duplicato in `static/`.
+- Licenza: nuovo `CONTENT-LICENSE.md` (CC BY-NC-SA 4.0), codice MIT in `LICENSE`, README allineato.
+- Archivio: rimossi i placeholder "Under construction" da EN e IT.
+- `.idea/` tolto dal repo e aggiunto a `.gitignore`.
+- Documentazione: README riscritto, AGENTS.md aggiornato, TODO ridotto a indice, `specs/` marcato come archivio completato.
+
+### Content decisions
+- D1: i 13 MokaByte vanno ripubblicati sul blog personale, in tre gruppi editoriali, per non dipendere più dalla magazine.
+- D2: parità stretta. Italiano primario, inglese può arrivare dopo, ma il file `index.en.md` esiste dal primo commit.
+- D3: grafica sobria, `custom.css` e override mirati; fork del tema solo se necessario.
+- D4: il sito è il biglietto da visita professionale, non solo un blog.
+- D5: pubblicazione sospesa finché il sito non è pronto. Ogni commit porta `[ci skip]`; si pubblica solo con un commit vuoto dedicato.
+
+### Open items for next session
+- Orizzonte 1 chiuso (F1-F10). Prossimo passo: Orizzonte 2, a partire da C1, la mappatura dei 13 MokaByte.
+- Domande aperte da sciogliere prima di C4: canonical verso MokaByte o self-canonical, aggiornare o ripubblicare fedeli i testi Git del 2016-2018.
+- Il sito online è fermo al deploy del 21 marzo 2026: quando sarà pronto serve un commit di pubblicazione.
+
+---
+
 ## 2026-02-26
 
 ### Posts worked on

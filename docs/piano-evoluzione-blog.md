@@ -63,6 +63,8 @@ Regole che ne derivano:
 
 **D4, posizionamento.** Il sito è il biglietto da visita professionale: blog, curriculum narrativo, percorso, progetti e servizi come libero professionista dello sviluppo software. Non è solo un blog.
 
+**D5, pubblicazione sospesa.** Fino a quando il sito non è sistemato a dovere, non si pubblica. Ogni commit termina con `[ci skip]`, quindi nessun push va in produzione. La pubblicazione è un gesto esplicito e unico: `git commit --allow-empty -m "chore: publish"` seguito da push, senza il marcatore. Regola scritta anche in `AGENTS.md` e nella skill `wrap-up`.
+
 ### 2.1 Cosa significa "parità stretta" (definizione operativa)
 
 Parità stretta non significa "due file sempre pubblicati nello stesso istante". Significa tre cose verificabili:
@@ -123,29 +125,30 @@ File: `LICENSE`, `CONTENT-LICENSE.md`, `README.md`, `config/_default/params.toml
 - Nota: se in futuro preferisci CC BY-NC senza ShareAlike, cambiano tre punti: `CONTENT-LICENSE.md`, README e `params.toml`.
 - **Done:** i tre punti dicono la stessa cosa.
 
-### F7. Riscrivere README
+### F7. Riscrivere README (fatto 2026-10-20)
 File: `README.md`
-- [ ] Struttura: cos'è il repo, stack e versioni, setup con `mise`, comandi, mappa di `content/` (post, talks, works, page, resources), front matter per tipo di contenuto, regola bilingue, workflow di pubblicazione con `[ci skip]`, deploy, licenza, collegamenti a `docs/` e `specs/`.
+- [x] Struttura nuova: stack e versioni, setup con `mise`, comandi, mappa del repository, regole sui contenuti, front matter per tipo, policy bilingue, pubblicazione con `[ci skip]`, documentazione, licenza.
+- [x] Corretti i riferimenti a Stack v3 e aggiunti i permalink, le sezioni talks/works/resources e i documenti interni.
 - **Done:** una persona nuova pubblica un post senza fare domande.
 
-### F8. Aggiornare AGENTS.md
+### F8. Aggiornare AGENTS.md (fatto 2026-10-20)
 File: `AGENTS.md`
-- [ ] Aggiungere: `.opencode/skills/` (hugo-expert, wrap-up), `docs/piano-editoriale/`, `raw/` come materiale sorgente non pubblicato, `specs/` come archivio di feature concluse.
-- [ ] Correggere lo stato reale: un solo post pubblicato, materiale MokaByte in attesa, sezioni professionali da costruire.
-- [ ] Aggiungere la definizione di parità stretta della sezione 2.1 e il comando di verifica contenuti (arriva con C6).
+- [x] Aggiunti `.opencode/skills/` (hugo-expert, wrap-up), il map di `docs/`, `raw/` come materiale sorgente, `specs/` come archivio.
+- [x] Corretto lo stato reale e la mappa dei contenuti: talks e works sono section di primo livello, resources è un branch bundle.
+- [x] Aggiunte la parità stretta e la regola D5 sulla pubblicazione sospesa. Il comando di verifica contenuti arriverà con C6.
 - **Done:** nessuna affermazione falsa, nessun percorso inesistente, nessun documento chiave mancante.
 
-### F9. TODO e specs
-File: `TODO.md`, `specs/`
-- [ ] Chiudere la fase 3.8 e la fase 4 se non più attuale, oppure riscrivere `TODO.md` come indice breve che rimanda a questo piano.
-- [ ] Marcare `specs/000-003` come completate e spostarle in `specs/archive/`, oppure aggiungere in testa `Status: Completed`.
-- [ ] Sistemare `specs/003-jekyll-migration/plan.md`: togliere i placeholder del template e il riferimento a Stack v3.
+### F9. TODO e specs (fatto 2026-10-20)
+File: `TODO.md`, `specs/`, `.gitignore`
+- [x] `TODO.md` ridotto a indice: rimanda al piano e tiene solo quattro voci fuori perimetro.
+- [x] `specs/README.md` creato; le quattro spec marcate `Status: Completed`; corretto l'intestazione placeholder di `003/plan.md` con nota storica su Stack v3.
+- [x] `.idea/` tolto dal repo e aggiunto a `.gitignore`, insieme al vecchio `.iml` col nome `jesuswasrasta`.
 - **Done:** nessun task aperto che sia già stato fatto altrove.
 
-### F10. Journal
-File: `JOURNAL.md`
-- [ ] Aggiungere la voce 2026-10-20 con audit, decisioni D1-D4, fix di questa fase.
-- [ ] Rimuovere o correggere i riferimenti a `.claude/skills` e `.gemini/skills`.
+### F10. Journal (fatto 2026-10-20)
+File: `JOURNAL.md`, `.opencode/skills/wrap-up/SKILL.md`
+- [x] Voce 2026-10-20 con audit, decisioni D1-D5, modifiche e prossimi passi.
+- [x] Corretta la skill `wrap-up`, che chiedeva di pushare per pubblicare: ora rispetta la sospensione e il commit di pubblicazione esplicito.
 - **Done:** l'ultima voce descrive lo stato attuale e non cita cartelle inesistenti.
 
 ---
@@ -297,9 +300,9 @@ Il lavoro su questo orizzonte nasce dal feedback raccolto in `docs/workflow-feed
 
 | Orizzonte | Task totali | Completati |
 | --- | --- | --- |
-| 1, fondamenta | 10 | 6 |
+| 1, fondamenta | 10 | 10 |
 | 2, contenuti MokaByte | 6 | 0 |
 | 3, personal branding | 5 | 0 |
 | 4, motore | 8 | 0 |
 
-**Stato al 2026-10-20:** F1-F6 chiusi. Prossimo passo: F7, riscrittura del README, poi F8, F9 e F10 per chiudere l'orizzonte.
+**Stato al 2026-10-20:** Orizzonte 1 chiuso (F1-F10). Prossimo passo: Orizzonte 2, C1, mappatura dei 13 articoli MokaByte. Pubblicazione sospesa per decisione D5.

@@ -34,6 +34,8 @@
 | 8 | Il piano di evoluzione va tenuto vivo: task spuntati, stato aggiornato, altrimenti diventa un documento morto come TODO.md | TODO.md come precedente | Skill `plan-sync` o parte di `repo-doctor` | Bassa |
 | 9 | Nella sessione ho usato `find`, `grep` e shell per esplorare un sito statico: Serena e ast-grep servono poco qui, servono molto quando arriveranno script e template | Sessione del 2026-10-20 | Nessuna azione, annotato per non sovraingegnerizzare | Bassa |
 | 10 | Le action GitHub invecchiano in silenzio: i workflow usavano major del 2023 e niente lo segnalava | `deploy.yml`, `update-theme.yml` al 2026-10-20 | Parte di `repo-doctor`: controllo delle major delle action | Media |
+| 11 | La procedura di pubblicazione è invisibile: "commit vuoto senza marcatore" non si scopre da solo, e una dimenticanza pubblica per sbaglio | AGENTS.md non lo diceva prima del 2026-10-20; richiesta esplicita di Nando | Skill `publish-post` con checklist e conferma | Alta |
+| 12 | Una skill può contraddire le regole del repo: `wrap-up` diceva di pushare per pubblicare mentre la pubblicazione è sospesa | `.opencode/skills/wrap-up/SKILL.md`, corretto il 2026-10-20 | Controllo periodico delle skill dentro `repo-doctor` | Media |
 
 ## Candidati già previsti dal piano
 

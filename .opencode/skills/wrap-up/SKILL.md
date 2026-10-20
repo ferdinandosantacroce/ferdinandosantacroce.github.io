@@ -39,7 +39,7 @@ Each phase requires user confirmation; present a consolidated report at the end.
 ## Phase 2: Commit It
 
 1. Run `git status` to check changes made during the session.
-2. If uncommitted changes exist, suggest a descriptive commit message following conventional commits.
+2. If uncommitted changes exist, suggest a descriptive commit message following conventional commits, ending with `[ci skip]` while publication is on hold.
 3. NEVER push automatically — always ask.
 4. Proceed to Phase 3.
 
@@ -92,10 +92,18 @@ No action needed:
 
 ## Phase 5: Publish It
 
-1. Ask Nando to push to `origin main` to trigger the GitHub Pages deploy:
+**Publication is on hold.** The site is being rebuilt, so a push never publishes: every commit
+ends with `[ci skip]`.
+
+1. Ask Nando whether he wants to publish. Only if he says yes, push an empty commit without
+   the marker, which is the single publish action for this repo:
    ```bash
+   git commit --allow-empty -m "chore: publish"
    git push origin main
    ```
-2. Remind Nando to check the Actions run at:
-   `https://github.com/ferdinandosantacroce/ferdinandosantacroce.github.io/actions`
-3. NEVER push automatically — always ask first.
+2. Otherwise just push the work commits, which all carry `[ci skip]`, and remind him that the
+   site is still the previous version.
+3. NEVER push automatically, and never remove `[ci skip]` on your own.
+
+Check the Actions run at:
+`https://github.com/ferdinandosantacroce/ferdinandosantacroce.github.io/actions`
