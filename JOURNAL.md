@@ -5,8 +5,8 @@
 ## 2026-10-20
 
 ### Posts worked on
-- Importati in italiano e inglese, non ancora pubblicati online: "Sono uno sviluppatore mediocre" (A1), la serie Git parti 1-7 (G1-G7) e "Working Software Conference 2019" (A2). Nove articoli su tredici.
-- Materiale in attesa: gli altri quattro articoli MokaByte in `raw/mokabyte/`, cioè le parti 8-11 della serie Git.
+- Importati in italiano e inglese, non ancora pubblicati online: "Sono uno sviluppatore mediocre" (A1), la serie Git parti 1-9 (G1-G9) e "Working Software Conference 2019" (A2). Undici articoli su tredici.
+- Materiale in attesa: gli ultimi due articoli MokaByte in `raw/mokabyte/`, cioè le parti 10 e 11 della serie Git.
 - Fact-check: in G4 il contenuto di `file01.txt` era "File 01" ma l'hash `4bc92d9` corrisponde a "File 00", come in G5; allineato a "File 00". In G6 il passo 4 della lista parlava di un file "txt" invece di `file01.txt`. In G7 il comando di creazione di `snack.txt` era duplicato e la numerazione dei prompt è stata resa continua.
 - Rilievo per I3: la pagina di serie pagina 5 articoli per volta e li ordina dal più recente, quindi la parte 1 non è in cima.
 - Refusi e fact-check fatti articolo per articolo: comandi Git corretti, rimandi numerati morti sostituiti con link stabili, artefatto MOLONGUI rimosso. "Nota 2026" su default branch `main`, `git restore` e `git switch`.
@@ -32,7 +32,8 @@
 - D5: pubblicazione sospesa finché il sito non è pronto. Ogni commit porta `[ci skip]`; si pubblica solo con un commit vuoto dedicato.
 
 ### Open items for next session
-- Continuare C5 con le parti 8 e 9 della serie Git (`2017-10-15-git-8.md`, `2017-12-15-git-9.md`), la seconda con una immagine.
+- Continuare C5 con le parti 10 e 11 della serie Git (`2018-01-14-git-10.md`, `2018-02-13-git-11.md`), due e tre immagini: chiudono il corpus MokaByte.
+- Fact-check fatto qui: G8 rinumerato (i prompt partivano da [5] e saltavano a [19]), G9 corretto dove diceva che il tag è un commit (è un object che punta a un commit).
 - C6 non iniziato: `scripts/check-content.sh` per parità bilingui, front matter, immagini e link interni.
 - Il sito online è fermo al deploy del 21 marzo 2026: quando sarà pronto serve un commit di pubblicazione.
 - Domande aperte da sciogliere prima di C4: canonical verso MokaByte o self-canonical, aggiornare o ripubblicare fedeli i testi Git del 2016-2018.

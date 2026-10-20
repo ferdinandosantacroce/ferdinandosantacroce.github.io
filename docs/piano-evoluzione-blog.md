@@ -195,7 +195,7 @@ Il pilota ha misurato una cosa che cambia il piano: tradurre tutto il corpus sig
 - [ ] Verificare che la pagina di serie (`/series/<nome>/`) elenchi tutte le parti nell'ordine giusto. Fatto: `layouts/term.html` ordina per `part` e non pagina; ogni articolo ha la barra di navigazione della serie. Da ricontrollare quando la serie arriva a 11 parti.
 - **Done:** 13 articoli online, 26 file, parità completa o debito dichiarato.
 
-**Avanzamento 2026-10-20:** pubblicati A1, G1, G2, G3, G4, G5, G6, G7 e A2, tutti con traduzione inglese completa. La pagina `/series/git-the-stupid-content-tracker/` elenca le parti da 1 a 7, ma paginate cinque per volta e dalla più recente: il rilievo è passato a I3. Restano 4 articoli (parti 8-11), circa 8.500 parole da importare e altrettante da tradurre.
+**Avanzamento 2026-10-20:** pubblicati A1, G1-G9 e A2, tutti con traduzione inglese completa. La pagina `/series/git-the-stupid-content-tracker/` elenca le parti da 1 a 9, in ordine e in italiano e in inglese. Restano 2 articoli (parti 10 e 11), circa 4.300 parole da importare e altrettante da tradurre.
 
 ### C6. Guardrail di parità e qualità
 File: `scripts/check-content.sh` (o equivalente Go), `.github/workflows/deploy.yml`

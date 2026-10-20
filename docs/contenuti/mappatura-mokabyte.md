@@ -181,4 +181,4 @@ Questa sequenza è il candidato naturale per la futura skill `import-article`. V
 - [x] Proposta di slug, titoli, date.
 - [x] Decisioni editoriali approvate il 2026-10-20.
 - [x] Tassonomia `series` attivata e verificata.
-- [ ] Applicazione a `content/` (C4 e C5): A1, G1, G2, G3, G4, G5, G6, G7 e A2 pubblicati in italiano e inglese, restano 4 articoli della serie Git (parti 8-11).
+- [ ] Applicazione a `content/` (C4 e C5): A1, G1-G9 e A2 pubblicati in italiano e inglese, restano 2 articoli della serie Git (parti 10 e 11).
