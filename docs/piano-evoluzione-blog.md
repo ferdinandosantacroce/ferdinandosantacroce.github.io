@@ -191,8 +191,7 @@ File: `docs/contenuti/front-matter.md`, `README.md`, `AGENTS.md`
 Il pilota ha misurato una cosa che cambia il piano: tradurre tutto il corpus significa circa 30.000 parole. A 2.000 parole a settimana sono tre-quattro mesi di lavoro solo per l'inglese. Le opzioni sono tre, da decidere prima di C5: tradurre tutto con calma e accettare il debito nel frattempo, tradurre solo gli articoli strategici con la scheda ponte in inglese, oppure ripensare la regola di parità stretta per il solo corpus storico.
 
 ### C5. Pubblicazione del corpus
-- [ ] Pubblicare i restanti 11 articoli con la cadenza concordata (proposta: 2 a settimana per la serie Git, così la serie resta leggibile e il blog prende corpo in un mese).
-- [ ] Aggiungere a ogni articolo un paragrafo di contesto nuovo, scritto oggi: perché quel tema conta ancora.
+- [ ] Pubblicare i restanti 8 articoli con la cadenza concordata (proposta: 2 a settimana per la serie Git, così la serie resta leggibile e il blog prende corpo in un mese).
 - [ ] Verificare che la pagina di serie (`/series/<nome>/`) elenchi tutte le parti nell'ordine giusto.
 - **Done:** 13 articoli online, 26 file, parità completa o debito dichiarato.
 
