@@ -101,7 +101,7 @@ image: git-essentials-2nd-edition-small.png
 
 - **Parità stretta.** Ogni bundle ha `index.en.md` e `index.it.md` dal primo commit. L'inglese può restare `draft: true` mentre la traduzione è in corso, ma il file esiste.
 - **Date vere.** `date` è la data di pubblicazione originale, `lastmod` la revisione. Nessuna delle due si usa per posizionare un contenuto in cima alla home.
-- **Slug.** Minuscolo e con trattini, uno solo per bundle, uguale in italiano e inglese. Non è una scelta stilistica: le risorse del bundle, comprese le immagini, vengono pubblicate una volta sola sotto il percorso della lingua di default, quindi due slug diversi producono riferimenti incrociati tra le lingue e immagini che dipendono dalla pagina inglese.
+- **Slug.** Minuscolo e con trattini, nella lingua dell'articolo: italiano per `index.it.md`, inglese per `index.en.md`. La traduzione resta legata dal percorso del bundle, non dallo slug. Attenzione: Hugo pubblica le immagini del bundle una volta sola, sotto il percorso della lingua di default, quindi entrambe le pagine le referenziano da lì. Non è un problema finché la pagina inglese esiste; il controllo contenuti in CI verifica che ogni immagine referenziata esista davvero nel build.
 - **Immagini.** Dentro il bundle, accanto al Markdown, referenziate per nome (`fig01.jpg`, `cover.jpg`). Mai percorsi assoluti, mai cartelle condivise per immagini di un singolo articolo.
 - **Serie.** `series` è una tassonomia: Hugo genera `/series/<nome>/`. Il valore deve essere identico in ogni parte e in entrambe le lingue, altrimenti si ottengono due serie.
 - **Categorie.** Non si inventa una categoria nuova per ogni tema. Prima si guarda cosa esiste in `content/categories/`; i tag servono a distinguere.

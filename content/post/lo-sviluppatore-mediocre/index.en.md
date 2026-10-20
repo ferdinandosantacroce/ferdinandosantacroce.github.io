@@ -1,7 +1,7 @@
 ---
 title: "I am a mediocre developer"
 description: "Survival techniques for normal developers: Dunning-Kruger, impostor syndrome and the colleagues who always seem better than you."
-slug: lo-sviluppatore-mediocre
+slug: i-am-a-mediocre-developer
 date: 2018-11-17
 lastmod: 2026-10-20
 categories:

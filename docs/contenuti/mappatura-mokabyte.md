@@ -25,12 +25,12 @@ Documento di lavoro per il task C1 del piano (`docs/piano-evoluzione-blog.md`). 
 
 ### Articoli autonomi
 
-| # | File sorgente | Slug IT e EN | Titolo IT | Titolo EN | Data | Immagini |
-| --- | --- | --- | --- | --- | --- | --- |
-| A1 | `2018-11-17-sviluppatoremediocre.md` | `lo-sviluppatore-mediocre` | Sono uno sviluppatore mediocre | I am a mediocre developer | 2018-11-17 | 5 |
-| A2 | `2019-07-20-workingsoftwareconf19.md` | `working-software-conference-2019` | Working Software Conference 2019 | Working Software Conference 2019 | 2019-07-20 | 6 |
+| # | File sorgente | Slug IT | Slug EN | Titolo IT | Titolo EN | Data | Immagini |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| A1 | `2018-11-17-sviluppatoremediocre.md` | `lo-sviluppatore-mediocre` | `i-am-a-mediocre-developer` | Sono uno sviluppatore mediocre | I am a mediocre developer | 2018-11-17 | 5 |
+| A2 | `2019-07-20-workingsoftwareconf19.md` | `working-software-conference-2019` | `working-software-conference-2019` | Working Software Conference 2019 | Working Software Conference 2019 | 2019-07-20 | 6 |
 
-Nota sugli slug: uno solo per bundle, uguale nelle due lingue. Provando su A1 uno slug inglese diverso (`the-mediocre-developer`) le immagini della pagina italiana finivano sotto il percorso inglese, perché Hugo pubblica le risorse del bundle una volta sola, sotto la lingua di default. Non è accettabile: se un giorno la versione inglese sparisse, le immagini italiane si romperebbero.
+Nota sugli slug: ogni lingua ha lo slug nella propria lingua. Per la serie Git e per A2 i due slug coincidono perché titoli e termini sono già in inglese; A1 è il caso in cui differiscono, `lo-sviluppatore-mediocre` e `i-am-a-mediocre-developer`. Hugo pubblica le immagini del bundle una volta sola sotto il percorso della lingua di default, quindi entrambe le pagine le referenziano da `/p/i-am-a-mediocre-developer/`. Non è un problema finché la pagina inglese esiste, e il controllo contenuti di C6 verificherà che ogni immagine referenziata esista nel build.
 
 Totale: 13 bundle, 26 file Markdown, 32 immagini. La numerazione `G1..G11` e `A1..A2` serve solo in questo documento, per parlare degli articoli senza citare i nomi dei file.
 
@@ -162,7 +162,7 @@ Nota tecnica sulla tassonomia: con `series = "series"` in `[taxonomies]`, Hugo g
 
 Questa sequenza è il candidato naturale per la futura skill `import-article`. Va provata su un articolo (C4) prima di diventare una skill.
 
-1. Creare `content/post/<slug>/`, con lo stesso slug nelle due lingue.
+1. Creare `content/post/<slug>/`, con lo slug italiano nella cartella e lo slug di ogni lingua nel proprio file.
 2. Copiare il Markdown italiano come `index.it.md`, sostituire il front matter con lo schema della sezione 2.
 3. Pulire il file: via l'artefatto `MOLONGUI AUTHORSHIP PLUGIN` in coda, via i rimandi a note che non esistono, corretti i refusi evidenti.
 4. Copiare le immagini nel bundle e rinominarle secondo la sezione 3.
