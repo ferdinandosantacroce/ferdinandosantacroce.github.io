@@ -2,7 +2,7 @@
 
 **Feature Branch**: `001-talk-page-layout`
 **Created**: 2026-02-01
-**Status**: Draft
+**Status**: Completed
 **Input**: User description: "revisione delle singole pagine dei talk: immmagini, impaginazione, immagine di copertina"
 
 ## User Scenarios & Testing

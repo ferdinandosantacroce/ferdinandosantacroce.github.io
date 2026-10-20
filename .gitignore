@@ -14,3 +14,6 @@ builds
 hugo_stats.json
 hugo_stats_decoded.json
 jesuswasrasta.github.io/
+
+# IDE
+.idea/

@@ -1,9 +1,8 @@
-# Implementation Plan: [FEATURE]
+# Implementation Plan: Jekyll to Hugo content migration
 
-**Branch**: `[###-feature-name]` | **Date**: [DATE] | **Spec**: [link]
-**Input**: Feature specification from `/specs/[###-feature-name]/spec.md`
-
-**Note**: This template is filled in by the `/speckit.plan` command. See `.specify/templates/commands/plan.md` for the execution workflow.
+**Branch**: `003-jekyll-migration` | **Date**: 2026-02-01 | **Spec**: [spec.md](spec.md)
+**Status**: Completed. Kept as a historical record: it mentions Stack v3 because the site was migrated to v4 later.
+**Input**: Feature specification from `specs/003-jekyll-migration/spec.md`
 
 ## Summary
 

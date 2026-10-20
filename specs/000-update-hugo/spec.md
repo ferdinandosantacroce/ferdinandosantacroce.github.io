@@ -2,7 +2,7 @@
 
 **Feature Branch**: `001-update-hugo`
 **Created**: 2025-01-31
-**Status**: Draft
+**Status**: Completed
 **Input**: User description: "Update Hugo Server version"
 
 ## User Scenarios & Testing *(mandatory)*

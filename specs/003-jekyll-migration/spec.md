@@ -2,7 +2,7 @@
 
 **Feature Branch**: `003-jekyll-migration`  
 **Created**: Sunday, February 1, 2026  
-**Status**: Draft  
+**Status**: Completed
 **Input**: User description: "convertire le pagine e i post lì presenti da Jekyll a Hugo, evitando di creare duplicati. Fai una analisi, specialmente delle cartelle jesuswasrasta.github.io/_posts/** e jesuswasrasta.github.io/_pages/** e preparati per eseguire la migrazione. La faremo passo passo, una pagina o post alla volta, riflettendo di volta in volta su contenuti e organizzazione."
 
 ## Clarifications

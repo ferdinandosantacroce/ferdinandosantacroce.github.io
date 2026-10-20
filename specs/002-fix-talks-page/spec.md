@@ -2,7 +2,7 @@
 
 **Feature Branch**: `002-fix-talks-page`  
 **Created**: 2026-01-31  
-**Status**: Draft  
+**Status**: Completed
 **Input**: User description: "Fix messy @content/page/talks/ page"
 
 ## User Scenarios & Testing *(mandatory)*
