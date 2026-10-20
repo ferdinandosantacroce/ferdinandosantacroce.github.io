@@ -157,12 +157,13 @@ File: `JOURNAL.md`, `.opencode/skills/wrap-up/SKILL.md`
 
 Obiettivo: portare online il corpus MokaByte, definire il workflow di traduzione, rendere la parità misurabile. Questa fase produce contenuti veri, non infrastruttura.
 
-### C1. Inventario e mappatura
-- [ ] Costruire la tabella di mappatura dei 13 file: slug, titolo IT, titolo EN, data, categoria, tag, `series`, `part`, cover, immagini collegate.
-- [ ] Verificare le 32 immagini in `raw/mokabyte/images/`: quali servono, quali sono obsolete, quali vanno ricompresse.
+### C1. Inventario e mappatura (bozza pronta 2026-10-20)
+- [x] Tabella di mappatura dei 13 file: slug, titolo IT e EN, data, categoria, tag, `series`, `part`, immagini. Salvata in `docs/contenuti/mappatura-mokabyte.md`.
+- [x] Verificate le 32 immagini: tutte referenziate, tutte presenti, nessuna orfana, dimensioni e pesi accettabili.
+- [ ] Approvazione delle decisioni editoriali della sezione 5 del documento, che sono il vero contenuto di C2.
 - **Done:** tabella approvata, salvata in `docs/contenuti/mappatura-mokabyte.md`.
 
-Raggruppamento confermato: serie Git in 11 parti, "Lo sviluppatore mediocre", "Working Software Conf 19".
+Raggruppamento confermato: serie Git in 11 parti, "Sono uno sviluppatore mediocre", "Working Software Conference 2019".
 
 ### C2. Decisioni editoriali sulla ripubblicazione
 - [ ] Canonical: self-canonical con nota "originariamente pubblicato su Mokabyte il <data>" e link all'originale, oppure `canonical` verso Mokabyte. Proposta: self-canonical, perché l'obiettivo dichiarato è il controllo del contenuto; la nota e il link mantengono la correttezza verso la testata.
@@ -172,7 +173,8 @@ Raggruppamento confermato: serie Git in 11 parti, "Lo sviluppatore mediocre", "W
 
 ### C3. Schema front matter esteso
 File: `docs/contenuti/front-matter.md`, `README.md`, `AGENTS.md`
-- [ ] Documentare i campi: `title`, `description`, `slug`, `date`, `image`, `categories`, `tags`, `series`, `part`, `source`, `source_date`, `translation_status`.
+- [ ] Documentare i campi: `title`, `description`, `slug`, `date`, `lastmod`, `image`, `categories`, `tags`, `series`, `part`, `source`, `source_date`.
+- [ ] Non introdurre `translation_status`: lo stato della traduzione si legge da `draft: true`, un secondo indicatore divergerebbe.
 - **Done:** schema scritto una volta e usato da tutti i nuovi contenuti.
 
 ### C4. Pilota end-to-end
@@ -305,4 +307,4 @@ Il lavoro su questo orizzonte nasce dal feedback raccolto in `docs/workflow-feed
 | 3, personal branding | 5 | 0 |
 | 4, motore | 8 | 0 |
 
-**Stato al 2026-10-20:** Orizzonte 1 chiuso (F1-F10). Prossimo passo: Orizzonte 2, C1, mappatura dei 13 articoli MokaByte. Pubblicazione sospesa per decisione D5.
+**Stato al 2026-10-20:** Orizzonte 1 chiuso (F1-F10). C1 ha una bozza pronta in `docs/contenuti/mappatura-mokabyte.md`: servono le risposte alle cinque domande della sezione 6 prima di toccare `content/`.

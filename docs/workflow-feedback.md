@@ -36,6 +36,7 @@
 | 10 | Le action GitHub invecchiano in silenzio: i workflow usavano major del 2023 e niente lo segnalava | `deploy.yml`, `update-theme.yml` al 2026-10-20 | Parte di `repo-doctor`: controllo delle major delle action | Media |
 | 11 | La procedura di pubblicazione è invisibile: "commit vuoto senza marcatore" non si scopre da solo, e una dimenticanza pubblica per sbaglio | AGENTS.md non lo diceva prima del 2026-10-20; richiesta esplicita di Nando | Skill `publish-post` con checklist e conferma | Alta |
 | 12 | Una skill può contraddire le regole del repo: `wrap-up` diceva di pushare per pubblicare mentre la pubblicazione è sospesa | `.opencode/skills/wrap-up/SKILL.md`, corretto il 2026-10-20 | Controllo periodico delle skill dentro `repo-doctor` | Media |
+| 13 | La ricognizione dei file sorgente è stata fatta con uno script Python improvvisato: la prossima volta ripartirebbe da zero | Mappatura MokaByte del 2026-10-20 | Script riutilizzabile in `scripts/` più skill `import-article` | Media |
 
 ## Candidati già previsti dal piano
 
