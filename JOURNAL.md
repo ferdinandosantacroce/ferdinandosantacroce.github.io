@@ -5,8 +5,9 @@
 ## 2026-10-20
 
 ### Posts worked on
-- Nessun post pubblicato: sessione di audit e fondamenta.
-- Materiale in attesa: 13 articoli MokaByte in `raw/mokabyte/`, cioè la serie Git in 11 parti, "Lo sviluppatore mediocre" e "Working Software Conf 19".
+- Importati in italiano e inglese, non ancora pubblicati online: "Sono uno sviluppatore mediocre" (A1), la serie Git parti 1, 2 e 3 (G1, G2, G3) e "Working Software Conference 2019" (A2). Cinque articoli su tredici.
+- Materiale in attesa: gli altri otto articoli MokaByte in `raw/mokabyte/`, cioè le parti 4-11 della serie Git.
+- Refusi e fact-check fatti articolo per articolo: comandi Git corretti, rimandi numerati morti sostituiti con link stabili, artefatto MOLONGUI rimosso. "Nota 2026" su default branch `main`, `git restore` e `git switch`.
 
 ### Hugo/theme/config changes
 - Deploy: le pull request costruiscono e non pubblicano più; action aggiornate alle major correnti; gruppo di `concurrency`; cache delle risorse con chiave per run.
@@ -27,7 +28,9 @@
 - D5: pubblicazione sospesa finché il sito non è pronto. Ogni commit porta `[ci skip]`; si pubblica solo con un commit vuoto dedicato.
 
 ### Open items for next session
-- Orizzonte 1 chiuso (F1-F10). Prossimo passo: Orizzonte 2, a partire da C1, la mappatura dei 13 MokaByte.
+- Continuare C5 con le parti 4 e 5 della serie Git (`2017-02-14-git-4.md`, `2017-04-10-git-5.md`), entrambe senza immagini.
+- C6 non iniziato: `scripts/check-content.sh` per parità bilingui, front matter, immagini e link interni.
+- Il sito online è fermo al deploy del 21 marzo 2026: quando sarà pronto serve un commit di pubblicazione.
 - Domande aperte da sciogliere prima di C4: canonical verso MokaByte o self-canonical, aggiornare o ripubblicare fedeli i testi Git del 2016-2018.
 - Il sito online è fermo al deploy del 21 marzo 2026: quando sarà pronto serve un commit di pubblicazione.
 
