@@ -181,4 +181,4 @@ Questa sequenza è il candidato naturale per la futura skill `import-article`. V
 - [x] Proposta di slug, titoli, date.
 - [x] Decisioni editoriali approvate il 2026-10-20.
 - [x] Tassonomia `series` attivata e verificata.
-- [ ] Applicazione a `content/` (C4 e C5).
+- [ ] Applicazione a `content/` (C4 e C5): A1 e G1 pubblicati in italiano e inglese, restano 11 articoli.

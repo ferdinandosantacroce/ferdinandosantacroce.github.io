@@ -189,10 +189,12 @@ File: `docs/contenuti/front-matter.md`, `README.md`, `AGENTS.md`
 Il pilota ha misurato una cosa che cambia il piano: tradurre tutto il corpus significa circa 30.000 parole. A 2.000 parole a settimana sono tre-quattro mesi di lavoro solo per l'inglese. Le opzioni sono tre, da decidere prima di C5: tradurre tutto con calma e accettare il debito nel frattempo, tradurre solo gli articoli strategici con la scheda ponte in inglese, oppure ripensare la regola di parità stretta per il solo corpus storico.
 
 ### C5. Pubblicazione del corpus
-- [ ] Pubblicare i restanti 12 articoli con la cadenza concordata (proposta: 2 a settimana per la serie Git, così la serie resta leggibile e il blog prende corpo in un mese).
+- [ ] Pubblicare i restanti 11 articoli con la cadenza concordata (proposta: 2 a settimana per la serie Git, così la serie resta leggibile e il blog prende corpo in un mese).
 - [ ] Aggiungere a ogni articolo un paragrafo di contesto nuovo, scritto oggi: perché quel tema conta ancora.
 - [ ] Verificare che la pagina di serie (`/series/<nome>/`) elenchi tutte le parti nell'ordine giusto.
 - **Done:** 13 articoli online, 26 file, parità completa o debito dichiarato.
+
+**Avanzamento 2026-10-20:** pubblicati A1 e G1, entrambi con traduzione inglese completa. La pagina `/series/git-the-stupid-content-tracker/` esiste e per ora elenca la parte 1, in italiano e in inglese. Restano 11 articoli, circa 24.000 parole da importare e altrettante da tradurre.
 
 ### C6. Guardrail di parità e qualità
 File: `scripts/check-content.sh` (o equivalente Go), `.github/workflows/deploy.yml`
