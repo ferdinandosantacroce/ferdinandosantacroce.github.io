@@ -36,6 +36,7 @@ CI pins **Hugo extended `0.165.0`** and Go `1.27.x` (`.github/workflows/*.yml`).
 - `content/works/<slug>/` → books and articles, grouped by `group: book|article`, served under `/works/`
 - `content/page/<name>/` → about, archives, search; `content/page/resources/` is a branch bundle with `oop/` and `tdd/`
 - Slug may differ per language, and should: the English page gets an English slug. Caveat: Hugo publishes bundle images once, under the default language (English) page path, so both language pages reference that path. Harmless today, but if the English page is ever removed the Italian images break, so the content check verifies that every referenced image exists in the build.
+- English is the site's base language and lives at the root; Italian lives under `/it/`. This is a deliberate decision (D6 in the plan), not an oversight: do not flip it.
 - `assets/icons/` → Tabler Icons SVGs; each must have exactly `width="24" height="24" stroke-width="2" stroke="currentColor"` or it will not render in the menu
 - Permalinks: posts at `/p/:slug/`, pages at `/:slug/` (`config/_default/permalinks.toml`)
 

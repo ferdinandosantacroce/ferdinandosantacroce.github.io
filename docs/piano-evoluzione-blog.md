@@ -65,6 +65,8 @@ Regole che ne derivano:
 
 **D5, pubblicazione sospesa.** Fino a quando il sito non è sistemato a dovere, non si pubblica. Ogni commit termina con `[ci skip]`, quindi nessun push va in produzione. La pubblicazione è un gesto esplicito e unico: `git commit --allow-empty -m "chore: publish"` seguito da push, senza il marcatore. Regola scritta anche in `AGENTS.md` e nella skill `wrap-up`.
 
+**D6, lingua di base del sito (2026-10-20).** L'inglese resta la lingua di default e vive alla radice, l'italiano resta sotto `/it/`. Non è una svista: è una scelta, perché il pubblico italiano che arriva sul sito legge anche l'inglese, e perché così tutti gli URL pubblicati finora continuano a funzionare. L'italiano resta la lingua in cui si scrive per primo, l'inglese la lingua in cui il sito si presenta. Non invertire questa configurazione senza una decisione esplicita.
+
 ### 2.1 Cosa significa "parità stretta" (definizione operativa)
 
 Parità stretta non significa "due file sempre pubblicati nello stesso istante". Significa tre cose verificabili:
@@ -194,7 +196,7 @@ Il pilota ha misurato una cosa che cambia il piano: tradurre tutto il corpus sig
 - [ ] Verificare che la pagina di serie (`/series/<nome>/`) elenchi tutte le parti nell'ordine giusto.
 - **Done:** 13 articoli online, 26 file, parità completa o debito dichiarato.
 
-**Avanzamento 2026-10-20:** pubblicati A1 e G1, entrambi con traduzione inglese completa. La pagina `/series/git-the-stupid-content-tracker/` esiste e per ora elenca la parte 1, in italiano e in inglese. Restano 11 articoli, circa 24.000 parole da importare e altrettante da tradurre.
+**Avanzamento 2026-10-20:** pubblicati A1, G1 e G2, tutti con traduzione inglese completa. La pagina `/series/git-the-stupid-content-tracker/` elenca le parti 1 e 2, in italiano e in inglese. Restano 10 articoli, circa 21.000 parole da importare e altrettante da tradurre.
 
 ### C6. Guardrail di parità e qualità
 File: `scripts/check-content.sh` (o equivalente Go), `.github/workflows/deploy.yml`
