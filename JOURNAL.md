@@ -34,6 +34,9 @@
 - `check-content.sh` ora rifiuta anche `title`, `description` e `slug` vuoti o con sole virgolette: lo scaffold nasce con la descrizione vuota e il controllo lo segnala.
 - M2: skill `translation` con voce approvata, procedura, glossario, falsi amici, checklist e verifica.
 - M5: `docs/piano-editoriale/backlog.md` con le 21 mappe e i 19 articoli del piano, ID da E01 a E47, stato, priorità, fonte e destinazione. Registrata la nota "the savant" come E30.
+- M1: skill `post-research`, che separa fatti e interpretazioni, verifica comandi e citazioni, produce l'outline in sette punti e le domande. La prosa resta fuori.
+- M4: skill `voice-note`, dalla trascrizione alla scheda nel registro e all'ID nel backlog, con privacy sui nomi e passaggio a `post-research`.
+- M6, M7, M8: scritti `docs/operativita/misurazione.md`, `distribuzione.md` e `manutenzione.md`. Verificato che la sitemap index punti alle due sitemap per lingua (`/en/sitemap.xml` con URL alla radice, `/it/sitemap.xml`) e che i feed siano `/index.xml` e `/it/index.xml`. `/en/` è solo la pagina di redirect che Hugo genera per la lingua di default: canonical verso la radice, non una seconda copia del sito.
 
 ### Content decisions
 - D1: i 13 MokaByte vanno ripubblicati sul blog personale, in tre gruppi editoriali, per non dipendere più dalla magazine.
@@ -47,9 +50,8 @@
 - Backlog editoriale: un file unico, le quattro ondate diventano priorità.
 
 ### Open items for next session
-- M2, M3 e M5 chiusi. Orizzonte 4 a 3/8.
-- Prossimo: M1 (skill `post-research`) e M4 (pipeline note vocali), oppure I3 quando ci sarà materiale per progetti e corsi.
-- I2 (inventario carriera) resta rimandato: richiede materiale di Nando.
+- Orizzonte 4 chiuso (8/8). Orizzonte 3 a 2/5: restano I2 (materiale di Nando), I3 e I4 (template e pagine pilota).
+- Prossimo passo possibile senza materiale: I3, template di lista per projects e courses, da provare con contenuti di esempio in bozza.
 - Il menu resta a sette voci finché Percorso e Lavora con me non esistono: cambiarlo prima produce 404.
 - Il sito online è fermo al deploy del 21 marzo 2026: quando sarà pronto serve un commit di pubblicazione.
 

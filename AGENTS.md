@@ -51,12 +51,13 @@ CI pins **Hugo extended `0.165.0`** and Go `1.27.x` (`.github/workflows/*.yml`).
 - `docs/contenuti/front-matter.md` — front matter schema for every content type, with examples
 - `docs/contenuti/mappatura-mokabyte.md` — the 13 MokaByte articles, their slugs, images and the decisions taken
 - `docs/piano-editoriale/` — editorial plan, idea map, voice note register, and `backlog.md`, the single list of article ideas with state and priority
+- `docs/operativita/` — measurement, distribution and maintenance: what runs, what is manual, and the monthly checks
 - `docs/workflow-feedback.md` — friction observed while working, candidates for skills and agents. Add a row there when a task feels repeated or error-prone
 - `specs/` — archived feature specs, kept as history, not active work
 
 ## Skills
 
-Project skills live in `.opencode/skills/`: `hugo-expert`, `wrap-up`, `journal`, `adr`, `translation`. The `journal` and `adr` skills define how a session is recorded and how a decision is filed; `translation` holds the approved English voice and the review checklist.
+Project skills live in `.opencode/skills/`: `hugo-expert`, `wrap-up`, `journal`, `adr`, `translation`, `post-research`, `voice-note`. The `journal` and `adr` skills define how a session is recorded and how a decision is filed; `translation` holds the approved English voice and the review checklist; `post-research` and `voice-note` cover the path from material to outline.
 
 ## Linting
 

@@ -253,8 +253,9 @@ Obiettivo: pubblicare con continuità senza ricominciare da zero ogni volta.
 Il lavoro su questo orizzonte nasce dal feedback raccolto in `docs/workflow-feedback.md`: lì finiscono gli attriti osservati, che poi diventano skill, agenti o script in CI.
 
 ### M1. Skill `post-research`
-- [ ] Creare `.opencode/skills/post-research/SKILL.md`: raccoglie fonti, verifica fatti, produce outline e domande. Non scrive la prosa, che resta di Nando.
-- [ ] Alimentarla con il format in sette punti del piano editoriale e con le osservazioni di `docs/workflow-feedback.md`.
+- [x] Creata `.opencode/skills/post-research/SKILL.md`: raccoglie fonti, separa fatti e interpretazioni, verifica comandi e citazioni, produce outline in sette punti e domande. Non scrive la prosa.
+- [x] Alimentata con il format in sette punti del piano editoriale e con i rilievi di `docs/workflow-feedback.md`.
+- **Done:** un articolo si prepara con materiale verificato e domande concrete, senza inventare scene.
 
 ### M2. Skill di traduzione e parità
 - [x] `translation-review`: creata `.opencode/skills/translation/SKILL.md` con voce approvata, procedura, glossario, falsi amici, checklist e verifica.
@@ -266,7 +267,8 @@ Il lavoro su questo orizzonte nasce dal feedback raccolto in `docs/workflow-feed
 - **Done:** un post nuovo parte da uno scheletro coerente, senza campi dimenticati.
 
 ### M4. Pipeline note vocali
-- [ ] Trascrizione, scheda nel registro, estrazione fatti e interpretazioni, outline, bozza.
+- [x] Creata `.opencode/skills/voice-note/SKILL.md`: trascrizione con `audio-transcriber`, scheda nel registro, separazione fatti/interpretazioni/domande, collegamento al backlog, passaggio a `post-research` e bozza solo su richiesta.
+- **Done:** da una nota vocale si arriva a un outline tracciato, senza perdere la voce originale.
 
 ### M5. Backlog editoriale operativo
 - [x] Creato `docs/piano-editoriale/backlog.md`: 21 mappe e 19 articoli del piano in un unico file, con ID, titolo, gruppo, fonte, destinazione, priorità e stato.
@@ -276,14 +278,17 @@ Il lavoro su questo orizzonte nasce dal feedback raccolto in `docs/workflow-feed
 - **Done:** `docs/piano-editoriale/backlog.md` esiste, con una sola priorità leggibile.
 
 ### M6. Misurazione
-- [ ] Decidere analytics privacy-friendly (Plausible, GoatCounter o Umami) oppure nessuna analytics.
-- [ ] Search Console, sitemap, RSS già presenti: verificare e documentare.
+- [x] Analytics: nessuna, decisione Q6. Documentato in `docs/operativita/misurazione.md`.
+- [x] Search Console, sitemap e RSS verificati: sitemap index, due sitemap per lingua, due feed. Search Console resta un passo manuale di Nando alla pubblicazione.
+- **Done:** si sa cosa misurare, cosa non misurare e cosa controllare a mano.
 
 ### M7. Distribuzione
-- [ ] Cross-posting su Mastodon e LinkedIn con link all'articolo, non testo integrale, per non disperdere il segnale.
+- [x] Scritto `docs/operativita/distribuzione.md`: annuncio dopo la pubblicazione, link e non testo integrale, un annuncio per lingua, risposta ai commenti per due giorni.
+- **Done:** la distribuzione ha una procedura, non si improvvisa a ogni articolo.
 
 ### M8. Manutenzione
-- [ ] Checklist mensile: link rotti, aggiornamenti tema, immagini pesanti, parità, Lighthouse.
+- [x] Scritto `docs/operativita/manutenzione.md`: checklist mensile, trimestrale e annuale, con i sintomi tipici e cosa guardare per primi.
+- **Done:** i controlli periodici sono elencati e ripetibili.
 
 ---
 
@@ -321,6 +326,6 @@ Il lavoro su questo orizzonte nasce dal feedback raccolto in `docs/workflow-feed
 | 1, fondamenta | 10 | 10 |
 | 2, contenuti MokaByte | 6 | 6 |
 | 3, personal branding | 5 | 2 |
-| 4, motore | 8 | 3 |
+| 4, motore | 8 | 8 |
 
-**Stato al 2026-10-20:** Orizzonti 1 e 2 chiusi. Orizzonte 3 a 2/5: architettura informativa e contatti fatti, I2 rimandato perché richiede materiale di Nando. Orizzonte 4 a 3/8: scaffold dei post, skill di traduzione e backlog editoriale fatti; restano post-research, note vocali, misurazione, distribuzione e manutenzione.
+**Stato al 2026-10-20:** Orizzonti 1, 2 e 4 chiusi. Orizzonte 3 a 2/5: architettura informativa e contatti fatti, I2 rimandato perché richiede materiale di Nando, I3/I4 aspettano contenuti su progetti e corsi. Restano da fare le pagine professionali quando ci sarà il materiale.
