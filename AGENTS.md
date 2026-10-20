@@ -14,6 +14,7 @@ Hugo static site (Stack theme v4 via Go modules), bilingual EN/IT, deployed to G
 - `hugo server -D` — dev server with drafts at `http://localhost:1313/`
 - `hugo --minify --gc` — production build, the same command CI runs
 - `bash scripts/check-content.sh --site public` — content guardrails after a build: bilingual pairs, front matter, images, slugs, series, internal links, translation debt report
+- `bash scripts/new-post.sh <slug>` — creates a bilingual draft bundle under `content/post/`, with `--en-slug`, `--series` and `--part` when needed
 - `hugo mod get -u github.com/CaiJimmy/hugo-theme-stack/v4 && hugo mod tidy` — update the theme
 - `mise x actionlint@latest -- actionlint .github/workflows/*.yml` — validate workflows after editing them
 
@@ -49,13 +50,13 @@ CI pins **Hugo extended `0.165.0`** and Go `1.27.x` (`.github/workflows/*.yml`).
 - `docs/adr/` — one file per decision about how the site works: context, decision, consequences. Never rewrite an accepted ADR; supersede it
 - `docs/contenuti/front-matter.md` — front matter schema for every content type, with examples
 - `docs/contenuti/mappatura-mokabyte.md` — the 13 MokaByte articles, their slugs, images and the decisions taken
-- `docs/piano-editoriale/` — editorial plan, idea map, voice note register
+- `docs/piano-editoriale/` — editorial plan, idea map, voice note register, and `backlog.md`, the single list of article ideas with state and priority
 - `docs/workflow-feedback.md` — friction observed while working, candidates for skills and agents. Add a row there when a task feels repeated or error-prone
 - `specs/` — archived feature specs, kept as history, not active work
 
 ## Skills
 
-Project skills live in `.opencode/skills/`: `hugo-expert`, `wrap-up`, `journal`, `adr`. The `journal` and `adr` skills define how a session is recorded and how a decision is filed.
+Project skills live in `.opencode/skills/`: `hugo-expert`, `wrap-up`, `journal`, `adr`, `translation`. The `journal` and `adr` skills define how a session is recorded and how a decision is filed; `translation` holds the approved English voice and the review checklist.
 
 ## Linting
 

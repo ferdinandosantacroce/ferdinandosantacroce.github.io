@@ -29,6 +29,12 @@
 - Contatti e igiene (I5): pagina `/contact/` e `/it/contatti/` con mailto, CTA in fondo ai soli articoli, footer con Archivio, Risorse, Cerca e Contatti più la licenza. Aggiunti `static/robots.txt`, `layouts/404.html` con link utili e `assets/img/og-default.png` per le pagine senza copertina. Tolto il falso handle Twitter dalla configurazione OpenGraph.
 - Il footer è un override di `footer/footer.html`, non l'hook `footer/custom.html`: quest'ultimo viene reso dopo il contenitore e finiva sotto il minimo di 100vh, staccato dal resto.
 
+### Motore dei contenuti
+- M3: `scripts/new-post.sh` crea il bundle bilingue in bozza con front matter completo; opzioni `--en-slug`, `--series`, `--part`. Rifiuta slug non validi e cartelle esistenti.
+- `check-content.sh` ora rifiuta anche `title`, `description` e `slug` vuoti o con sole virgolette: lo scaffold nasce con la descrizione vuota e il controllo lo segnala.
+- M2: skill `translation` con voce approvata, procedura, glossario, falsi amici, checklist e verifica.
+- M5: `docs/piano-editoriale/backlog.md` con le 21 mappe e i 19 articoli del piano, ID da E01 a E47, stato, priorità, fonte e destinazione. Registrata la nota "the savant" come E30.
+
 ### Content decisions
 - D1: i 13 MokaByte vanno ripubblicati sul blog personale, in tre gruppi editoriali, per non dipendere più dalla magazine.
 - D2: parità stretta. Italiano primario, inglese può arrivare dopo, ma il file `index.en.md` esiste dal primo commit.
@@ -41,12 +47,10 @@
 - Backlog editoriale: un file unico, le quattro ondate diventano priorità.
 
 ### Open items for next session
-- I5 chiuso, Orizzonte 3 a 2/5. I2 (inventario carriera) è rimandato: richiede materiale di Nando.
-- Prossimo blocco concordato: M3 (scaffold nuovo post) e M2 (workflow di traduzione), che rendono più veloci gli articoli futuri.
+- M2, M3 e M5 chiusi. Orizzonte 4 a 3/8.
+- Prossimo: M1 (skill `post-research`) e M4 (pipeline note vocali), oppure I3 quando ci sarà materiale per progetti e corsi.
+- I2 (inventario carriera) resta rimandato: richiede materiale di Nando.
 - Il menu resta a sette voci finché Percorso e Lavora con me non esistono: cambiarlo prima produce 404.
-- C6 non iniziato: `scripts/check-content.sh` per parità bilingui, front matter, immagini e link interni.
-- Il sito online è fermo al deploy del 21 marzo 2026: quando sarà pronto serve un commit di pubblicazione.
-- Domande aperte da sciogliere prima di C4: canonical verso MokaByte o self-canonical, aggiornare o ripubblicare fedeli i testi Git del 2016-2018.
 - Il sito online è fermo al deploy del 21 marzo 2026: quando sarà pronto serve un commit di pubblicazione.
 
 ---

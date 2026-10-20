@@ -58,6 +58,11 @@ has_field() {
     front_matter "$1" | grep -qE "^$2:[[:space:]]*[^[:space:]]"
 }
 
+# Same as has_field but rejects empty values, including empty quotes.
+has_value() {
+    front_matter "$1" | grep -qE "^$2:[[:space:]]*[\"']?[^[:space:]\"']"
+}
+
 is_draft() {
     front_matter "$1" | grep -qiE '^draft:[[:space:]]*true[[:space:]]*$'
 }
@@ -99,7 +104,14 @@ for bundle in $bundles; do
     for file in "$en" "$it"; do
         [ -n "$file" ] || continue
         for key in $required; do
-            has_field "$file" "$key" || err "$file is missing front matter field '$key'"
+            case "$key" in
+                title|description|slug)
+                    has_value "$file" "$key" || err "$file has an empty or missing front matter field '$key'"
+                    ;;
+                *)
+                    has_field "$file" "$key" || err "$file is missing front matter field '$key'"
+                    ;;
+            esac
         done
     done
 

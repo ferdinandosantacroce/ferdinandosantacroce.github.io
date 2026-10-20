@@ -257,20 +257,22 @@ Il lavoro su questo orizzonte nasce dal feedback raccolto in `docs/workflow-feed
 - [ ] Alimentarla con il format in sette punti del piano editoriale e con le osservazioni di `docs/workflow-feedback.md`.
 
 ### M2. Skill di traduzione e parità
-- [ ] `translation-review`: checklist per revisionare una traduzione EN (voce, idiomi, termini tecnici, esempi culturali).
-- [ ] Estendere `check-content` con il controllo parità già previsto in C6.
+- [x] `translation-review`: creata `.opencode/skills/translation/SKILL.md` con voce approvata, procedura, glossario, falsi amici, checklist e verifica.
+- [x] Controllo di parità: già in `scripts/check-content.sh` (coppie bilingui, lati mancanti, lati in bozza nel report).
+- **Done:** una traduzione si può fare e revisionare seguendo la skill, senza rispiegare la voce ogni volta.
 
 ### M3. Scaffold nuovo post
-- [ ] Comando o script `new-post <slug>` che crea il bundle con `index.it.md` e `index.en.md`, front matter completo, cartella immagini.
+- [x] `scripts/new-post.sh <slug>` crea il bundle con `index.it.md` e `index.en.md`, front matter completo, entrambi in bozza, con opzioni `--en-slug`, `--series`, `--part`.
+- **Done:** un post nuovo parte da uno scheletro coerente, senza campi dimenticati.
 
 ### M4. Pipeline note vocali
 - [ ] Trascrizione, scheda nel registro, estrazione fatti e interpretazioni, outline, bozza.
 
 ### M5. Backlog editoriale operativo
-- [ ] Trasformare le 21 mappe di `docs/piano-editoriale/appunti-importati-e-mappa-articoli.md` e i 19 articoli del piano editoriale in un unico backlog con ID, titolo, gruppo, fonte, destinazione (post, serie, pagina, scheda progetto, corso), priorità e stato.
-- [ ] Registrare la nota "the savant" come candidato articolo, con il suo angolo: la metafora del savant applicata ai modelli AI, alternativa al "genio" di Kent Beck.
-- [ ] Prima ondata proposta, coerente con l'appunti: "Padroneggiare uno strumento significa sapere quando non usarlo", "Il medico da campo e il cardiochirurgo", "Il geometra del software", "Io porto le brioches".
-- [ ] Segnare esplicitamente le idee da verificare, per esempio "Waterfall non significa quello che molti pensano", "I want XP back" e "RAL commisurata all'esperienza", per non pubblicarle senza fonti e senza una decisione di tono.
+- [x] Creato `docs/piano-editoriale/backlog.md`: 21 mappe e 19 articoli del piano in un unico file, con ID, titolo, gruppo, fonte, destinazione, priorità e stato.
+- [x] Nota "the savant" registrata come E30, con l'angolo del savant contrapposto al genio di Kent Beck.
+- [x] Prima ondata riportata: E01-E04.
+- [x] Idee da verificare segnalate: E16 (XP), E19 (Waterfall), E20 (RAL), E30 (caso clinico del savant).
 - **Done:** `docs/piano-editoriale/backlog.md` esiste, con una sola priorità leggibile.
 
 ### M6. Misurazione
@@ -319,6 +321,6 @@ Il lavoro su questo orizzonte nasce dal feedback raccolto in `docs/workflow-feed
 | 1, fondamenta | 10 | 10 |
 | 2, contenuti MokaByte | 6 | 6 |
 | 3, personal branding | 5 | 2 |
-| 4, motore | 8 | 0 |
+| 4, motore | 8 | 3 |
 
-**Stato al 2026-10-20:** Orizzonti 1 e 2 chiusi. Tutti e 13 gli articoli MokaByte sono in `content/`, bilingui, con la serie Git ordinata e navigabile. Il controllo contenuti gira in CI e il debito traduzioni è a zero. Prossimo passo: Orizzonte 3, da I1.
+**Stato al 2026-10-20:** Orizzonti 1 e 2 chiusi. Orizzonte 3 a 2/5: architettura informativa e contatti fatti, I2 rimandato perché richiede materiale di Nando. Orizzonte 4 a 3/8: scaffold dei post, skill di traduzione e backlog editoriale fatti; restano post-research, note vocali, misurazione, distribuzione e manutenzione.
