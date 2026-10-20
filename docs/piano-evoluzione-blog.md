@@ -31,6 +31,26 @@ Fatti misurati sul repo, non impressioni.
 - Bug nel deploy: `deploy.yml` parte anche su `pull_request` verso `main` e lo step di deploy non ha condizione, quindi una PR dallo stesso repo pubblicherebbe su `gh-pages`, cioè in produzione.
 - Rischio manutenzione: il cron notturno aggiorna Stack v4 (pre-1.0) e il commit `CI: Update theme` non ha `[ci skip]`, quindi ogni aggiornamento del tema pubblica automaticamente in produzione senza build di verifica.
 
+### 1.1 Documenti editoriali di riferimento
+
+Il piano editoriale in `docs/piano-editoriale/` è la fonte per **cosa** scrivere e con quale voce. Questo documento è la fonte per **come** pubblicarlo e in che ordine tecnico. Quando i due sembrano divergere vince il documento che copre il tema: le idee e la voce stanno nel piano editoriale, le scelte tecniche e l'ordine di esecuzione stanno qui.
+
+| Documento | Contenuto | Dove entra in questo piano |
+| --- | --- | --- |
+| `piano-editoriale-ferdinando-santacroce.md` | tesi editoriale, struttura consigliata delle sezioni, 19 articoli in cinque fasi, informazioni da confermare, architettura editoriale, protocollo note vocali | I1, I2, I4, M1, M4, M5 |
+| `appunti-importati-e-mappa-articoli.md` | 21 mappe di idee con potenziale, priorità in quattro ondate, elenco del materiale che non è un articolo | M5 |
+| `registro-note-vocali.md` | scheda per nota, domande aperte Q01-Q05, incoerenze C01, contenuti potenziali P01-P04 | I2, M4 |
+| `articolo-the-savant.md` | nota vocale del 2026-10-02 sulla metafora del savant applicata ai modelli AI | candidato articolo, da registrare in M4 e M5 |
+
+Regole che ne derivano:
+
+- Nessun articolo nuovo parte se non è nel backlog di M5 con fonte, destinazione editoriale e stato.
+- Le quattro ondate dell'appunti sono la priorità di partenza dopo il corpus MokaByte: prima la voce personale, poi la competenza tecnica, poi comunità e organizzazioni, infine i temi contemporanei.
+- Il format in sette punti del piano editoriale (§3) diventa il modello di outline per la skill `post-research` (M1).
+- Le sezioni consigliate dal piano editoriale (Racconti, Software, Team, Comunità, Talk e libri, Risorse) e quelle del personal branding (Percorso, Progetti, Corsi, Workshop, Servizi) sono due proposte distinte: vanno riconciliate in I1, non sommate.
+- Le "informazioni da confermare" del §5 sono prerequisito di I2 e I4: senza quelle risposte About, Percorso e Servizi restano generici.
+- Il materiale della wiki che non è un articolo (board, value proposition, appunti tecnici) resta fuori dal blog; nessuna credenziale va copiata nei documenti del repo.
+
 ---
 
 ## 2. Decisioni prese con Nando
@@ -172,6 +192,7 @@ File: `scripts/check-content.sh` (o equivalente Go), `.github/workflows/deploy.y
 Obiettivo: il sito smette di essere solo un blog e diventa biglietto da visita professionale. Richiede una decisione di architettura prima di scrivere contenuti.
 
 ### I1. Architettura informativa e URL
+- [ ] Riconciliare le sezioni proposte dal piano editoriale (Racconti, Software, Team, Comunità, Talk e libri, Risorse) con quelle del personal branding (Percorso, Progetti, Corsi, Workshop, Servizi): una sola architettura, non la somma delle due.
 - [ ] Definire le sezioni: Home, About, Percorso, Progetti, Corsi, Workshop, Servizi, Blog (Racconti), Talk, Works, Risorse, Contatti.
 - [ ] Mappare su Hugo: pagine singole in `content/page/`, nuove section per `projects` e `courses` se servono liste filtrabili.
 - [ ] Risolvere il problema del menu: 10-12 voci nella sidebar Stack sono troppe. Proposta: menu principale corto (Home, Blog, Percorso, Lavora con me, Contatti) e una pagina hub che raccoglie Progetti, Corsi, Workshop, Servizi.
@@ -179,6 +200,8 @@ Obiettivo: il sito smette di essere solo un blog e diventa biglietto da visita p
 
 ### I2. Inventario della carriera
 - [ ] Compilare l'inventario interno: aziende, periodi, ruoli, contesti, livello di visibilità (pubblico, anonimo, riservato). Rispondere a Q01-Q05 del registro note vocali.
+- [ ] Usare le "informazioni da confermare" del §5 del piano editoriale come checklist: ruolo e azienda attuali, rapporti con Agile Reloaded, Intré e Madisoft, ruolo in Working Software Conference e Italian Agile Movement, formulazione del percorso dal 1998.
+- [ ] Usare il §10 del piano editoriale come elenco dei quattro lavori continuativi: inventario carriera, schede progetti, catalogo corsi e workshop, curriculum narrativo.
 - [ ] Non pubblicare nulla finché l'inventario non è completo: senza dati, le pagine diventano generiche.
 - **Done:** inventario completo, anche solo interno.
 
@@ -218,7 +241,11 @@ Obiettivo: pubblicare con continuità senza ricominciare da zero ogni volta.
 - [ ] Trascrizione, scheda nel registro, estrazione fatti e interpretazioni, outline, bozza.
 
 ### M5. Backlog editoriale operativo
-- [ ] Trasformare le 19 idee di `docs/piano-editoriale/` in un backlog con priorità, stato e fonte. Proposta di prima ondata: "Padroneggiare uno strumento significa sapere quando non usarlo", "Il medico da campo e il cardiochirurgo", "Il geometra del software", "Io porto le brioches".
+- [ ] Trasformare le 21 mappe di `docs/piano-editoriale/appunti-importati-e-mappa-articoli.md` e i 19 articoli del piano editoriale in un unico backlog con ID, titolo, gruppo, fonte, destinazione (post, serie, pagina, scheda progetto, corso), priorità e stato.
+- [ ] Registrare la nota "the savant" come candidato articolo, con il suo angolo: la metafora del savant applicata ai modelli AI, alternativa al "genio" di Kent Beck.
+- [ ] Prima ondata proposta, coerente con l'appunti: "Padroneggiare uno strumento significa sapere quando non usarlo", "Il medico da campo e il cardiochirurgo", "Il geometra del software", "Io porto le brioches".
+- [ ] Segnare esplicitamente le idee da verificare, per esempio "Waterfall non significa quello che molti pensano", "I want XP back" e "RAL commisurata all'esperienza", per non pubblicarle senza fonti e senza una decisione di tono.
+- **Done:** `docs/piano-editoriale/backlog.md` esiste, con una sola priorità leggibile.
 
 ### M6. Misurazione
 - [ ] Decidere analytics privacy-friendly (Plausible, GoatCounter o Umami) oppure nessuna analytics.
@@ -254,6 +281,8 @@ Obiettivo: pubblicare con continuità senza ricominciare da zero ogni volta.
 | Q6 | Analytics? | Nessuna per ora, decidere dopo l'Orizzonte 3 |
 | Q7 | Form contatti o solo mailto? | Mailto adesso, form statico se arriva traffico |
 | Q8 | Gerarchia del menu? | Menu corto più pagina hub |
+| Q9 | Come si riconciliano le sezioni editoriali con quelle professionali? | Una sola architettura in I1, decisa prima di scrivere |
+| Q10 | Il backlog di M5 sostituisce le quattro ondate dell'appunti? | Le mantiene come ordine di priorità, il backlog aggiunge stato e fonte |
 
 ---
 
