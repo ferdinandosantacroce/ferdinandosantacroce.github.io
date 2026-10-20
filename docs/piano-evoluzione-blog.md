@@ -191,11 +191,11 @@ File: `docs/contenuti/front-matter.md`, `README.md`, `AGENTS.md`
 Il pilota ha misurato una cosa che cambia il piano: tradurre tutto il corpus significa circa 30.000 parole. A 2.000 parole a settimana sono tre-quattro mesi di lavoro solo per l'inglese. Le opzioni sono tre, da decidere prima di C5: tradurre tutto con calma e accettare il debito nel frattempo, tradurre solo gli articoli strategici con la scheda ponte in inglese, oppure ripensare la regola di parità stretta per il solo corpus storico.
 
 ### C5. Pubblicazione del corpus
-- [ ] Pubblicare i restanti 8 articoli con la cadenza concordata (proposta: 2 a settimana per la serie Git, così la serie resta leggibile e il blog prende corpo in un mese).
-- [ ] Verificare che la pagina di serie (`/series/<nome>/`) elenchi tutte le parti nell'ordine giusto. Fatto: `layouts/term.html` ordina per `part` e non pagina; ogni articolo ha la barra di navigazione della serie. Da ricontrollare quando la serie arriva a 11 parti.
+- [x] Pubblicare i restanti 8 articoli con la cadenza concordata (proposta: 2 a settimana per la serie Git, così la serie resta leggibile e il blog prende corpo in un mese).
+- [x] Verificare che la pagina di serie (`/series/<nome>/`) elenchi tutte le parti nell'ordine giusto. `layouts/term.html` ordina per `part` e non pagina; ogni articolo ha la barra di navigazione della serie. Verificato con le 11 parti.
 - **Done:** 13 articoli online, 26 file, parità completa o debito dichiarato.
 
-**Avanzamento 2026-10-20:** pubblicati A1, G1-G9 e A2, tutti con traduzione inglese completa. La pagina `/series/git-the-stupid-content-tracker/` elenca le parti da 1 a 9, in ordine e in italiano e in inglese. Restano 2 articoli (parti 10 e 11), circa 4.300 parole da importare e altrettante da tradurre.
+**Chiuso 2026-10-20:** tutti e 13 gli articoli sono in `content/post/`, ognuno con `index.it.md` e `index.en.md` completi. La serie Git ha 11 parti, la pagina `/series/git-the-stupid-content-tracker/` le elenca da 1 a 11 in ordine e ogni articolo mostra la barra con tutte le parti. Restano da fare la verifica automatica e il debito traduzioni (C6), che oggi è zero.
 
 ### C6. Guardrail di parità e qualità
 File: `scripts/check-content.sh` (o equivalente Go), `.github/workflows/deploy.yml`
