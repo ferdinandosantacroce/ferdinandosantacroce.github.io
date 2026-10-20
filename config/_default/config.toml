@@ -5,6 +5,12 @@ title = "Ferdinando Santacroce"
 [pagination]
 pagerSize = 5
 
+# Hugo's built-in taxonomies, plus "series" so multi-part articles get their own page.
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
 [params.assets]
 customCSS = ["css/custom.css"]
 

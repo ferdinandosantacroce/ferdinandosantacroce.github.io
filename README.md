@@ -51,6 +51,7 @@ static/               files served as they are (CNAME)
 - Works add `group: book` or `group: article`, plus `weight` to order them inside the group.
 - Talks add `params.video` when a recording exists.
 - Pages may set `slug`, and a localized `url` when the Italian address should be Italian too.
+- Full field reference: [docs/contenuti/front-matter.md](docs/contenuti/front-matter.md).
 
 Minimal post front matter:
 
@@ -98,6 +99,8 @@ git push
 | File | Content |
 | --- | --- |
 | [docs/piano-evoluzione-blog.md](docs/piano-evoluzione-blog.md) | medium and long term plan, with numbered tasks and state |
+| [docs/contenuti/front-matter.md](docs/contenuti/front-matter.md) | front matter schema for every content type |
+| [docs/contenuti/mappatura-mokabyte.md](docs/contenuti/mappatura-mokabyte.md) | the 13 MokaByte articles to republish, with slugs and decisions |
 | [docs/piano-editoriale/](docs/piano-editoriale/) | editorial plan, article ideas, voice notes register |
 | [docs/workflow-feedback.md](docs/workflow-feedback.md) | friction observed while working, candidates for skills and agents |
 | [specs/](specs/) | archived feature specs, kept as history |

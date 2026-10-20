@@ -160,21 +160,23 @@ Obiettivo: portare online il corpus MokaByte, definire il workflow di traduzione
 ### C1. Inventario e mappatura (bozza pronta 2026-10-20)
 - [x] Tabella di mappatura dei 13 file: slug, titolo IT e EN, data, categoria, tag, `series`, `part`, immagini. Salvata in `docs/contenuti/mappatura-mokabyte.md`.
 - [x] Verificate le 32 immagini: tutte referenziate, tutte presenti, nessuna orfana, dimensioni e pesi accettabili.
-- [ ] Approvazione delle decisioni editoriali della sezione 5 del documento, che sono il vero contenuto di C2.
+- [x] Approvazione delle decisioni editoriali della sezione 5 del documento, che sono il vero contenuto di C2.
 - **Done:** tabella approvata, salvata in `docs/contenuti/mappatura-mokabyte.md`.
 
 Raggruppamento confermato: serie Git in 11 parti, "Sono uno sviluppatore mediocre", "Working Software Conference 2019".
 
-### C2. Decisioni editoriali sulla ripubblicazione
-- [ ] Canonical: self-canonical con nota "originariamente pubblicato su Mokabyte il <data>" e link all'originale, oppure `canonical` verso Mokabyte. Proposta: self-canonical, perché l'obiettivo dichiarato è il controllo del contenuto; la nota e il link mantengono la correttezza verso la testata.
-- [ ] Testo: ripubblicare fedele con nota storica, oppure aggiornare. Proposta: aggiornare i comandi Git obsoleti (default branch `main`, `git restore`, `git switch`) e aggiungere una riga in testa con "aggiornato al 2026".
-- [ ] Aggiungere a ogni articolo un paragrafo di contesto nuovo, scritto oggi: perché quel tema conta ancora.
-- **Done:** decisioni registrate qui e applicate a tutti i 13 articoli.
+### C2. Decisioni editoriali sulla ripubblicazione (fatto 2026-10-20)
+- [x] Canonical: self-canonical con nota "originariamente pubblicato su Mokabyte il …" e link all'originale.
+- [x] Testo: ripubblicare l'originale, con la "Nota 2026" dove qualcosa è cambiato. Le schermate del 2016 restano, con la nota che lo dice.
+- [x] Date originali più `lastmod`; nessuna copertina nuova per ora; categoria `Software` e tag coerenti con il vocabolario esistente.
+- [x] Tassonomia `series` attivata in `config/_default/config.toml` e verificata con un post di prova.
+- **Done:** decisioni registrate in `docs/contenuti/mappatura-mokabyte.md`, sezione 6, e pronte da applicare in C5.
 
-### C3. Schema front matter esteso
+### C3. Schema front matter esteso (fatto 2026-10-20)
 File: `docs/contenuti/front-matter.md`, `README.md`, `AGENTS.md`
-- [ ] Documentare i campi: `title`, `description`, `slug`, `date`, `lastmod`, `image`, `categories`, `tags`, `series`, `part`, `source`, `source_date`.
-- [ ] Non introdurre `translation_status`: lo stato della traduzione si legge da `draft: true`, un secondo indicatore divergerebbe.
+- [x] Documentati i campi: `title`, `description`, `slug`, `date`, `lastmod`, `image`, `categories`, `tags`, `series`, `part`, `source`, `source_date`, con esempi per post, serie, talk, works e pagine.
+- [x] Nessun `translation_status`: lo stato della traduzione si legge da `draft: true`.
+- [x] README e AGENTS.md rimandano allo schema.
 - **Done:** schema scritto una volta e usato da tutti i nuovi contenuti.
 
 ### C4. Pilota end-to-end
@@ -185,6 +187,8 @@ File: `docs/contenuti/front-matter.md`, `README.md`, `AGENTS.md`
 
 ### C5. Pubblicazione del corpus
 - [ ] Pubblicare i restanti 12 articoli con la cadenza concordata (proposta: 2 a settimana per la serie Git, così la serie resta leggibile e il blog prende corpo in un mese).
+- [ ] Aggiungere a ogni articolo un paragrafo di contesto nuovo, scritto oggi: perché quel tema conta ancora.
+- [ ] Verificare che la pagina di serie (`/series/<nome>/`) elenchi tutte le parti nell'ordine giusto.
 - **Done:** 13 articoli online, 26 file, parità completa o debito dichiarato.
 
 ### C6. Guardrail di parità e qualità
@@ -303,8 +307,8 @@ Il lavoro su questo orizzonte nasce dal feedback raccolto in `docs/workflow-feed
 | Orizzonte | Task totali | Completati |
 | --- | --- | --- |
 | 1, fondamenta | 10 | 10 |
-| 2, contenuti MokaByte | 6 | 0 |
+| 2, contenuti MokaByte | 6 | 3 |
 | 3, personal branding | 5 | 0 |
 | 4, motore | 8 | 0 |
 
-**Stato al 2026-10-20:** Orizzonte 1 chiuso (F1-F10). C1 ha una bozza pronta in `docs/contenuti/mappatura-mokabyte.md`: servono le risposte alle cinque domande della sezione 6 prima di toccare `content/`.
+**Stato al 2026-10-20:** Orizzonte 1 chiuso (F1-F10). C1, C2 e C3 chiusi. Prossimo passo: C4, il pilota end-to-end sull'articolo A1.

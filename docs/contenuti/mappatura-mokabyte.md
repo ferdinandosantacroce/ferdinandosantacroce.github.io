@@ -103,21 +103,19 @@ Dati misurati sui tredici file, utili per decidere quanto lavoro serve prima di 
 - **Due articoli su tredici sono senza tempo.** G1 (storia e nome di Git) e G11 (le tre aree, staging e history) invecchiano poco. A1 e A2 non parlano di comandi: sono riflessioni su carriera e comunità, e reggono bene.
 - **G4, G5, G7, G8 sono i più tecnici e i più lunghi** (332, 189, 303, 296 righe): sono anche quelli in cui un errore di aggiornamento si nota di più.
 
-## 5. Proposte per C2, da approvare
+## 5. Decisioni per C2
 
-Il task C2 chiede tre decisioni. Ecco la proposta con il motivo e il costo.
+Il task C2 chiedeva tre decisioni, più due collaterali. Sono state prese il 2026-10-20: qui sotto restano il motivo e il costo, perché tra sei mesi serviranno a ricordare il perché.
 
 ### 5.1 Canonical
 
-**Proposta:** self-canonical, con una riga in testa a ogni articolo del tipo "Originariamente pubblicato su Mokabyte il 12 settembre 2016" e il link all'originale.
+**Deciso:** self-canonical, con una riga in testa a ogni articolo del tipo "Originariamente pubblicato su Mokabyte il 12 settembre 2016" e il link all'originale.
 
 Motivo: l'obiettivo dichiarato è mantenere il controllo del contenuto. Se il canonical puntasse a MokaByte, il blog personale direbbe a Google che la versione autorevole è quella della magazine, cioè l'opposto. La nota e il link mantengono la correttezza verso la testata, e il giorno in cui MokaByte chiudesse non ci sarebbe nulla da cambiare.
 
-Alternativa, se preferisci non competere con la magazine: canonical verso MokaByte finché esiste, e cambio a self-canonical quando chiude. Costo: una modifica per articolo, più il rischio di dimenticarsene.
-
 ### 5.2 Testo: ripubblicare o aggiornare
 
-**Proposta:** ripubblicare il testo originale, con due aggiunte:
+**Deciso:** ripubblicare il testo originale, con due aggiunte:
 
 1. un blocco "Nota 2026" in testa agli articoli dove qualcosa è cambiato, breve e concreto: default branch `main`, `git restore` e `git switch`, installer diverso;
 2. un paragrafo nuovo di apertura in G1 che spiega che la serie è stata scritta tra il 2016 e il 2018 e che alcuni comandi hanno oggi un'alternativa.
@@ -126,31 +124,35 @@ Motivo: riscrivere 218 `master` e 41 `git checkout` significherebbe rifare la se
 
 Costo stimato: 4-6 ore per le note e le rifiniture su tutti e tredici gli articoli. La riscrittura completa costerebbe 20-25 ore e cambierebbe la voce originale.
 
-Da decidere a parte: rigenerare le dieci schermate di G2, 1-2 ore, richiede una macchina Windows o screenshot aggiornati. Se non le rigeneriamo, la nota deve dirlo esplicitamente.
+Sulle schermate di G2: restano quelle del 2016, con la nota che lo dice. Le immagini sono già tutte in `raw/mokabyte/images/`, quindi non c'è nulla da recuperare da MokaByte. Gli originali di Nando servono solo se in futuro decideremo di rigenerare le schermate.
 
 ### 5.3 Date
 
-**Proposta:** mantenere la data originale di pubblicazione, aggiungere `lastmod` con la data della revisione.
+**Deciso:** mantenere la data originale di pubblicazione, aggiungere `lastmod` con la data della revisione.
 
 Motivo: le date finte sono una piccola bugia che si vede subito nell'archivio, e l'archivio è una sezione del sito. Il fatto che la home mostri come ultimo articolo quello del 2021 non si risolve falsificando le date: si risolve con la home dell'Orizzonte 3, che avrà un blocco "da dove cominciare" e uno della serie.
 
 ### 5.4 Copertine
 
-**Proposta:** niente copertine nuove per ora. Usare come `image` solo uno screenshot che si legge bene in piccolo, se esiste; per gli altri, nessuna immagine finché non ci sarà un'identità grafica. Una copertina brutta è peggio di nessuna copertina.
+**Deciso:** niente copertine nuove per ora. Usare come `image` solo uno screenshot che si legge bene in piccolo, se esiste; per gli altri, nessuna immagine finché non ci sarà un'identità grafica. Una copertina brutta è peggio di nessuna copertina.
 
 ### 5.5 Categoria e tag
 
-**Proposta:** tutti in categoria `Software`, che è già l'unica categoria del sito. I tag riusano il vocabolario esistente dove possibile (`git`, `software development`, `legacy`, `agile`, `career`, `community`, `conference`) e aggiungono `version control` per la serie.
+**Deciso:** tutti in categoria `Software`, che è già l'unica categoria del sito. I tag riusano il vocabolario esistente dove possibile (`git`, `software development`, `legacy`, `agile`, `career`, `community`, `conference`) e aggiungono `version control` per la serie.
 
 Motivo: creare categorie nuove per tredici articoli frammenta un sito che ha già una sola categoria e rende più difficile orientarsi. I tag bastano a distinguere serie, carriera e comunità.
 
-## 6. Domande per Nando
+## 6. Decisioni prese il 2026-10-20
 
-1. Canonical: self-canonical come proposto, o canonical verso MokaByte?
-2. Testi: note del 2026 come proposto, oppure aggiornamento completo dei comandi?
-3. Le dieci schermate di G2: le rigeneriamo o le lasciamo con la nota?
-4. La tassonomia `series`: la attiviamo?
-5. Va bene il titolo inglese "I am a mediocre developer" per A1?
+| # | Domanda | Decisione |
+| --- | --- | --- |
+| 1 | Canonical | Self-canonical con nota e link all'originale |
+| 2 | Testo | Ripubblicare l'originale con la "Nota 2026" dove serve |
+| 3 | Schermate di G2 | Restano quelle del 2016, con la nota che lo dice |
+| 4 | Tassonomia `series` | Attivata in `config/_default/config.toml`, verificata con un post di prova |
+| 5 | Titolo inglese di A1 | "I am a mediocre developer" |
+
+Nota tecnica sulla tassonomia: con `series = "series"` in `[taxonomies]`, Hugo genera `/series/<nome>/` per ogni serie. Verificato che il layout di lista del tema regge la pagina senza codice aggiuntivo. Per i contenuti in italiano la pagina vive sotto `/it/series/<nome>/`.
 
 ## 7. Checklist di importazione
 
@@ -172,5 +174,6 @@ Questa sequenza è il candidato naturale per la futura skill `import-article`. V
 - [x] Inventario dei tredici file e dei metadati.
 - [x] Verifica delle 32 immagini.
 - [x] Proposta di slug, titoli, date.
-- [ ] Approvazione delle decisioni della sezione 5.
+- [x] Decisioni editoriali approvate il 2026-10-20.
+- [x] Tassonomia `series` attivata e verificata.
 - [ ] Applicazione a `content/` (C4 e C5).
