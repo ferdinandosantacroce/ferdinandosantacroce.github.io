@@ -1,0 +1,269 @@
+# Piano di evoluzione del blog ferdinandosantacroce.it
+
+**Repo:** `ferdinandosantacroce.github.io`
+**Creato:** 2026-10-20
+**Stato:** piano approvato nelle linee guida, da eseguire un passo alla volta
+**Documento interno:** non viene pubblicato sul sito, vive solo nel repository
+
+**Come si usa:** si parte dall'Orizzonte 1 in ordine. Ogni task ha un ID, i file toccati e un criterio di completamento. Spuntare la casella solo quando il criterio è verificato. Le decisioni prese stanno nella sezione 2 e non si rimettono in discussione senza motivo.
+
+---
+
+## 1. Contesto verificato (audit del 2026-10-20)
+
+Fatti misurati sul repo, non impressioni.
+
+- Build di produzione pulita: `hugo --minify --gc` → 154 pagine EN, 157 IT, 122 immagini processate, zero warning, 487 ms. Hugo locale 0.165.0 extended, Go 1.27.2, Stack v4.0.3.
+- Contenuti pubblicati: **1 post** (`content/post/elastic-pair-programming`), 30 talk in leaf bundle, 8 works, 4 pagine statiche (about, archives, search, resources), 2 risorse (oop, tdd).
+- Parità bilingue EN/IT: **100%**. L'unico file spaiato è `content/_index.it.md`, normale perché `content/_index.md` è la versione EN di default.
+- Nessun `draft: true` dentro `content/`.
+- Materiale non pubblicato: `raw/mokabyte/` con **13 file** (11 parti della serie "Git, the stupid content tracker" + "Lo sviluppatore mediocre" + "Working Software Conf 19"), 2.890 righe, solo italiano, 32 immagini in `raw/mokabyte/images/`.
+- Documenti editoriali: `docs/piano-editoriale/` (piano editoriale, mappa delle idee importate, registro note vocali) più la nota vocale `articolo-the-savant.md`, ancora non tracciata.
+- Git: `main` avanti 1 (documenti editoriali, `f7eaa9c`) e indietro 1 (`49cc1bd CI: Update theme`). Non tracciati: `.serena/` e `docs/piano-editoriale/articolo-the-savant.md`.
+- Migrazione Jekyll: **finita**. Il repo vecchio (`~/Source/personal/GitHub/jesuswasrasta/jesuswasrasta.github.io`) ha un solo post in `_posts/`, già migrato; `_pages/talks.md` è stato spacchettato in 30 bundle; `_resources/` e `works.md` sono migrati; l'unico post in `_archive/` è stato eliminato per scelta di Nando (`389b388`).
+- Config leftover: `disqusShortname = "hugo-theme-stack"` con commenti disabilitati; `go.sum` contiene ancora le righe v3; `go.mod` marca Stack v4 come `// indirect`.
+- `content/page/archives/index.{en,it}.md` contengono ancora "Under construction 👨‍💻".
+- Licenza incoerente: `LICENSE` è MIT, il README dice contenuti CC BY-NC 4.0, il sito mostra CC BY-NC-SA 4.0.
+- `custom.css` contiene 3 righe (solo font-family per le emoji). Layout custom: `talks/list.html`, `works/list.html`, `_internal/google_analytics.html` (vuoto).
+- `README.md` parla ancora di Stack v3 e non menziona mise, `[ci skip]`, i permalink `/p/:slug/`, le sezioni talk/works/resources né `docs/`.
+- `JOURNAL.md` è fermo al 2026-02-26 e cita `.claude/skills/` e `.gemini/skills/`, rimossi in `8042fec`.
+- `specs/000-003`: la 003 è completata nei task ma è ancora `Status: Draft`, e il `plan.md` ha i placeholder del template e cita Stack v3.
+- Bug nel deploy: `deploy.yml` parte anche su `pull_request` verso `main` e lo step di deploy non ha condizione, quindi una PR dallo stesso repo pubblicherebbe su `gh-pages`, cioè in produzione.
+- Rischio manutenzione: il cron notturno aggiorna Stack v4 (pre-1.0) e il commit `CI: Update theme` non ha `[ci skip]`, quindi ogni aggiornamento del tema pubblica automaticamente in produzione senza build di verifica.
+
+---
+
+## 2. Decisioni prese con Nando
+
+**D1, materiale da ripubblicare.** Gli articoli MokaByte sono già pubblicati sulla magazine. Sono **13 articoli in tre gruppi editoriali**: la serie "Git, the stupid content tracker" in 11 parti, "Lo sviluppatore mediocre" e "Working Software Conf 19". Vanno replicati sul blog personale per mantenerne il controllo nel caso MokaByte smettesse di pubblicarli. Non è una migrazione tecnica da Jekyll: è una ripubblicazione editoriale.
+
+**D2, lingua.** Italiano è la lingua primaria. Ogni articolo deve esistere anche in inglese, ma la traduzione può arrivare dopo. La parità resta un obiettivo stretto, non un optional.
+
+**D3, grafica.** Rimanere su Hugo e sulle buone pratiche, senza fork del tema finché non serve. Prima strada: `custom.css` e override mirati. Nessuna esigenza grafica urgente, il template è considerato sufficientemente buono.
+
+**D4, posizionamento.** Il sito è il biglietto da visita professionale: blog, curriculum narrativo, percorso, progetti e servizi come libero professionista dello sviluppo software. Non è solo un blog.
+
+### 2.1 Cosa significa "parità stretta" (definizione operativa)
+
+Parità stretta non significa "due file sempre pubblicati nello stesso istante". Significa tre cose verificabili:
+
+1. **Struttura:** ogni bundle di contenuto ha sempre i due file, `index.it.md` e `index.en.md`. Non esiste un bundle con un solo file, mai, nemmeno in bozza. Così nessuna traduzione viene dimenticata.
+2. **Pubblicazione:** una lingua può essere pubblicata mentre l'altra è ancora in lavorazione, con due meccanismi possibili:
+   - **Opzione A, default:** il file EN esiste ma è `draft: true`. La pagina IT mostra un badge "traduzione inglese in arrivo"; il sito EN non elenca ancora l'articolo. Semplice, nessun contenuto finto, ma il lettore inglese non trova nulla.
+   - **Opzione B, per gli articoli importanti:** il file EN viene pubblicato come scheda ponte, con titolo, abstract in inglese e link all'originale italiano. Più lavoro editoriale, ma il sito EN resta completo e indicizzabile.
+3. **Debito tracciato:** ogni coppia con un lato in bozza finisce in un report generato (`docs/contenuti/debito-traduzioni.md`) e in CI. Il debito è visibile, ha una data, e non può crescere in silenzio.
+
+La differenza rispetto a una parità "morbida" è che qui la coppia di file è obbligatoria e il debito è contato, mentre nella parità morbida le traduzioni semplicemente non esistono e nessuno se ne accorge. Proposta: Opzione A per tutto il corpus MokaByte, Opzione B per gli articoli che devono posizionarsi anche in inglese.
+
+Costo dichiarato: 2.890 righe di italiano. Tradurle tutte significa un lavoro stimabile in 25-35 ore uomo, molto meno con una prima traduzione assistita e una revisione umana mirata su voce e termini tecnici.
+
+---
+
+## 3. Orizzonte 1, fondamenta e igiene (settimane 1-2)
+
+Obiettivo: repo coerente, documenti veri, deploy sicuro, zero task fantasma. Nessun contenuto nuovo in questa fase.
+
+### F1. Allineamento git
+- [ ] `git fetch origin && git rebase origin/main`, risolvere l'unico conflitto atteso su `go.sum`.
+- [ ] Committare `docs/piano-editoriale/articolo-the-savant.md` (nota vocale, materiale di lavoro).
+- [ ] Decidere su `.serena/`: tracciare `project.yml` e ignorare `project.local.yml`, oppure ignorare tutta la cartella.
+- **Done:** `git status` pulito, `git log --oneline -3` mostra la storia lineare, build verde.
+
+### F2. Deploy sicuro
+File: `.github/workflows/deploy.yml`
+- [ ] Aggiungere `if: github.event_name == 'push'` allo step di deploy (o rimuovere il trigger `pull_request` se non serve il build check sulle PR).
+- [ ] Aggiornare le action: `actions/checkout@v4`, `actions/setup-go@v5`, `actions/cache@v4`, `peaceiris/actions-hugo@v3`.
+- **Done:** una PR esegue solo il build; un push su `main` esegue build e deploy.
+
+### F3. Build gate sull'aggiornamento tema
+File: `.github/workflows/update-theme.yml`
+- [ ] Dopo `hugo mod get -u` e `hugo mod tidy`, eseguire `hugo --minify --gc`; se fallisce, non committare e far fallire il job.
+- [ ] Valutare cadenza settimanale invece che giornaliera, e aggiungere `[ci skip]` al commit automatico per evitare pubblicazioni non riviste.
+- **Done:** un tema rotto non arriva né su `main` né in produzione.
+
+### F4. Pulizia configurazione
+File: `config/_default/config.toml`, `config/_default/params.toml`, `go.mod`, `go.sum`
+- [ ] Rimuovere `disqusShortname` (i commenti sono disabilitati).
+- [ ] `hugo mod tidy` per togliere i residui v3 da `go.sum` e il `// indirect` da `go.mod`.
+- [ ] Unificare il favicon: un solo set di origine (SVG più PNG 32, 180, 512) e coerenza tra `static/` e `assets/img/`.
+- **Done:** nessun riferimento a v3, build verde, favicon coerente.
+
+### F5. Chiudere i placeholder
+File: `content/page/archives/index.en.md`, `content/page/archives/index.it.md`
+- [ ] Sostituire "Under construction" con una breve introduzione all'archivio, in EN e IT.
+- **Done:** `grep -ri "under construction" content/` non restituisce nulla.
+
+### F6. Licenza unica
+File: `LICENSE`, `README.md`, `config/_default/params.toml`
+- [ ] Scegliere una combinazione e applicarla ovunque. Proposta: codice MIT, contenuti CC BY-NC-SA 4.0 (coerente con quanto già mostrato dal sito).
+- [ ] Aggiornare il testo del footer e la sezione License del README.
+- **Done:** i tre punti dicono la stessa cosa.
+
+### F7. Riscrivere README
+File: `README.md`
+- [ ] Struttura: cos'è il repo, stack e versioni, setup con `mise`, comandi, mappa di `content/` (post, talks, works, page, resources), front matter per tipo di contenuto, regola bilingue, workflow di pubblicazione con `[ci skip]`, deploy, licenza, collegamenti a `docs/` e `specs/`.
+- **Done:** una persona nuova pubblica un post senza fare domande.
+
+### F8. Aggiornare AGENTS.md
+File: `AGENTS.md`
+- [ ] Aggiungere: `.opencode/skills/` (hugo-expert, wrap-up), `docs/piano-editoriale/`, `raw/` come materiale sorgente non pubblicato, `specs/` come archivio di feature concluse.
+- [ ] Correggere lo stato reale: un solo post pubblicato, materiale MokaByte in attesa, sezioni professionali da costruire.
+- [ ] Aggiungere la definizione di parità stretta della sezione 2.1 e il comando di verifica contenuti (arriva con C6).
+- **Done:** nessuna affermazione falsa, nessun percorso inesistente, nessun documento chiave mancante.
+
+### F9. TODO e specs
+File: `TODO.md`, `specs/`
+- [ ] Chiudere la fase 3.8 e la fase 4 se non più attuale, oppure riscrivere `TODO.md` come indice breve che rimanda a questo piano.
+- [ ] Marcare `specs/000-003` come completate e spostarle in `specs/archive/`, oppure aggiungere in testa `Status: Completed`.
+- [ ] Sistemare `specs/003-jekyll-migration/plan.md`: togliere i placeholder del template e il riferimento a Stack v3.
+- **Done:** nessun task aperto che sia già stato fatto altrove.
+
+### F10. Journal
+File: `JOURNAL.md`
+- [ ] Aggiungere la voce 2026-10-20 con audit, decisioni D1-D4, fix di questa fase.
+- [ ] Rimuovere o correggere i riferimenti a `.claude/skills` e `.gemini/skills`.
+- **Done:** l'ultima voce descrive lo stato attuale e non cita cartelle inesistenti.
+
+---
+
+## 4. Orizzonte 2, i MokaByte e la macchina bilingue (settimane 2-6)
+
+Obiettivo: portare online il corpus MokaByte, definire il workflow di traduzione, rendere la parità misurabile. Questa fase produce contenuti veri, non infrastruttura.
+
+### C1. Inventario e mappatura
+- [ ] Costruire la tabella di mappatura dei 13 file: slug, titolo IT, titolo EN, data, categoria, tag, `series`, `part`, cover, immagini collegate.
+- [ ] Verificare le 32 immagini in `raw/mokabyte/images/`: quali servono, quali sono obsolete, quali vanno ricompresse.
+- **Done:** tabella approvata, salvata in `docs/contenuti/mappatura-mokabyte.md`.
+
+Raggruppamento confermato: serie Git in 11 parti, "Lo sviluppatore mediocre", "Working Software Conf 19".
+
+### C2. Decisioni editoriali sulla ripubblicazione
+- [ ] Canonical: self-canonical con nota "originariamente pubblicato su Mokabyte il <data>" e link all'originale, oppure `canonical` verso Mokabyte. Proposta: self-canonical, perché l'obiettivo dichiarato è il controllo del contenuto; la nota e il link mantengono la correttezza verso la testata.
+- [ ] Testo: ripubblicare fedele con nota storica, oppure aggiornare. Proposta: aggiornare i comandi Git obsoleti (default branch `main`, `git restore`, `git switch`) e aggiungere una riga in testa con "aggiornato al 2026".
+- [ ] Aggiungere a ogni articolo un paragrafo di contesto nuovo, scritto oggi: perché quel tema conta ancora.
+- **Done:** decisioni registrate qui e applicate a tutti i 13 articoli.
+
+### C3. Schema front matter esteso
+File: `docs/contenuti/front-matter.md`, `README.md`, `AGENTS.md`
+- [ ] Documentare i campi: `title`, `description`, `slug`, `date`, `image`, `categories`, `tags`, `series`, `part`, `source`, `source_date`, `translation_status`.
+- **Done:** schema scritto una volta e usato da tutti i nuovi contenuti.
+
+### C4. Pilota end-to-end
+- [ ] Scegliere un articolo campione (proposta: "Lo sviluppatore mediocre", autonomo e ancora attuale, oppure la parte 1 della serie Git).
+- [ ] Creare il bundle, spostare le immagini dentro, scrivere il front matter completo, pubblicare IT, tradurre EN, avviso di traduzione se EN non è pronta.
+- [ ] Misurare il tempo reale: stesura/adattamento IT, traduzione EN, revisione.
+- **Done:** articolo online in due lingue, tempi misurati, problema del flusso individuato.
+
+### C5. Pubblicazione del corpus
+- [ ] Pubblicare i restanti 12 articoli con la cadenza concordata (proposta: 2 a settimana per la serie Git, così la serie resta leggibile e il blog prende corpo in un mese).
+- **Done:** 13 articoli online, 26 file, parità completa o debito dichiarato.
+
+### C6. Guardrail di parità e qualità
+File: `scripts/check-content.sh` (o equivalente Go), `.github/workflows/deploy.yml`
+- [ ] Lo script verifica: coppia `index.it.md` e `index.en.md` presente in ogni bundle; front matter minimo; immagini referenziate esistenti; link interni rotti; elenco delle coppie con un lato in `draft`.
+- [ ] Genera `docs/contenuti/debito-traduzioni.md`.
+- [ ] Integrarlo nel workflow prima del build.
+- **Done:** una coppia mancante fa fallire la CI, il debito è leggibile in un file.
+
+---
+
+## 5. Orizzonte 3, architettura per il personal branding (mesi 2-3)
+
+Obiettivo: il sito smette di essere solo un blog e diventa biglietto da visita professionale. Richiede una decisione di architettura prima di scrivere contenuti.
+
+### I1. Architettura informativa e URL
+- [ ] Definire le sezioni: Home, About, Percorso, Progetti, Corsi, Workshop, Servizi, Blog (Racconti), Talk, Works, Risorse, Contatti.
+- [ ] Mappare su Hugo: pagine singole in `content/page/`, nuove section per `projects` e `courses` se servono liste filtrabili.
+- [ ] Risolvere il problema del menu: 10-12 voci nella sidebar Stack sono troppe. Proposta: menu principale corto (Home, Blog, Percorso, Lavora con me, Contatti) e una pagina hub che raccoglie Progetti, Corsi, Workshop, Servizi.
+- **Done:** albero degli URL e menu approvati, scritti in `docs/architettura-informativa.md`.
+
+### I2. Inventario della carriera
+- [ ] Compilare l'inventario interno: aziende, periodi, ruoli, contesti, livello di visibilità (pubblico, anonimo, riservato). Rispondere a Q01-Q05 del registro note vocali.
+- [ ] Non pubblicare nulla finché l'inventario non è completo: senza dati, le pagine diventano generiche.
+- **Done:** inventario completo, anche solo interno.
+
+### I3. Template delle sezioni professionali
+- [ ] `layouts/projects/list.html` con griglia di schede, e single con i campi: periodo, settore, ruolo, problema, contributo, risultato, apprendimento, visibilità.
+- [ ] `layouts/courses/list.html` con catalogo: titolo, destinatari, durata, formato, prerequisiti, obiettivi, programma.
+- **Done:** un progetto e un corso pubblicati come esempio funzionante.
+
+### I4. Pagine pilota
+- [ ] About riscritta in chiave branding, con link a Percorso, Progetti e Contatti (oggi è buona ma isolata).
+- [ ] Percorso: pagina cronologica narrativa.
+- [ ] Servizi: come si avvia una collaborazione, cosa serve per un primo confronto, cosa non rientra nel modo di lavorare.
+- **Done:** tre pagine online IT+EN.
+
+### I5. Contatti e call to action
+- [ ] Pagina contatti (mailto o form statico, decisione da prendere).
+- [ ] CTA nel footer e in fondo agli articoli.
+- **Done:** da ogni pagina si arriva a un contatto in due click.
+
+---
+
+## 6. Orizzonte 4, motore dei contenuti e crescita (mesi 3-6)
+
+Obiettivo: pubblicare con continuità senza ricominciare da zero ogni volta.
+
+### M1. Skill `post-research`
+- [ ] Creare `.opencode/skills/post-research/SKILL.md`: raccoglie fonti, verifica fatti, produce outline e domande. Non scrive la prosa, che resta di Nando.
+
+### M2. Skill di traduzione e parità
+- [ ] `translation-review`: checklist per revisionare una traduzione EN (voce, idiomi, termini tecnici, esempi culturali).
+- [ ] Estendere `check-content` con il controllo parità già previsto in C6.
+
+### M3. Scaffold nuovo post
+- [ ] Comando o script `new-post <slug>` che crea il bundle con `index.it.md` e `index.en.md`, front matter completo, cartella immagini.
+
+### M4. Pipeline note vocali
+- [ ] Trascrizione, scheda nel registro, estrazione fatti e interpretazioni, outline, bozza.
+
+### M5. Backlog editoriale operativo
+- [ ] Trasformare le 19 idee di `docs/piano-editoriale/` in un backlog con priorità, stato e fonte. Proposta di prima ondata: "Padroneggiare uno strumento significa sapere quando non usarlo", "Il medico da campo e il cardiochirurgo", "Il geometra del software", "Io porto le brioches".
+
+### M6. Misurazione
+- [ ] Decidere analytics privacy-friendly (Plausible, GoatCounter o Umami) oppure nessuna analytics.
+- [ ] Search Console, sitemap, RSS già presenti: verificare e documentare.
+
+### M7. Distribuzione
+- [ ] Cross-posting su Mastodon e LinkedIn con link all'articolo, non testo integrale, per non disperdere il segnale.
+
+### M8. Manutenzione
+- [ ] Checklist mensile: link rotti, aggiornamenti tema, immagini pesanti, parità, Lighthouse.
+
+---
+
+## 7. Idee future, non pianificate
+
+- Newsletter (solo se c'è cadenza stabile).
+- Podcast o versione audio degli articoli.
+- Ricerca full-text più ricca.
+- Commenti (oggi disabilitati; da riaprire solo con una decisione esplicita su moderazione).
+- Tema custom o fork, solo se `custom.css` e gli override non bastano più.
+
+---
+
+## 8. Domande aperte
+
+| ID | Domanda | Stato o proposta |
+| --- | --- | --- |
+| Q1 | "Tre articoli" MokaByte | Risolta: 13 articoli in tre gruppi |
+| Q2 | Canonical verso Mokabyte o self-canonical? | Self-canonical con nota e link all'originale |
+| Q3 | Ripubblicare fedele o aggiornare i testi Git del 2016-2018? | Aggiornare i comandi obsoleti, nota "aggiornato al 2026" |
+| Q4 | Cadenza di pubblicazione? | 2 articoli a settimana nella fase MokaByte |
+| Q5 | Come produrre le traduzioni EN? | Prima stesura assistita, revisione umana su voce e termini, mai pubblicare senza revisione |
+| Q6 | Analytics? | Nessuna per ora, decidere dopo l'Orizzonte 3 |
+| Q7 | Form contatti o solo mailto? | Mailto adesso, form statico se arriva traffico |
+| Q8 | Gerarchia del menu? | Menu corto più pagina hub |
+
+---
+
+## 9. Stato di avanzamento
+
+| Orizzonte | Task totali | Completati |
+| --- | --- | --- |
+| 1, fondamenta | 10 | 0 |
+| 2, contenuti MokaByte | 6 | 0 |
+| 3, personal branding | 5 | 0 |
+| 4, motore | 8 | 0 |
+
+**Prossimo passo:** F1, allineamento git, poi F2, deploy sicuro.
