@@ -33,6 +33,7 @@
 | 7 | Le note vocali hanno un protocollo scritto ma nessuna pipeline: trascrizione, scheda nel registro, outline | `registro-note-vocali.md`, `articolo-the-savant.md` | Skill `voice-note-intake` | Media |
 | 8 | Il piano di evoluzione va tenuto vivo: task spuntati, stato aggiornato, altrimenti diventa un documento morto come TODO.md | TODO.md come precedente | Skill `plan-sync` o parte di `repo-doctor` | Bassa |
 | 9 | Nella sessione ho usato `find`, `grep` e shell per esplorare un sito statico: Serena e ast-grep servono poco qui, servono molto quando arriveranno script e template | Sessione del 2026-10-20 | Nessuna azione, annotato per non sovraingegnerizzare | Bassa |
+| 10 | Le action GitHub invecchiano in silenzio: i workflow usavano major del 2023 e niente lo segnalava | `deploy.yml`, `update-theme.yml` al 2026-10-20 | Parte di `repo-doctor`: controllo delle major delle action | Media |
 
 ## Candidati già previsti dal piano
 
