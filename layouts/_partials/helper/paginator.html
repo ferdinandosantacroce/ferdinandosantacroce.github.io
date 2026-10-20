@@ -1,0 +1,14 @@
+{{/* Same as the theme's helper, but series term pages are not paginated: they list every part in order. */}}
+{{- $result := slice -}}
+
+{{- $isSeriesTerm := false -}}
+{{- if eq .Kind "term" -}}
+    {{- $isSeriesTerm = eq .Data.Singular "series" -}}
+{{- end -}}
+
+{{- if and (not $isSeriesTerm) (or .IsHome (eq .Kind "section") (eq .Kind "taxonomy") (eq .Kind "term")) -}}
+    {{- $pages := partial "helper/pages.html" . -}}
+    {{- $result = .Paginate $pages -}}
+{{- end -}}
+
+{{- return $result -}}

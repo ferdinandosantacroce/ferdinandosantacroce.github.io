@@ -22,7 +22,7 @@ CI pins **Hugo extended `0.165.0`** and Go `1.27.x` (`.github/workflows/*.yml`).
 
 - **Publication is on hold.** Nando wants the site fixed before it goes live. Every commit message ends with `[ci skip]`, so pushes never deploy. Publish only on explicit request, with a dedicated empty commit without the marker: `git commit --allow-empty -m "chore: publish"`. The marker must be in the head commit of the push.
 - **Strict bilingual parity.** Every bundle has `index.en.md` and `index.it.md` from the first commit. Italian is primary; English may lag behind as `draft: true` but the file must exist. Definition and rationale in `docs/piano-evoluzione-blog.md`, section 2.1. Files without a language suffix default to English.
-- **Never edit theme files directly.** The theme is a Go module, not vendored. Custom styles go in `assets/css/custom.css`; layout overrides in `layouts/` only when unavoidable.
+- **Never edit theme files directly.** The theme is a Go module, not vendored. Custom styles go in `assets/css/custom.css`, loaded through `layouts/_partials/head/custom.html`; layout overrides in `layouts/` only when unavoidable.
 - **Deploy only via GitHub Actions.** The workflow runs on push to `main`; pull requests build and never deploy. Do not deploy by hand, never commit `public/` or `resources/`.
 - **`public/` and `resources/` are gitignored build artifacts.**
 - **`examples/` is intentionally NOT published.** Don't "fix" it by moving it back into `content/`.
@@ -39,6 +39,7 @@ CI pins **Hugo extended `0.165.0`** and Go `1.27.x` (`.github/workflows/*.yml`).
 - English is the site's base language and lives at the root; Italian lives under `/it/`. This is a deliberate decision (D6 in the plan), not an oversight: do not flip it.
 - `assets/icons/` → Tabler Icons SVGs; each must have exactly `width="24" height="24" stroke-width="2" stroke="currentColor"` or it will not render in the menu
 - Permalinks: posts at `/p/:slug/`, pages at `/:slug/` (`config/_default/permalinks.toml`)
+- Series: `series` + `part` in front matter produce `/series/<slug>/`, rendered by `layouts/term.html` ordered by `part`, with no pagination. Each article shows `layouts/_partials/article/components/series-nav.html` above the body, so readers can jump between parts. Series term pages are excluded from the theme paginator in `layouts/_partials/helper/paginator.html`.
 
 ## Documentation
 

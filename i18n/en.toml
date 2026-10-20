@@ -1,0 +1,14 @@
+[series.label]
+other = "Series"
+
+[series.description]
+other = "All the parts, in reading order."
+
+[series.part]
+other = "Part"
+
+[series.partOf]
+other = "Part {{ .Part }} of {{ .Total }}"
+
+[series.all]
+other = "All parts"

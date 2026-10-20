@@ -1,0 +1,27 @@
+{{- $series := .Params.series -}}
+{{- if $series -}}
+    {{- $name := $series -}}
+    {{- if reflect.IsSlice $series -}}
+        {{- $name = index $series 0 -}}
+    {{- end -}}
+    {{- $current := $ -}}
+    {{- $pages := where site.RegularPages "Params.series" $name -}}
+    {{- $pages = $pages.ByParam "part" -}}
+    {{- if gt (len $pages) 1 -}}
+        <nav class="series-nav" aria-label="{{ T "series.label" }}">
+            <div class="series-nav-head">
+                <span class="series-nav-title">{{ $name }}</span>
+                <span class="series-nav-count">{{ T "series.partOf" (dict "Part" $current.Params.part "Total" (len $pages)) }}</span>
+            </div>
+            <ol class="series-nav-list">
+                {{- range $pages }}
+                    <li>
+                        <a href="{{ .RelPermalink }}" title="{{ .Title }}"{{ if eq . $current }} aria-current="page"{{ end }}>{{ .Params.part }}</a>
+                    </li>
+                {{- end }}
+            </ol>
+            {{- $termURL := printf "%s%s/" ("series/" | relLangURL) (urlize $name) -}}
+            <a class="series-nav-all" href="{{ $termURL }}">{{ T "series.all" }}</a>
+        </nav>
+    {{- end -}}
+{{- end -}}
