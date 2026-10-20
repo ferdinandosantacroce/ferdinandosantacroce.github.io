@@ -5,6 +5,12 @@ on:
         branches: [main]
     pull_request:
         branches: [main]
+    workflow_dispatch:
+
+# Deploys must never run concurrently: a late build could overwrite a newer one.
+concurrency:
+    group: pages-deploy-${{ github.ref }}
+    cancel-in-progress: false
 
 jobs:
     build:
@@ -12,27 +18,31 @@ jobs:
 
         permissions:
             # Give the default GITHUB_TOKEN write permission to commit and push the
-            # added or changed files to the repository.
+            # built site to the gh-pages branch.
             contents: write
 
         steps:
-            - uses: actions/checkout@v3
+            - uses: actions/checkout@v4
 
             - name: Cache Hugo resources
-              uses: actions/cache@v3
+              uses: actions/cache@v4
               env:
                   cache-name: cache-hugo-resources
               with:
                   path: resources
-                  key: ${{ env.cache-name }}
+                  # A fresh key per run keeps restoring the latest cache while still
+                  # saving the images processed by this build.
+                  key: ${{ env.cache-name }}-${{ github.run_id }}
+                  restore-keys: |
+                      ${{ env.cache-name }}-
 
-            - uses: actions/setup-go@v4
+            - uses: actions/setup-go@v5
               with:
                   go-version: "1.27.x"
             - run: go version
 
             - name: Setup Hugo
-              uses: peaceiris/actions-hugo@v2
+              uses: peaceiris/actions-hugo@v3
               with:
                   hugo-version: "0.165.0"
                   extended: true
@@ -40,7 +50,10 @@ jobs:
             - name: Build
               run: hugo --minify --gc
 
+            # Pull requests only build, they never publish. This keeps a branch
+            # preview from overwriting the live site on gh-pages.
             - name: Deploy 🚀
+              if: github.event_name != 'pull_request'
               uses: JamesIves/github-pages-deploy-action@v4
               with:
                   branch: gh-pages

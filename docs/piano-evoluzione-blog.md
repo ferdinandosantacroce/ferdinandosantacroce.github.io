@@ -83,17 +83,18 @@ Costo dichiarato: 2.890 righe di italiano. Tradurle tutte significa un lavoro st
 
 Obiettivo: repo coerente, documenti veri, deploy sicuro, zero task fantasma. Nessun contenuto nuovo in questa fase.
 
-### F1. Allineamento git
-- [ ] `git fetch origin && git rebase origin/main`, risolvere l'unico conflitto atteso su `go.sum`.
-- [ ] Committare `docs/piano-editoriale/articolo-the-savant.md` (nota vocale, materiale di lavoro).
-- [ ] Decidere su `.serena/`: tracciare `project.yml` e ignorare `project.local.yml`, oppure ignorare tutta la cartella.
-- **Done:** `git status` pulito, `git log --oneline -3` mostra la storia lineare, build verde.
+### F1. Allineamento git (fatto 2026-10-20)
+- [x] `git fetch origin && git rebase origin/main`, risolto senza conflitti; `go.sum` ora contiene solo v4.
+- [x] Committato `docs/piano-editoriale/articolo-the-savant.md` (`de3a576`).
+- [x] `.serena/project.yml` e `.serena/.gitignore` tracciati, `project.local.yml` e `cache` restano ignorati (`88bf853`).
+- **Done:** `git status` pulito, storia lineare sopra `49cc1bd`, build verde.
 
-### F2. Deploy sicuro
+### F2. Deploy sicuro (fatto 2026-10-20)
 File: `.github/workflows/deploy.yml`
-- [ ] Aggiungere `if: github.event_name == 'push'` allo step di deploy (o rimuovere il trigger `pull_request` se non serve il build check sulle PR).
-- [ ] Aggiornare le action: `actions/checkout@v4`, `actions/setup-go@v5`, `actions/cache@v4`, `peaceiris/actions-hugo@v3`.
-- **Done:** una PR esegue solo il build; un push su `main` esegue build e deploy.
+- [x] Deploy condizionato a `github.event_name != 'pull_request'`, così le PR costruiscono e basta. Aggiunti `workflow_dispatch` e un gruppo di `concurrency` per non sovrapporre due deploy.
+- [x] Action aggiornate: `actions/checkout@v4`, `actions/cache@v4` (chiave per run più `restore-keys`), `actions/setup-go@v5`, `peaceiris/actions-hugo@v3`.
+- [x] Validato con `actionlint`, nessun errore.
+- **Done:** una PR esegue solo il build; un push su `main` esegue build e deploy. Verifica reale al primo push.
 
 ### F3. Build gate sull'aggiornamento tema
 File: `.github/workflows/update-theme.yml`
@@ -227,8 +228,11 @@ Obiettivo: il sito smette di essere solo un blog e diventa biglietto da visita p
 
 Obiettivo: pubblicare con continuità senza ricominciare da zero ogni volta.
 
+Il lavoro su questo orizzonte nasce dal feedback raccolto in `docs/workflow-feedback.md`: lì finiscono gli attriti osservati, che poi diventano skill, agenti o script in CI.
+
 ### M1. Skill `post-research`
 - [ ] Creare `.opencode/skills/post-research/SKILL.md`: raccoglie fonti, verifica fatti, produce outline e domande. Non scrive la prosa, che resta di Nando.
+- [ ] Alimentarla con il format in sette punti del piano editoriale e con le osservazioni di `docs/workflow-feedback.md`.
 
 ### M2. Skill di traduzione e parità
 - [ ] `translation-review`: checklist per revisionare una traduzione EN (voce, idiomi, termini tecnici, esempi culturali).
@@ -290,9 +294,9 @@ Obiettivo: pubblicare con continuità senza ricominciare da zero ogni volta.
 
 | Orizzonte | Task totali | Completati |
 | --- | --- | --- |
-| 1, fondamenta | 10 | 0 |
+| 1, fondamenta | 10 | 2 |
 | 2, contenuti MokaByte | 6 | 0 |
 | 3, personal branding | 5 | 0 |
 | 4, motore | 8 | 0 |
 
-**Prossimo passo:** F1, allineamento git, poi F2, deploy sicuro.
+**Stato al 2026-10-20:** F1 e F2 chiusi. Prossimo passo: F3, build gate sull'aggiornamento del tema, poi F4, F5 e F6 che sono interventi brevi.
