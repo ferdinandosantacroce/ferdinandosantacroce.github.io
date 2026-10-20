@@ -37,6 +37,3 @@ date = 2021-11-03T12:34:56+01:00
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.
 hasCJKLanguage = false
-
-# Change it to your Disqus shortname before using
-disqusShortname = "hugo-theme-stack"

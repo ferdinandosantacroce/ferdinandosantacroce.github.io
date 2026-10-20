@@ -10,4 +10,4 @@ menu:
             icon: archives
 ---
 
-Under construction 👨‍💻
+Tutti gli articoli pubblicati, raggruppati per anno, dal più recente. I talk e i libri hanno una sezione dedicata.

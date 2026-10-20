@@ -10,5 +10,4 @@ menu:
             icon: archives
 ---
 
-
-Under construction 👨‍💻
+Every article published here, grouped by year, newest first. Talks and books live in their own sections.

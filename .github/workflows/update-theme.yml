@@ -3,8 +3,8 @@ name: Update theme
 # Controls when the workflow will run
 on:
   schedule:
-    # Update theme automatically everyday at 00:00 UTC
-    - cron: "0 0 * * *"
+    # Weekly, Monday 00:00 UTC. The theme is pre-1.0, so a daily bump is noise.
+    - cron: "0 0 * * 1"
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -14,19 +14,19 @@ jobs:
 
     permissions:
       # Give the default GITHUB_TOKEN write permission to commit and push the
-      # added or changed files to the repository.
+      # updated go.mod and go.sum back to the repository.
       contents: write
-    
-    steps:
-      - uses: actions/checkout@v3
 
-      - uses: actions/setup-go@v4
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
         with:
           go-version: "1.27.x"
       - run: go version
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: "0.165.0"
           extended: true
@@ -37,7 +37,14 @@ jobs:
       - name: Tidy go.mod, go.sum
         run: hugo mod tidy
 
+      # This build gates the commit: if the new theme breaks the site, the job
+      # fails here and the change never reaches main.
+      - name: Verify build
+        run: hugo --minify --gc
+
+      # The commit is never a publish: Nando pushes a separate publish commit
+      # when he wants the site to go live.
       - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "CI: Update theme"
+          commit_message: "CI: Update theme [ci skip]"

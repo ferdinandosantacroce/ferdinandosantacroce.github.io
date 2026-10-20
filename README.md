@@ -114,5 +114,5 @@ Use high quality images; Hugo resizes them automatically before publishing.
 - [Stack theme docs](https://stack.jimmycai.com/)
 
 ## License
-The Hugo configuration and site code are licensed under the MIT License. All prose, articles, and media in the content/ directory are licensed under Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).
-See [LICENSE](LICENSE) for details. 
+The Hugo configuration and site code are licensed under the MIT License. All prose, articles and media in the `content/` directory are licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0).
+See [LICENSE](LICENSE) for the code and [CONTENT-LICENSE.md](CONTENT-LICENSE.md) for the content. 

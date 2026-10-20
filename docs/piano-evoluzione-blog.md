@@ -96,28 +96,31 @@ File: `.github/workflows/deploy.yml`
 - [x] Validato con `actionlint`, nessun errore.
 - **Done:** una PR esegue solo il build; un push su `main` esegue build e deploy. Verifica reale al primo push.
 
-### F3. Build gate sull'aggiornamento tema
+### F3. Build gate sull'aggiornamento tema (fatto 2026-10-20)
 File: `.github/workflows/update-theme.yml`
-- [ ] Dopo `hugo mod get -u` e `hugo mod tidy`, eseguire `hugo --minify --gc`; se fallisce, non committare e far fallire il job.
-- [ ] Valutare cadenza settimanale invece che giornaliera, e aggiungere `[ci skip]` al commit automatico per evitare pubblicazioni non riviste.
-- **Done:** un tema rotto non arriva né su `main` né in produzione.
+- [x] Dopo `hugo mod get -u` e `hugo mod tidy`, il workflow esegue `hugo --minify --gc`; se il build fallisce il job si ferma e non committa nulla.
+- [x] Cadenza settimanale (lunedì 00:00 UTC) e commit automatico con `[ci skip]`, quindi l'aggiornamento non pubblica da solo.
+- [x] Action aggiornate: `checkout@v4`, `setup-go@v5`, `actions-hugo@v3`, `git-auto-commit-action@v5`. Validato con `actionlint`.
+- **Done:** un tema rotto non arriva su `main`; un tema sano arriva su `main` ma non in produzione.
 
-### F4. Pulizia configurazione
-File: `config/_default/config.toml`, `config/_default/params.toml`, `go.mod`, `go.sum`
-- [ ] Rimuovere `disqusShortname` (i commenti sono disabilitati).
-- [ ] `hugo mod tidy` per togliere i residui v3 da `go.sum` e il `// indirect` da `go.mod`.
-- [ ] Unificare il favicon: un solo set di origine (SVG più PNG 32, 180, 512) e coerenza tra `static/` e `assets/img/`.
-- **Done:** nessun riferimento a v3, build verde, favicon coerente.
+### F4. Pulizia configurazione (fatto 2026-10-20)
+File: `config/_default/config.toml`, `go.mod`, `go.sum`, `static/`
+- [x] Rimosso `disqusShortname`, residuo dello starter: i commenti sono disabilitati.
+- [x] `hugo mod tidy` eseguito; `go.sum` contiene solo v4 e il `// indirect` è stato tolto a mano da `go.mod` (Hugo non lo rimuove).
+- [x] Favicon: unica fonte `assets/img/favicon.ico`, referenziata da `params.favicon` e servita come `/img/favicon.ico`. Rimosso `static/favicon.png`, che era un duplicato orfano.
+- Nota: il favicon è un 16x16. Il set completo (SVG, 32, 180, 512) richiede un sorgente vettoriale o almeno un'immagine più grande, quindi arriva con l'Orizzonte grafico, non qui.
+- **Done:** nessun riferimento a v3, build verde, un solo favicon servito.
 
-### F5. Chiudere i placeholder
+### F5. Chiudere i placeholder (fatto 2026-10-20)
 File: `content/page/archives/index.en.md`, `content/page/archives/index.it.md`
-- [ ] Sostituire "Under construction" con una breve introduzione all'archivio, in EN e IT.
+- [x] "Under construction" sostituito da una riga che spiega cosa contiene l'archivio, in EN e IT.
 - **Done:** `grep -ri "under construction" content/` non restituisce nulla.
 
-### F6. Licenza unica
-File: `LICENSE`, `README.md`, `config/_default/params.toml`
-- [ ] Scegliere una combinazione e applicarla ovunque. Proposta: codice MIT, contenuti CC BY-NC-SA 4.0 (coerente con quanto già mostrato dal sito).
-- [ ] Aggiornare il testo del footer e la sezione License del README.
+### F6. Licenza unica (fatto 2026-10-20)
+File: `LICENSE`, `CONTENT-LICENSE.md`, `README.md`, `config/_default/params.toml`
+- [x] Codice MIT in `LICENSE`, contenuti CC BY-NC-SA 4.0 nel nuovo `CONTENT-LICENSE.md`, con nota sui materiali di terzi (copertine, loghi, screenshot).
+- [x] README allineato e collegato ai due file; il sito già mostrava CC BY-NC-SA 4.0.
+- Nota: se in futuro preferisci CC BY-NC senza ShareAlike, cambiano tre punti: `CONTENT-LICENSE.md`, README e `params.toml`.
 - **Done:** i tre punti dicono la stessa cosa.
 
 ### F7. Riscrivere README
@@ -294,9 +297,9 @@ Il lavoro su questo orizzonte nasce dal feedback raccolto in `docs/workflow-feed
 
 | Orizzonte | Task totali | Completati |
 | --- | --- | --- |
-| 1, fondamenta | 10 | 2 |
+| 1, fondamenta | 10 | 6 |
 | 2, contenuti MokaByte | 6 | 0 |
 | 3, personal branding | 5 | 0 |
 | 4, motore | 8 | 0 |
 
-**Stato al 2026-10-20:** F1 e F2 chiusi. Prossimo passo: F3, build gate sull'aggiornamento del tema, poi F4, F5 e F6 che sono interventi brevi.
+**Stato al 2026-10-20:** F1-F6 chiusi. Prossimo passo: F7, riscrittura del README, poi F8, F9 e F10 per chiudere l'orizzonte.
