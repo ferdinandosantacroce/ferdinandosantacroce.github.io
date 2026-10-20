@@ -1,49 +1,67 @@
 # AGENTS.md
 
-Compact guidance for OpenCode sessions on this repo. This file holds only the non-obvious, repo-specific facts.
+Compact guidance for OpenCode sessions on this repo. Only the non-obvious, repo-specific facts.
 
 ## What this repo is
 
-Hugo static site (Stack theme v4 via Go modules), bilingual EN/IT, deployed to GitHub Pages at `ferdinandosantacroce.it`. The site is the deliverable; there is no application code to run.
+Hugo static site (Stack theme v4 via Go modules), bilingual EN/IT, deployed to GitHub Pages at `ferdinandosantacroce.it`. The site is the deliverable: there is no application code to run. It is both a blog and, over time, Nando's professional hub for career, projects and services.
+
+**State at 2026-10-20:** one published article, 30 talks, 8 works, 4 static pages, 2 resource pages. Thirteen MokaByte articles sit in `raw/` waiting to be republished. The plan and its progress live in `docs/piano-evoluzione-blog.md`; read it before starting content work.
 
 ## Commands
 
-- `hugo server -D` — local dev server (serves drafts) at `http://localhost:1313/`
-- `hugo --minify --gc` — production build (same command CI runs)
-- `hugo mod get -u github.com/CaiJimmy/hugo-theme-stack/v4 && hugo mod tidy` — update theme
+- `mise install` — installs Hugo extended `0.165.0`
+- `hugo server -D` — dev server with drafts at `http://localhost:1313/`
+- `hugo --minify --gc` — production build, the same command CI runs
+- `hugo mod get -u github.com/CaiJimmy/hugo-theme-stack/v4 && hugo mod tidy` — update the theme
+- `mise x actionlint@latest -- actionlint .github/workflows/*.yml` — validate workflows after editing them
 
-CI pins **Hugo extended `0.165.0`** and Go `1.27.x` (`.github/workflows/*.yml`). Build issues that only appear in CI are usually a local Hugo version mismatch — use the same extended build (`mise install hugo-extended@0.165.0`). Stack v4 note: layout overrides live in `layouts/_partials/` and `layouts/_internal/`, not `layouts/partials/`.
+CI pins **Hugo extended `0.165.0`** and Go `1.27.x` (`.github/workflows/*.yml`). Build issues that only appear in CI are usually a local Hugo version mismatch. Stack v4 note: layout overrides live in `layouts/_partials/` and `layouts/_internal/`, not `layouts/partials/`. `hugo mod tidy` does not remove the `// indirect` marker from `go.mod`; remove it by hand when the theme is a direct dependency.
 
 ## Rules that are easy to violate
 
-- **Bilingual parity is mandatory.** Every post needs both `index.en.md` and `index.it.md` — no placeholders, no English-only posts. Files without a language suffix default to English.
-- **Never edit theme files directly.** The theme is a Go module, not vendored. All overrides go in `assets/css/custom.css`.
-- **Deploy only via GitHub Actions.** Push to `main` triggers the deploy; do not deploy manually or commit `public/`.
-- **Every commit message must include `[ci skip]`.** Nando decides when to publish: push freely, but the deploy only runs when he pushes a commit WITHOUT the marker (e.g. an empty `chore: publish` commit). The marker must be in the head (last) commit of the push to take effect.
-- **`public/` and `resources/` are gitignored build artifacts** — never commit them.
-- The `examples/` folder is intentionally NOT published (posts were moved out of `content/`); don't "fix" it by moving it back.
-- A daily cron workflow auto-updates the theme and auto-commits `CI: Update theme`. Expect unexpected `go.mod`/`go.sum` changes; don't revert them unless they break the build.
+- **Publication is on hold.** Nando wants the site fixed before it goes live. Every commit message ends with `[ci skip]`, so pushes never deploy. Publish only on explicit request, with a dedicated empty commit without the marker: `git commit --allow-empty -m "chore: publish"`. The marker must be in the head commit of the push.
+- **Strict bilingual parity.** Every bundle has `index.en.md` and `index.it.md` from the first commit. Italian is primary; English may lag behind as `draft: true` but the file must exist. Definition and rationale in `docs/piano-evoluzione-blog.md`, section 2.1. Files without a language suffix default to English.
+- **Never edit theme files directly.** The theme is a Go module, not vendored. Custom styles go in `assets/css/custom.css`; layout overrides in `layouts/` only when unavoidable.
+- **Deploy only via GitHub Actions.** The workflow runs on push to `main`; pull requests build and never deploy. Do not deploy by hand, never commit `public/` or `resources/`.
+- **`public/` and `resources/` are gitignored build artifacts.**
+- **`examples/` is intentionally NOT published.** Don't "fix" it by moving it back into `content/`.
+- **`raw/` and `docs/` are never published.** `raw/` holds source material for republication, `docs/` holds internal documentation.
+- **Theme updates are automatic.** A weekly cron updates Stack, builds the site as a gate and commits `CI: Update theme [ci skip]`. Expect `go.mod`/`go.sum` changes; don't revert them unless the build breaks. Such commits never publish on their own.
 
 ## Content layout
 
-- `content/post/<slug>/` → `index.en.md` + `index.it.md` (+ optional `cover.jpg`)
-- `content/page/<name>/` → static pages (about, talks, works, ...)
-- `assets/icons/` → Tabler Icons SVGs; each must have exactly `width="24" height="24" stroke-width="2" stroke="currentColor"` or it won't render in the menu.
-- Permalinks: posts at `/p/:slug/`, pages at `/:slug/` (see `config/_default/permalinks.toml`).
+- `content/post/<slug>/` → `index.en.md` + `index.it.md` (+ optional `cover.jpg`), served at `/p/<slug>/`
+- `content/talks/<slug>/` → one bundle per talk, served under `/talks/`
+- `content/works/<slug>/` → books and articles, grouped by `group: book|article`, served under `/works/`
+- `content/page/<name>/` → about, archives, search; `content/page/resources/` is a branch bundle with `oop/` and `tdd/`
+- `assets/icons/` → Tabler Icons SVGs; each must have exactly `width="24" height="24" stroke-width="2" stroke="currentColor"` or it will not render in the menu
+- Permalinks: posts at `/p/:slug/`, pages at `/:slug/` (`config/_default/permalinks.toml`)
+
+## Documentation
+
+- `docs/piano-evoluzione-blog.md` — medium and long term plan, numbered tasks (`F` fundamentals, `C` content, `I` information architecture, `M` content engine) with state
+- `docs/piano-editoriale/` — editorial plan, idea map, voice note register
+- `docs/workflow-feedback.md` — friction observed while working, candidates for skills and agents. Add a row there when a task feels repeated or error-prone
+- `specs/` — archived feature specs, kept as history, not active work
 
 ## Linting
 
-`.markdownlint.json` disables MD013, MD022, MD031, MD032, MD033, MD034. If you run a markdown linter, don't "fix" those — they are intentionally off.
+`.markdownlint.json` disables MD013, MD022, MD031, MD032, MD033, MD034. If you run a markdown linter, don't "fix" those; they are intentionally off.
 
 ## Front matter
 
 ```yaml
 ---
 title: "Post Title"
-date: 2024-01-15
-draft: true          # remove to publish
+description: "One line that explains what the reader gets"
+slug: post-slug
+date: 2026-10-20
+image: cover.jpg          # optional, file inside the bundle
 categories: [Software]
-tags: [tag1, tag2]
-image: cover.jpg
+tags: [refactoring]
+# draft: true             # while working; remove to publish
 ---
 ```
+
+Works add `group` and `weight`. Talks add `params.video`. Republications may add `series`, `part`, `source`, `source_date`.
