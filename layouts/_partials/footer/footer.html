@@ -1,0 +1,35 @@
+{{- $ThemeVersion := "4.0.3" -}}
+<footer class="site-footer">
+    {{- $archives := site.GetPage "/page/archives" -}}
+    {{- $resources := site.GetPage "/page/resources" -}}
+    {{- $search := site.GetPage "/page/search" -}}
+    {{- $contact := site.GetPage "/page/contact" -}}
+    <nav class="site-footer-nav" aria-label="{{ T "footer.nav" }}">
+        {{ with $archives }}<a href="{{ .RelPermalink }}">{{ T "footer.archives" }}</a>{{ end }}
+        {{ with $resources }}<a href="{{ .RelPermalink }}">{{ T "footer.resources" }}</a>{{ end }}
+        {{ with $search }}<a href="{{ .RelPermalink }}">{{ T "footer.search" }}</a>{{ end }}
+        {{ with $contact }}<a href="{{ .RelPermalink }}">{{ T "footer.contact" }}</a>{{ end }}
+    </nav>
+
+    <section class="copyright">
+        &copy;
+        {{ if and (.Site.Params.footer.since) (ne .Site.Params.footer.since (int (now.Format "2006"))) }}
+            {{ .Site.Params.footer.since }} -
+        {{ end }}
+        {{ now.Format "2006" }} {{ default .Site.Title .Site.Copyright }}
+    </section>
+
+    <section class="powerby">
+        {{ with .Site.Params.footer.customText }}
+            {{ . | safeHTML }} <br/>
+        {{ end }}
+
+        {{- $Generator := `<a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>` -}}
+        {{- $Theme := printf `<b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="%s">Stack</a></b>` $ThemeVersion -}}
+        {{- $DesignedBy := `<a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>` -}}
+
+        {{ T "footer.builtWith" (dict "Generator" $Generator) | safeHTML }} <br />
+        {{ T "footer.designedBy" (dict "Theme" $Theme "DesignedBy" $DesignedBy) | safeHTML }}
+        <br /><span class="site-footer-license">{{ T "footer.license" }}</span>
+    </section>
+</footer>

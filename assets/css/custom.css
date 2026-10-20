@@ -106,3 +106,67 @@
   font-size: 1.3rem;
   white-space: nowrap;
 }
+
+/* Secondary navigation in the site footer */
+.site-footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.8rem 1.6rem;
+  margin: 0 0 1rem;
+  font-size: 1.4rem;
+}
+
+.site-footer-nav a {
+  color: var(--card-text-color-secondary);
+  text-decoration: underline;
+}
+
+.site-footer-nav a:hover {
+  color: var(--accent-color);
+}
+
+.site-footer-license {
+  margin: 0 0 1.2rem;
+  color: var(--card-text-color-tertiary);
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+/* Call to action at the end of an article */
+.article-cta {
+  margin: 2rem var(--card-padding) 0;
+  padding: 1.4rem 1.6rem;
+  background: var(--body-background);
+  border-radius: var(--card-border-radius);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem 1.6rem;
+}
+
+.article-cta p {
+  margin: 0;
+  color: var(--card-text-color-main);
+}
+
+.article-cta a {
+  color: var(--accent-color);
+  font-weight: 700;
+}
+
+/* 404 */
+.not-found-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.8rem 1.6rem;
+  margin: 0 auto 2rem;
+  font-size: 1.4rem;
+}
+
+.not-found-links a {
+  color: var(--card-text-color-secondary);
+  text-decoration: underline;
+}

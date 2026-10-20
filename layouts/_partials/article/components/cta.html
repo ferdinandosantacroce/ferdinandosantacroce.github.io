@@ -1,0 +1,7 @@
+{{- $contact := site.GetPage "/page/contact" -}}
+{{- with $contact -}}
+    <aside class="article-cta">
+        <p>{{ T "cta.text" }}</p>
+        <a href="{{ .RelPermalink }}">{{ T "cta.link" }}</a>
+    </aside>
+{{- end -}}

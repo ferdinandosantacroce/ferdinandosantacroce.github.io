@@ -51,7 +51,6 @@ limit = 10
 type = "toc"
 
 [opengraph.twitter]
-site = "https://ferdinandosantacroce.it"
 card = "summary_large_image"
 
 [colorScheme]

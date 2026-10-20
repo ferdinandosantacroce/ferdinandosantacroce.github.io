@@ -1,0 +1,15 @@
+{{ define "main" }}
+    <div class="not-found-card">
+        <h1 class="article-title">{{ T "notFound.title" }}</h1>
+        <h2 class="article-subtitle">{{ T "notFound.subtitle" }}</h2>
+    </div>
+
+    <nav class="not-found-links" aria-label="{{ T "footer.nav" }}">
+        <a href="{{ site.Home.RelPermalink }}">{{ T "footer.home" }}</a>
+        {{ with site.GetPage "/page/contact" }}<a href="{{ .RelPermalink }}">{{ T "footer.contact" }}</a>{{ end }}
+        {{ with site.GetPage "/page/archives" }}<a href="{{ .RelPermalink }}">{{ T "footer.archives" }}</a>{{ end }}
+        {{ with site.GetPage "/page/search" }}<a href="{{ .RelPermalink }}">{{ T "footer.search" }}</a>{{ end }}
+    </nav>
+
+    {{ partialCached "footer/footer" . }}
+{{ end }}

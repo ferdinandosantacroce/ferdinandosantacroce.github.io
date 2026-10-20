@@ -64,7 +64,9 @@ Il footer è parte della navigazione, non un riempitivo. Contiene, in quest'ordi
 3. la licenza dei contenuti e l'anno;
 4. il cambio lingua, che Stack gestisce già nella barra laterale: nel footer non si duplica.
 
-Si implementa con `layouts/_partials/footer/custom.html`, l'hook previsto dal tema. Non si copia `sidebar/left.html`: ogni aggiornamento settimanale del tema diventerebbe un merge da fare a mano.
+Si implementa sovrascrivendo `layouts/_partials/footer/footer.html`, perché l'hook `footer/custom.html` viene renderizzato dopo il contenitore e finisce staccato dal footer, sotto il minimo di 100vh. L'override è di poche righe e viene rivisto quando il tema cambia; non si copia `sidebar/left.html`.
+
+Il footer ospita anche Contatti finché le pagine professionali non esistono; quando il menu passerà a sei voci, Contatti uscirà dal footer.
 
 ## 5. Home
 

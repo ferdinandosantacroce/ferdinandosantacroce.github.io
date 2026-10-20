@@ -12,3 +12,30 @@ other = "Part {{ .Part }} of {{ .Total }}"
 
 [series.all]
 other = "All parts"
+
+[footer.nav]
+other = "Secondary navigation"
+
+[footer.home]
+other = "Home"
+
+[footer.archives]
+other = "Archive"
+
+[footer.resources]
+other = "Resources"
+
+[footer.search]
+other = "Search"
+
+[footer.contact]
+other = "Contact"
+
+[footer.license]
+other = "Texts licensed under CC BY-NC-SA 4.0."
+
+[cta.text]
+other = "Have a project or a question?"
+
+[cta.link]
+other = "Write to me"

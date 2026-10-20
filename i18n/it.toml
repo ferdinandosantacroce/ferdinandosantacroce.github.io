@@ -12,3 +12,30 @@ other = "Parte {{ .Part }} di {{ .Total }}"
 
 [series.all]
 other = "Tutte le parti"
+
+[footer.nav]
+other = "Navigazione secondaria"
+
+[footer.home]
+other = "Home"
+
+[footer.archives]
+other = "Archivio"
+
+[footer.resources]
+other = "Risorse"
+
+[footer.search]
+other = "Cerca"
+
+[footer.contact]
+other = "Contatti"
+
+[footer.license]
+other = "I testi sono pubblicati con licenza CC BY-NC-SA 4.0."
+
+[cta.text]
+other = "Un progetto o una domanda?"
+
+[cta.link]
+other = "Scrivimi"

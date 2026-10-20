@@ -239,9 +239,10 @@ Obiettivo: il sito smette di essere solo un blog e diventa biglietto da visita p
 - **Done:** tre pagine online IT+EN.
 
 ### I5. Contatti e call to action
-- [ ] Pagina contatti (mailto o form statico, decisione da prendere).
-- [ ] CTA nel footer e in fondo agli articoli.
+- [x] Pagina contatti: `/contact/` e `/it/contatti/`, solo mailto (decisione Q7).
+- [x] CTA in fondo agli articoli e link Contatti nel footer di ogni pagina.
 - **Done:** da ogni pagina si arriva a un contatto in due click.
+- **Fatto 2026-10-20:** il footer contiene Archivio, Risorse, Cerca e Contatti, più la licenza. Il contatto è raggiungibile da qualunque pagina in un click. Aggiunti anche `robots.txt`, 404 personalizzata e immagine OpenGraph di default per le pagine senza copertina.
 
 ---
 
@@ -317,7 +318,7 @@ Il lavoro su questo orizzonte nasce dal feedback raccolto in `docs/workflow-feed
 | --- | --- | --- |
 | 1, fondamenta | 10 | 10 |
 | 2, contenuti MokaByte | 6 | 6 |
-| 3, personal branding | 5 | 1 |
+| 3, personal branding | 5 | 2 |
 | 4, motore | 8 | 0 |
 
 **Stato al 2026-10-20:** Orizzonti 1 e 2 chiusi. Tutti e 13 gli articoli MokaByte sono in `content/`, bilingui, con la serie Git ordinata e navigabile. Il controllo contenuti gira in CI e il debito traduzioni è a zero. Prossimo passo: Orizzonte 3, da I1.

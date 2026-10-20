@@ -26,6 +26,8 @@
 - Guardrail: `scripts/check-content.sh` verifica coppie bilingui, front matter per sezione, immagini (Markdown e HTML), slug duplicati, continuità delle serie e link interni; genera `docs/contenuti/debito-traduzioni.md`. In CI gira subito dopo il build. Prima esecuzione: una talk senza `description`, corretta.
 - Config: `defaultContentLanguage` e `defaultContentLanguageInSubdir` erano scritti dentro `[taxonomies]`, quindi Hugo li leggeva come tassonomie chiamate `en` e `false` e generava `/it/en/` e `/it/false/`. Spostati al livello radice: le due pagine spurie sono sparite.
 - Architettura informativa (I1): scritto `docs/architettura-informativa.md` con mappa degli URL, menu a sei voci, footer, hub "Lavora con me", categorie del blog e ordine di implementazione.
+- Contatti e igiene (I5): pagina `/contact/` e `/it/contatti/` con mailto, CTA in fondo ai soli articoli, footer con Archivio, Risorse, Cerca e Contatti più la licenza. Aggiunti `static/robots.txt`, `layouts/404.html` con link utili e `assets/img/og-default.png` per le pagine senza copertina. Tolto il falso handle Twitter dalla configurazione OpenGraph.
+- Il footer è un override di `footer/footer.html`, non l'hook `footer/custom.html`: quest'ultimo viene reso dopo il contenitore e finiva sotto il minimo di 100vh, staccato dal resto.
 
 ### Content decisions
 - D1: i 13 MokaByte vanno ripubblicati sul blog personale, in tre gruppi editoriali, per non dipendere più dalla magazine.
@@ -39,8 +41,9 @@
 - Backlog editoriale: un file unico, le quattro ondate diventano priorità.
 
 ### Open items for next session
-- I1 chiuso, Orizzonte 3 a 1/5. Prossimo passo: I2, inventario della carriera, che è materiale riservato e va raccolto prima di scrivere le pagine.
-- Il menu resta a sette voci finché le destinazioni nuove non esistono: cambiarlo prima produce 404.
+- I5 chiuso, Orizzonte 3 a 2/5. I2 (inventario carriera) è rimandato: richiede materiale di Nando.
+- Prossimo blocco concordato: M3 (scaffold nuovo post) e M2 (workflow di traduzione), che rendono più veloci gli articoli futuri.
+- Il menu resta a sette voci finché Percorso e Lavora con me non esistono: cambiarlo prima produce 404.
 - C6 non iniziato: `scripts/check-content.sh` per parità bilingui, front matter, immagini e link interni.
 - Il sito online è fermo al deploy del 21 marzo 2026: quando sarà pronto serve un commit di pubblicazione.
 - Domande aperte da sciogliere prima di C4: canonical verso MokaByte o self-canonical, aggiornare o ripubblicare fedeli i testi Git del 2016-2018.
