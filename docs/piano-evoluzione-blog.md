@@ -213,10 +213,10 @@ File: `scripts/check-content.sh` (o equivalente Go), `.github/workflows/deploy.y
 Obiettivo: il sito smette di essere solo un blog e diventa biglietto da visita professionale. Richiede una decisione di architettura prima di scrivere contenuti.
 
 ### I1. Architettura informativa e URL
-- [ ] Riconciliare le sezioni proposte dal piano editoriale (Racconti, Software, Team, Comunità, Talk e libri, Risorse) con quelle del personal branding (Percorso, Progetti, Corsi, Workshop, Servizi): una sola architettura, non la somma delle due.
-- [ ] Definire le sezioni: Home, About, Percorso, Progetti, Corsi, Workshop, Servizi, Blog (Racconti), Talk, Works, Risorse, Contatti.
-- [ ] Mappare su Hugo: pagine singole in `content/page/`, nuove section per `projects` e `courses` se servono liste filtrabili.
-- [ ] Risolvere il problema del menu: deciso in ADR 0009, sei voci (Home, Percorso, Lavora con me, Talks, Works, Contatti) e Archivio, Risorse e Ricerca nel footer. I1 deve progettare la pagina hub "Lavora con me" e il footer, non rimettere in discussione il numero di voci.
+- [x] Riconciliare le sezioni del piano editoriale con quelle del personal branding: un solo blog con categorie tematiche, le sezioni professionali come pagine (ADR 0009).
+- [x] Definire le sezioni: Home, About, Percorso, Lavora con me (hub), Progetti, Corsi, Workshop, Servizi, Blog, Talk, Works, Risorse, Archivio, Cerca, Contatti.
+- [x] Mappare su Hugo: pagine in `content/page/`, nuove sezioni `projects`, `courses`, `workshops`; tabella completa in `docs/architettura-informativa.md`.
+- [x] Menu: sei voci, secondarie nel footer. Progettati la pagina hub e il footer nel documento di architettura (ADR 0009).
 - **Done:** albero degli URL e menu approvati, scritti in `docs/architettura-informativa.md`.
 
 ### I2. Inventario della carriera
@@ -317,7 +317,7 @@ Il lavoro su questo orizzonte nasce dal feedback raccolto in `docs/workflow-feed
 | --- | --- | --- |
 | 1, fondamenta | 10 | 10 |
 | 2, contenuti MokaByte | 6 | 6 |
-| 3, personal branding | 5 | 0 |
+| 3, personal branding | 5 | 1 |
 | 4, motore | 8 | 0 |
 
 **Stato al 2026-10-20:** Orizzonti 1 e 2 chiusi. Tutti e 13 gli articoli MokaByte sono in `content/`, bilingui, con la serie Git ordinata e navigabile. Il controllo contenuti gira in CI e il debito traduzioni è a zero. Prossimo passo: Orizzonte 3, da I1.

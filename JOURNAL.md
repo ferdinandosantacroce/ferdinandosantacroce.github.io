@@ -24,6 +24,8 @@
 - Serie: `layouts/term.html` elenca le parti per `part` crescente senza paginare, e ogni articolo mostra una barra con tutte le parti per saltare da una puntata all'altra. Il paginatore del tema è disattivato per le serie.
 - CSS: `assets/css/custom.css` non veniva caricato da Stack v4, che si aspetta `assets/scss/custom.scss`. Aggiunto `layouts/_partials/head/custom.html` che compila e include il file; rimossa la regola sul font, rimasta dormiente fino a oggi. Tolto `params.assets.customCSS`, inutilizzato in v4.
 - Guardrail: `scripts/check-content.sh` verifica coppie bilingui, front matter per sezione, immagini (Markdown e HTML), slug duplicati, continuità delle serie e link interni; genera `docs/contenuti/debito-traduzioni.md`. In CI gira subito dopo il build. Prima esecuzione: una talk senza `description`, corretta.
+- Config: `defaultContentLanguage` e `defaultContentLanguageInSubdir` erano scritti dentro `[taxonomies]`, quindi Hugo li leggeva come tassonomie chiamate `en` e `false` e generava `/it/en/` e `/it/false/`. Spostati al livello radice: le due pagine spurie sono sparite.
+- Architettura informativa (I1): scritto `docs/architettura-informativa.md` con mappa degli URL, menu a sei voci, footer, hub "Lavora con me", categorie del blog e ordine di implementazione.
 
 ### Content decisions
 - D1: i 13 MokaByte vanno ripubblicati sul blog personale, in tre gruppi editoriali, per non dipendere più dalla magazine.
@@ -37,7 +39,8 @@
 - Backlog editoriale: un file unico, le quattro ondate diventano priorità.
 
 ### Open items for next session
-- Orizzonte 2 chiuso (6/6). Prossimo passo: Orizzonte 3, da I1, architettura informativa e URL, dopo aver sciolto le domande aperte del piano.
+- I1 chiuso, Orizzonte 3 a 1/5. Prossimo passo: I2, inventario della carriera, che è materiale riservato e va raccolto prima di scrivere le pagine.
+- Il menu resta a sette voci finché le destinazioni nuove non esistono: cambiarlo prima produce 404.
 - C6 non iniziato: `scripts/check-content.sh` per parità bilingui, front matter, immagini e link interni.
 - Il sito online è fermo al deploy del 21 marzo 2026: quando sarà pronto serve un commit di pubblicazione.
 - Domande aperte da sciogliere prima di C4: canonical verso MokaByte o self-canonical, aggiornare o ripubblicare fedeli i testi Git del 2016-2018.

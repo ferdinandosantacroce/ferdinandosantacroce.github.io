@@ -45,6 +45,7 @@ CI pins **Hugo extended `0.165.0`** and Go `1.27.x` (`.github/workflows/*.yml`).
 ## Documentation
 
 - `docs/piano-evoluzione-blog.md` — medium and long term plan, numbered tasks (`F` fundamentals, `C` content, `I` information architecture, `M` content engine) with state
+- `docs/architettura-informativa.md` — URL map, menu, footer and the boundaries between blog and professional pages
 - `docs/adr/` — one file per decision about how the site works: context, decision, consequences. Never rewrite an accepted ADR; supersede it
 - `docs/contenuti/front-matter.md` — front matter schema for every content type, with examples
 - `docs/contenuti/mappatura-mokabyte.md` — the 13 MokaByte articles, their slugs, images and the decisions taken

@@ -2,6 +2,9 @@
 baseurl = "https://ferdinandosantacroce.it/"
 title = "Ferdinando Santacroce"
 
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
 [pagination]
 pagerSize = 5
 
@@ -13,8 +16,6 @@ series = "series"
 
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn, zh-tw, es, de, nl, it, th, el, uk, ar
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
 [languages]
 [languages.en]
 disabled = false
