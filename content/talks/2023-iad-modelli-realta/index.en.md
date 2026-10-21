@@ -13,12 +13,11 @@ tags:
     - technical debt
 params:
     video: "https://vimeo.com/manage/videos/907009037"
+event: "Italian Agile Days"
+event_url: "https://www.agileday.it/"
+location: "Italy"
+topic: "Software models and reality"
+format: "Talk"
+video: "https://vimeo.com/manage/videos/907009037"
 ---
-
 Talking about user stories, technical debt, domain driven design, models and reality... 💭
-
-[![Navigating the world of software, between models and reality.](Modelli-Realta-IAD-2023.png)](https://vimeo.com/manage/videos/907009037)
-
-**Event**: [Italian Agile Days](https://www.agileday.it/)
-**Location**: Italy
-**Topic**: Software models and reality

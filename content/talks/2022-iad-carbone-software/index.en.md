@@ -11,12 +11,11 @@ tags:
     - sociotechnical systems
 params:
     video: "https://vimeo.com/manage/videos/768881541"
+event: "Italian Agile Days"
+event_url: "https://www.agileday.it/"
+location: "Italy"
+topic: "Socio-technical systems"
+format: "Talk"
+video: "https://vimeo.com/manage/videos/768881541"
 ---
-
 A nice story about coal miners and software development 😏
-
-[![From coal to software: sociotechnical systems](iad22-carbone-software.png)](https://vimeo.com/manage/videos/768881541)
-
-**Event**: [Italian Agile Days](https://www.agileday.it/)
-**Location**: Italy
-**Topic**: Socio-technical systems

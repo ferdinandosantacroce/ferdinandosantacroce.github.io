@@ -5,16 +5,16 @@ date: 2019-09-01
 image: cover.jpg
 thumb: xpugbg-youtube-video-channel.png
 categories: ["meetup", "workshop", "legacy code", "testing"]
+event: "eXtreme Programming User Group Bergamo"
+event_url: "https://xpugbg.it/"
+location: "Bergamo, Italia"
+topic: "Workshop sul testing del codice legacy"
+format: "Workshop"
+resources:
+  - label: "Resoconto sul blog XPUGBG"
+    url: "https://xpugbg.it/blog/meetup-workshop-testare-l-intestabile-ferdinando-santacroce-resoconto/"
+  - label: "Slides"
+    url: "https://www.slideshare.net/FerdinandoSantacroce/testare-lintestabile-workshop-xpugbg"
+  - label: "Trivia Kata in Java"
+    url: "https://github.com/jesuswasrasta/trivia-java"
 ---
-
-Testare l'intestabile
-
-[![Canale video XPUGBG](xpugbg-youtube-video-channel.png)](https://www.youtube.com/channel/UCkcDXjR2__NioW1m4voqH6w)
-
-**Evento**: [eXtreme Programming User Group Bergamo](https://xpugbg.it/)
-**Luogo**: Bergamo, Italia
-**Argomento**: Workshop sul testing del codice legacy
-**Risorse**:
-- [Resoconto sul blog XPUGBG](https://xpugbg.it/blog/meetup-workshop-testare-l-intestabile-ferdinando-santacroce-resoconto/)
-- [Slides](https://www.slideshare.net/FerdinandoSantacroce/testare-lintestabile-workshop-xpugbg)
-- [Trivia Kata in Java](https://github.com/jesuswasrasta/trivia-java)

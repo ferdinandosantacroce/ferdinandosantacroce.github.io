@@ -3,15 +3,17 @@ title: "Panel: What's the current state of eXtreme Programming? - XPUG Milano"
 description: "Panel: What's the current state of eXtreme Programming?"
 date: 2019-03-15
 categories: ["meetup", "panel", "extreme programming"]
+image: "thumb.jpg"
+thumb: "thumb.jpg"
+event: "Meetup XPUG Milano"
+event_url: "https://www.meetup.com/it-IT/Milano-eXtreme-Programming-User-Group"
+location: "Milan, Italy"
+topic: "Extreme Programming current state discussion"
+format: "Panel"
+video: "https://www.youtube.com/watch?v=4CBU7G7s-wE"
+resources:
+  - label: "Meetup event"
+    url: "https://www.meetup.com/it-IT/Milano-eXtreme-Programming-User-Group/events/260548356/"
+  - label: "Video"
+    url: "https://www.youtube.com/watch?v=4CBU7G7s-wE"
 ---
-
-Panel: What's the current state of eXtreme Programming?
-
-[![Meetup XPUG Milano - Panel: What's the current state of eXtreme Programming? - Ferdinando Santacroce](https://img.youtube.com/vi/4CBU7G7s-wE/0.jpg)](https://www.youtube.com/watch?v=4CBU7G7s-wE "Meetup XPUG Milano - Panel: What's the current state of eXtreme Programming? - Ferdinando Santacroce")
-
-**Event**: [Meetup XPUG Milano](https://www.meetup.com/it-IT/Milano-eXtreme-Programming-User-Group)
-**Location**: Milan, Italy
-**Topic**: Extreme Programming current state discussion
-**Resources**:
-- [Meetup event](https://www.meetup.com/it-IT/Milano-eXtreme-Programming-User-Group/events/260548356/)
-- [Video](https://www.youtube.com/watch?v=4CBU7G7s-wE)

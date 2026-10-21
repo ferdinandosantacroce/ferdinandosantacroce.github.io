@@ -6,9 +6,13 @@ image: cover.jpg
 thumb: dddopen-unconference.png
 categories:
     - talks
+event: "DDDOpen"
+location: "Online"
+topic: "Domain-Driven Design"
+format: "Organizzazione"
+role: "Cofondatore"
+resources:
+  - label: "Community su Twitter"
+    url: "https://twitter.com/dddopen"
 ---
 Sono uno dei co-fondatori della community DDDOpen 😊
-
-<a href="https://twitter.com/dddopen">
-    <img src="dddopen-unconference.png" width="300" alt="DDDOpen Unconference">
-</a>

@@ -5,14 +5,12 @@ date: 2019-05-15
 image: cover.jpg
 thumb: growing-teams-meetup-agilereloaded.png
 categories: ["meetup", "team building", "management"]
+event: "Meetup Agile Reloaded"
+event_url: "https://www.meetup.com/it-IT/Agile-Reloaded-Meetup/"
+location: "Italy"
+topic: "Team growth and development"
+format: "Talk"
+resources:
+  - label: "Slides"
+    url: "https://www.slideshare.net/FerdinandoSantacroce/growing-teams-152158846"
 ---
-
-Growing Teams
-
-[![Meetup Agile Reloaded - Growing Teams](growing-teams-meetup-agilereloaded.png)](https://www.meetup.com/it-IT/Agile-Reloaded-Meetup/events/262065465/)
-
-**Event**: [Meetup Agile Reloaded](https://www.meetup.com/it-IT/Agile-Reloaded-Meetup/)
-**Location**: Italy
-**Topic**: Team growth and development
-**Resources**:
-- [Slides](https://www.slideshare.net/FerdinandoSantacroce/growing-teams-152158846)

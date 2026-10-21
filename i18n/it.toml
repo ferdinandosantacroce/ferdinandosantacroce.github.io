@@ -39,3 +39,21 @@ other = "Un progetto o una domanda?"
 
 [cta.link]
 other = "Scrivimi"
+
+[talk.event]
+other = "Evento"
+
+[talk.location]
+other = "Luogo"
+
+[talk.topic]
+other = "Argomento"
+
+[talk.role]
+other = "Ruolo"
+
+[talk.resources]
+other = "Link"
+
+[talk.watch]
+other = "Guarda il talk"

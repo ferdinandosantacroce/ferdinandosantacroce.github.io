@@ -3,16 +3,19 @@ title: "Mining Code Repositories - TDD Milano Meetup"
 description: "Mining Code Repositories"
 date: 2020-09-15
 categories: ["meetup", "code mining", "analytics"]
+image: "thumb.jpg"
+thumb: "thumb.jpg"
+event: "TDD Milano Meetup"
+event_url: "https://www.meetup.com/it-IT/TDD-Milano"
+location: "Milano, Italia (Online)"
+topic: "Analisi e mining delle repository di codice"
+format: "Talk"
+video: "https://www.youtube.com/watch?v=KdrO_SQe-ds"
+resources:
+  - label: "Evento meetup"
+    url: "https://www.meetup.com/it-IT/TDD-Milano/events/273031114/"
+  - label: "Slides"
+    url: "https://docs.google.com/presentation/d/1EbqhJNjNU2hNCj1GluP7OG6In3wdLf2U74T4wrkhOxo/edit?usp=sharing"
+  - label: "Video"
+    url: "https://www.youtube.com/watch?v=KdrO_SQe-ds"
 ---
-
-Mining Code Repositories
-
-[![TDD Milano Meetup - Mining Code Repositories - Ferdinando Santacroce](https://img.youtube.com/vi/KdrO_SQe-ds/0.jpg)](https://www.youtube.com/watch?v=KdrO_SQe-ds "TDD Milano Meetup - Mining Code Repositories - Ferdinando Santacroce")
-
-**Evento**: [TDD Milano Meetup](https://www.meetup.com/it-IT/TDD-Milano)
-**Luogo**: Milano, Italia (Online)
-**Argomento**: Analisi e mining delle repository di codice
-**Risorse**:
-- [Evento meetup](https://www.meetup.com/it-IT/TDD-Milano/events/273031114/)
-- [Slides](https://docs.google.com/presentation/d/1EbqhJNjNU2hNCj1GluP7OG6In3wdLf2U74T4wrkhOxo/edit?usp=sharing)
-- [Video](https://www.youtube.com/watch?v=KdrO_SQe-ds)

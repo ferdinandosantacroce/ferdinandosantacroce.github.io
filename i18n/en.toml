@@ -39,3 +39,21 @@ other = "Have a project or a question?"
 
 [cta.link]
 other = "Write to me"
+
+[talk.event]
+other = "Event"
+
+[talk.location]
+other = "Location"
+
+[talk.topic]
+other = "Topic"
+
+[talk.role]
+other = "Role"
+
+[talk.resources]
+other = "Links"
+
+[talk.watch]
+other = "Watch the talk"

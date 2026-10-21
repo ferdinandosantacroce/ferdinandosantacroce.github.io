@@ -12,12 +12,10 @@ tags:
     - podcast
 params:
     audio: "https://open.spotify.com/episode/3DkwNAHunXIPxAUxy0BNSA?si=d3a0cff101b6452b"
+event: "Reloaded Podcast"
+event_url: "https://open.spotify.com/show/0wryeBJ9AzUBPDX6mJN2yC?si=2e0f142286284226"
+topic: "Story points and their usage/abuse"
+format: "Podcast"
+video: "https://open.spotify.com/episode/3DkwNAHunXIPxAUxy0BNSA?si=d3a0cff101b6452b"
 ---
-
 In this episode, I tell something about the story of the story points, their use and, suddenly, their abuse... 😄
-
-[![Reloaded Podcast - The story of story points](agile-reloaded-podcast.jpg)](https://open.spotify.com/episode/3DkwNAHunXIPxAUxy0BNSA?si=d3a0cff101b6452b)
-
-**Platform**: [Reloaded Podcast](https://open.spotify.com/show/0wryeBJ9AzUBPDX6mJN2yC?si=2e0f142286284226)
-**Language**: Italian
-**Topic**: Story points and their usage/abuse

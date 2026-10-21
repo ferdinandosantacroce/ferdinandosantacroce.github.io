@@ -5,15 +5,11 @@ date: 2021-06-01
 image: cover.jpg
 thumb: working-software-2021-gathertown.png
 categories: ["conference", "organizzatore"]
+event: "Working Software Conf 2021 - edizione remota"
+event_url: "https://www.agilemovement.it/workingsoftware/"
+location: "Italia (Online)"
+topic: "Organizzazione di conferenze"
+format: "Conferenza"
+role: "Organizzatore"
 ---
-
 Sono stato l'organizzatore dell'edizione remota della Working Software Conference.
-
-[![GatherTown space](working-software-2021-gathertown.png)](https://gather.town/app/NvjSrqLIEcqGFKCV/working-software)
-
-[![Miro board](working-software-2021-miro-board.png)](https://miro.com/app/board/o9J_lEi_PG4=/)
-
-**Evento**: [Working Software Conf 2021 - edizione remota](https://www.agilemovement.it/workingsoftware/)
-**Luogo**: Italia (Online)
-**Ruolo**: Organizzatore conferenza
-**Formato**: Conferenza remota

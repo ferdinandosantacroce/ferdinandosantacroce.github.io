@@ -9,16 +9,14 @@ tags:
     - TDD
     - refactoring
     - workshop
+event: "TDD Milano Meetup"
+event_url: "https://www.meetup.com/it-IT/TDD-Milano/events/"
+location: "Milano, Italia"
+format: "Workshop"
+resources:
+  - label: "Miro board"
+    url: "https://miro.com/app/board/uXjVOJrieKg=/"
+  - label: "Repository Github con istruzioni"
+    url: "https://github.com/jesuswasrasta/refactoring-showdown"
 ---
-
 Un workshop in presenza sul refactoring; una piccola sfida, tanto divertimento 😄
-
-[![Refactoring Showdown](workshop-refactoring-showdown.png)](https://www.meetup.com/it-IT/TDD-Milano/events/284995543/)
-
-**Evento**: [TDD Milano Meetup](https://www.meetup.com/it-IT/TDD-Milano/events/)
-**Luogo**: Milano, Italia
-**Formato**: Workshop
-
-**Risorse**:
-- [Miro board](https://miro.com/app/board/uXjVOJrieKg=/)
-- [Repository Github con istruzioni](https://github.com/jesuswasrasta/refactoring-showdown)

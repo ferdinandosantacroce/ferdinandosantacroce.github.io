@@ -1,0 +1,70 @@
+{{- $name := .Params.thumb -}}
+{{- if not $name -}}
+    {{- if ne .Params.image "cover.jpg" -}}{{- $name = .Params.image -}}{{- end -}}
+{{- end -}}
+{{- $photo := "" -}}
+{{- with $name -}}
+    {{- with $.Resources.GetMatch . -}}
+        {{- if gt .Width 640 -}}
+            {{- $photo = .Resize "640x" -}}
+        {{- else -}}
+            {{- $photo = . -}}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+{{- $video := .Params.video -}}
+<header class="talk-header{{ if not $photo }} talk-header--no-media{{ end }}">
+    <div class="talk-header__text">
+        <p class="talk-kicker">
+            <span class="talk-format">{{ .Params.format | default "Talk" }}</span>
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006" }}</time>
+        </p>
+        <h1 class="talk-title">{{ .Title }}</h1>
+        {{ with .Description }}<p class="talk-lead">{{ . }}</p>{{ end }}
+        <dl class="talk-meta">
+            {{ with .Params.event }}
+            {{ $eventUrl := $.Params.event_url }}
+            <div>
+                <dt>{{ T "talk.event" }}</dt>
+                <dd>{{ if $eventUrl }}<a href="{{ $eventUrl }}">{{ end }}{{ . }}{{ if $eventUrl }}</a>{{ end }}</dd>
+            </div>
+            {{ end }}
+            {{ with .Params.location }}
+            <div>
+                <dt>{{ T "talk.location" }}</dt>
+                <dd>{{ . }}</dd>
+            </div>
+            {{ end }}
+            {{ with .Params.topic }}
+            <div>
+                <dt>{{ T "talk.topic" }}</dt>
+                <dd>{{ . }}</dd>
+            </div>
+            {{ end }}
+            {{ with .Params.role }}
+            <div>
+                <dt>{{ T "talk.role" }}</dt>
+                <dd>{{ . }}</dd>
+            </div>
+            {{ end }}
+        </dl>
+        {{ with .Params.resources }}
+        <div class="talk-links">
+            <span class="talk-links__label">{{ T "talk.resources" }}</span>
+            <ul>
+                {{ range . }}
+                <li><a href="{{ .url }}" target="_blank" rel="noopener">{{ .label }}</a></li>
+                {{ end }}
+            </ul>
+        </div>
+        {{ end }}
+    </div>
+    {{ with $photo }}
+    <figure class="talk-media">
+        {{ if $video }}<a href="{{ $video }}" class="talk-media__link" aria-label="{{ T "talk.watch" }}">{{ else }}<div class="talk-media__link">{{ end }}
+            <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $.Title }}" loading="lazy">
+            {{ if $video }}<span class="talk-media__play" aria-hidden="true"></span>{{ end }}
+        {{ if $video }}</a>{{ else }}</div>{{ end }}
+    </figure>
+    {{ end }}
+</header>

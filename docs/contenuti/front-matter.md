@@ -15,13 +15,20 @@ Schema dei metadati per i contenuti del sito. Un solo posto da leggere quando si
 | `thumb` | string | no | talks | Immagine originale per le liste compatte, quando `image` è una copertina generata |
 | `categories` | list | sì | post | Oggi l'unica categoria dei post è `Software` |
 | `tags` | list | sì | post | Riusare il vocabolario esistente quando possibile |
+| `event` | string | sì | talks | Nome dell'evento o della community, mostrato nella scheda |
+| `event_url` | url | no | talks | Sito o pagina dell'evento, rende cliccabile il nome |
+| `location` | string | sì | talks | Città e paese, oppure `Online` |
+| `topic` | string | sì | talks | Argomento del talk, una riga |
+| `format` | string | sì | talks | `Talk`, `Workshop`, `Conferenza`, `Intervista`, `Panel`, `Podcast`, `Comunità` |
+| `role` | string | no | talks | Ruolo ricoperto, solo se diverso da speaker: `Chair della conferenza`, `Organizzatore` |
+| `video` | url | no | talks | Registrazione del talk; aggiunge il pulsante play sull'immagine |
+| `resources` | list | no | talks | Voci `label` + `url`: slides, repository, podcast, board |
 | `series` | string | no | post | Nome della serie, identico in tutte le parti e in entrambe le lingue |
 | `part` | int | con `series` | post | Numero della parte |
 | `source` | url | no | post | Solo per le ripubblicazioni: URL dell'originale |
 | `source_date` | date | con `source` | post | Data di pubblicazione originale fuori dal sito |
 | `group` | string | sì | works | `book` oppure `article`, guida il raggruppamento nella pagina Works |
 | `weight` | int | no | works, pagine | Ordine manuale dentro un gruppo |
-| `params.video` | url | no | talks | Registrazione dell'intervento |
 | `params.period` | string | sì | projects | Periodo dell'incarico, es. `2021-2023` |
 | `params.sector` | string | no | projects | Settore e dimensione del contesto |
 | `params.role` | string | sì | projects | Ruolo ricoperto |
@@ -90,14 +97,24 @@ title: "Navigating the world of software, between models and reality"
 description: "Talk at Italian Agile Days 2023 about user stories, technical debt and DDD"
 slug: 2023-iad-modelli-realta
 date: 2023-11-10
+image: cover.jpg
+thumb: Modelli-Realta-IAD-2023.png
 categories: ["conference", "software models"]
-tags:
-    - agile
-    - DDD
-params:
-    video: "https://vimeo.com/manage/videos/907009037"
+tags: [agile, DDD]
+event: "Italian Agile Days"
+event_url: "https://www.agileday.it/"
+location: "Italia"
+topic: "Modelli software e realtà"
+format: "Talk"
+video: "https://vimeo.com/907009037"
+resources:
+  - label: "Slides"
+    url: "https://www.slideshare.net/..."
 ---
+Il racconto del talk, quando c'è: come è nato, com'è andato, cosa è cambiato dopo.
 ```
+
+La pagina di un talk è una scheda, non un articolo: `layouts/_partials/talk/header.html` mostra in alto formato, anno, titolo, evento, luogo, argomento, ruolo e link, con l'immagine a destra. Il corpo contiene solo il racconto. Le vecchie righe `**Evento**`, `**Luogo**`, `**Argomento**`, `**Risorse**` non si usano più.
 
 Le copertine dei talk non sono l'immagine originale: `bash scripts/make-covers.sh --apply` genera un banner 1600x340 con la foto a destra che sfuma nel fondo scuro, tinto con un colore campionato dall'immagine. In quel caso il front matter tiene `image: cover.jpg` e `thumb: <immagine originale>`, usata dalle liste compatte. Lo script salta i bundle senza `image` e rigenera la copertina partendo da `thumb` se la si lancia di nuovo.
 
