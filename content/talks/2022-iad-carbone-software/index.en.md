@@ -3,7 +3,8 @@ title: "From coal to software: sociotechnical systems"
 description: "Talk at Italian Agile Days 2022 about sociotechnical systems."
 slug: 2022-iad-carbone-software
 date: 2022-11-12 09:00:00+0000
-image: iad22-carbone-software.png
+image: cover.jpg
+thumb: iad22-carbone-software.png
 categories: ["conference", "socio-technical systems"]
 tags:
     - agile

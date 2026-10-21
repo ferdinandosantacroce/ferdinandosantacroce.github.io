@@ -2,7 +2,8 @@
 title: "Assessment tecnico di un team di sviluppo - Agile Reloaded Meetup"
 description: "Assessment tecnico di un team di sviluppo"
 date: 2022-03-05
-image: talk-assessment-tecnico-di-un-team-di-sviluppo-miro-board.png
+image: cover.jpg
+thumb: talk-assessment-tecnico-di-un-team-di-sviluppo-miro-board.png
 categories: ["meetup", "assessment team", "agile"]
 ---
 

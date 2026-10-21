@@ -2,7 +2,8 @@
 title: "I'm a mediocre developer - Italian Agile Days 2018 Brescia"
 description: "I'm a mediocre developer"
 date: 2018-11-10
-image: im-a-mediocre-developer-video.png
+image: cover.jpg
+thumb: im-a-mediocre-developer-video.png
 categories: ["conference", "soft skills"]
 ---
 

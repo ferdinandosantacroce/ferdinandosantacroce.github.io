@@ -2,7 +2,8 @@
 title: "Working Software Conf 2021 - remote edition"
 description: "Remote edition organizer"
 date: 2021-06-01
-image: working-software-2021-gathertown.png
+image: cover.jpg
+thumb: working-software-2021-gathertown.png
 categories: ["conference", "organizer"]
 ---
 

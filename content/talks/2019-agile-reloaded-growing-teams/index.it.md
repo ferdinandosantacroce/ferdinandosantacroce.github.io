@@ -2,7 +2,8 @@
 title: "Growing Teams - Meetup Agile Reloaded 2019"
 description: "Growing Teams"
 date: 2019-05-15
-image: growing-teams-meetup-agilereloaded.png
+image: cover.jpg
+thumb: growing-teams-meetup-agilereloaded.png
 categories: ["meetup", "team building", "management"]
 ---
 

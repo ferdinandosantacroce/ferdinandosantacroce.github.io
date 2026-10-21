@@ -3,7 +3,8 @@ title: "Reloaded Podcast - The story of story points"
 description: "In this episode, I share the history of story points, their usage, and their sudden abuse."
 slug: 2023-reloaded-podcast-story-points
 date: 2023-06-15 09:00:00+0000
-image: agile-reloaded-podcast.jpg
+image: cover.jpg
+thumb: agile-reloaded-podcast.jpg
 categories: ["podcast", "agile"]
 tags:
     - agile

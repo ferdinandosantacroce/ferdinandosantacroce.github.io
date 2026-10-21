@@ -2,7 +2,8 @@
 title: "Refactoring Showdown - TDD Milano Meetup"
 description: "Workshop Refactoring Showdown"
 date: 2022-03-06
-image: workshop-refactoring-showdown.png
+image: cover.jpg
+thumb: workshop-refactoring-showdown.png
 categories: ["workshop", "refactoring", "TDD"]
 tags:
     - TDD

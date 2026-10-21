@@ -2,7 +2,8 @@
 title: "Agile Testing Matrix - Italian Agile Days 2021"
 description: "Agile Testing Matrix"
 date: 2021-11-06
-image: agile-testing-matrix-video.png
+image: cover.jpg
+thumb: agile-testing-matrix-video.png
 categories: ["conference", "testing", "agile"]
 ---
 

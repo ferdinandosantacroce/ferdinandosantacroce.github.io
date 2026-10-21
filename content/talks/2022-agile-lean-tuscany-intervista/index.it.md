@@ -2,7 +2,8 @@
 title: "Intervista con Andrea Gelli - Agile Lean Tuscany"
 description: "Intervista con Andrea Gelli"
 date: 2022-02-15
-image: intervista-agile-lean-tuscany.png
+image: cover.jpg
+thumb: intervista-agile-lean-tuscany.png
 categories: ["intervista", "agile coaching"]
 ---
 

@@ -2,7 +2,8 @@
 title: "Milan Kotlin Community Conf 2018 - Conference Chair"
 description: "Conference Chair - First Kotlin conference in Italy"
 date: 2018-06-15
-image: milan-kotlin-community-conf-2018-videos.png
+image: cover.jpg
+thumb: milan-kotlin-community-conf-2018-videos.png
 categories: ["conference", "kotlin", "organization"]
 ---
 

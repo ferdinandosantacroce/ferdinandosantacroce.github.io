@@ -2,7 +2,8 @@
 title: "Sono uno sviluppatore mediocre - Meetup FEVR Verona"
 description: "Sono uno sviluppatore mediocre"
 date: 2019-03-01
-image: sono-uno-sviluppatore-mediocre-fevr-video.png
+image: cover.jpg
+thumb: sono-uno-sviluppatore-mediocre-fevr-video.png
 categories: ["meetup", "soft skills"]
 ---
 

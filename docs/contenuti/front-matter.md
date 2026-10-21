@@ -11,7 +11,8 @@ Schema dei metadati per i contenuti del sito. Un solo posto da leggere quando si
 | `slug` | string | consigliato | post e pagine | Minuscolo, trattini, niente date. Può differire tra IT e EN |
 | `date` | datetime | sì | ovunque | Data originale di pubblicazione. Non si falsifica per far sembrare nuovo un contenuto |
 | `lastmod` | date | no | post | Data dell'ultima revisione reale |
-| `image` | string | no | post, talks, works | File dentro il bundle, referenziato per nome |
+| `image` | string | no | post, talks, works | File dentro il bundle, referenziato per nome. Nei talk è la copertina generata, `cover.jpg` |
+| `thumb` | string | no | talks | Immagine originale per le liste compatte, quando `image` è una copertina generata |
 | `categories` | list | sì | post | Oggi l'unica categoria dei post è `Software` |
 | `tags` | list | sì | post | Riusare il vocabolario esistente quando possibile |
 | `series` | string | no | post | Nome della serie, identico in tutte le parti e in entrambe le lingue |
@@ -97,6 +98,8 @@ params:
     video: "https://vimeo.com/manage/videos/907009037"
 ---
 ```
+
+Le copertine dei talk non sono l'immagine originale: `bash scripts/make-covers.sh --apply` genera un banner 1600x340 con la foto a destra che sfuma nel fondo scuro, tinto con un colore campionato dall'immagine. In quel caso il front matter tiene `image: cover.jpg` e `thumb: <immagine originale>`, usata dalle liste compatte. Lo script salta i bundle senza `image` e rigenera la copertina partendo da `thumb` se la si lancia di nuovo.
 
 ### Opera (libro o articolo)
 

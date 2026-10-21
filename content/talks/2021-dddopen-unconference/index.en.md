@@ -2,7 +2,8 @@
 title: "DDDOpen Unconference"
 description: "Co-founder of the DDDOpen community, born as an unconference about domain-driven design."
 date: 2021-10-01
-image: dddopen-unconference.png
+image: cover.jpg
+thumb: dddopen-unconference.png
 categories:
     - talks
 ---

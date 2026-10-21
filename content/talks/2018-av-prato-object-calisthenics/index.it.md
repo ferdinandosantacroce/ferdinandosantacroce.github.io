@@ -2,7 +2,8 @@
 title: "Workshop Objects Calisthenics - Agile Venture Prato 2018"
 description: "Workshop Object Calisthenics"
 date: 2018-10-15
-image: agile-venture-prato-object-calisthenics-workshop.png
+image: cover.jpg
+thumb: agile-venture-prato-object-calisthenics-workshop.png
 categories: ["mini conferenza", "workshop", "object calisthenics"]
 ---
 

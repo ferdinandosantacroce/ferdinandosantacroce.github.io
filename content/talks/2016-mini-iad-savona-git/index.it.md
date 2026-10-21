@@ -2,7 +2,8 @@
 title: "Versioning agile con Git - Mini Italian Agile Day Savona 2016"
 description: "Versioning agile con Git"
 date: 2016-04-15
-image: agile-versioning-with-git-slides.png
+image: cover.jpg
+thumb: agile-versioning-with-git-slides.png
 categories: ["mini conference", "git", "agile"]
 ---
 

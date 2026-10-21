@@ -3,7 +3,8 @@ title: "Dal carbone al software: i sistemi socio-tecnici"
 description: "Intervento agli Italian Agile Days 2022 sui sistemi socio-tecnici."
 slug: 2022-iad-carbone-software
 date: 2022-11-12 09:00:00+0000
-image: iad22-carbone-software.png
+image: cover.jpg
+thumb: iad22-carbone-software.png
 categories: ["conference", "sistemi socio-tecnici"]
 tags:
     - agile

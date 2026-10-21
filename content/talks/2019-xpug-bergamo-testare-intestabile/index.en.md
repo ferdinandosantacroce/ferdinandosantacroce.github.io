@@ -2,7 +2,8 @@
 title: "Testare l'intestabile - XPUG Bergamo 2019"
 description: "Testare l'intestabile - workshop on legacy code"
 date: 2019-09-01
-image: xpugbg-youtube-video-channel.png
+image: cover.jpg
+thumb: xpugbg-youtube-video-channel.png
 categories: ["meetup", "workshop", "legacy code", "testing"]
 ---
 

@@ -2,7 +2,8 @@
 title: "I lavori di domani: Agile Coach - Radio24 Intervista"
 description: "I lavori di domani - Agile Coach"
 date: 2019-06-01
-image: lavori-di-domani-radio24-podcast-agile-coach.png
+image: cover.jpg
+thumb: lavori-di-domani-radio24-podcast-agile-coach.png
 categories: ["intervista", "radio", "agile coaching"]
 ---
 

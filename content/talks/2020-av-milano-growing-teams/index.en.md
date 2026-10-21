@@ -2,7 +2,8 @@
 title: "Growing Teams - Agile Venture Milano 2020"
 description: "Growing Teams"
 date: 2020-02-28
-image: growing-teams-video.png
+image: cover.jpg
+thumb: growing-teams-video.png
 categories: ["mini conference", "team building", "management"]
 ---
 
